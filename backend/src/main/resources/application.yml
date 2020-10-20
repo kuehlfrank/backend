@@ -1,0 +1,27 @@
+spring:
+    profiles: test
+    security:
+      oauth2:
+        resourceserver:
+          jwt:
+            issuer-uri: http://localhost:8083/auth/realms/baeldung
+name: test-YAML
+environment: test
+server: 
+  port: 8081
+ 
+ 
+ 
+---
+spring:
+    profiles: prod
+    security:
+      oauth2:
+        resourceserver:
+          jwt:
+            issuer-uri: http://localhost:8083/auth/realms/baeldung
+name: prod-YAML
+environment: production
+servers: 
+    - www.abc.com
+    - www.xyz.com
