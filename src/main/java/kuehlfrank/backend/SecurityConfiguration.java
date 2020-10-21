@@ -10,11 +10,12 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Override
     public void configure(HttpSecurity http) throws Exception {
-        http
+        http.antMatcher("/**")
                 .authorizeRequests()
+                .antMatchers("/", "/login**").permitAll()
                 .anyRequest().authenticated()
                 .and()
-                .httpBasic();
+                .oauth2Login();
     }
 
     @Override
@@ -24,5 +25,4 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .password("{noop}pass") // Spring Security 5 requires specifying the password storage format
                 .roles("USER");
     }
-
 }
