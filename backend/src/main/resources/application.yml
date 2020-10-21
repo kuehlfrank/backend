@@ -4,14 +4,15 @@ spring:
       oauth2:
         resourceserver:
           jwt:
-            issuer-uri: http://localhost:8083/auth/realms/baeldung
+            issuer-uri: http://localhost:8095/auth/realms/kuehlfrank
+            jwk-set-uri: http://localhost:8095/auth/realms/kuehlfrank/protocol/openid-connect/certs
 name: test-YAML
 environment: test
-server: 
+server:
   port: 8081
- 
- 
- 
+
+
+
 ---
 spring:
     profiles: prod
@@ -19,7 +20,8 @@ spring:
       oauth2:
         resourceserver:
           jwt:
-            issuer-uri: http://localhost:8083/auth/realms/baeldung
+            issuer-uri: http://localhost:8095/auth/realms/kuehlfrank
+            jwk-set-uri: http://localhost:8095/auth/realms/kuehlfrank/protocol/openid-connect/certs
 name: prod-YAML
 environment: production
 servers: 
