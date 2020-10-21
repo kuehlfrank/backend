@@ -1,10 +1,10 @@
+auth0:
+  audience: https://api-dev.kuehlfrank.de
 spring:
   thymeleaf:
     cache: false
   security:
     oauth2:
-      client:
-        registration:
-          github:
-            client-id: 7435094e8ca245630371
-            client-secret: 8db32917a88b777d53a011c44833b84f8c2f3e3d
+      resourceserver:
+        jwt:
+          issuer-uri: https://tomstein.eu.auth0.com/
