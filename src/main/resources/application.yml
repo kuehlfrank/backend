@@ -1,0 +1,17 @@
+spring:
+    profiles: prod
+    jpa:
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.PostgreSQLDialect
+      hibernate:
+        show-sql: true
+        dll-auto: update
+    datasource:      url: jdbc:postgresql://localhost:5432/kuehlfrank
+      username: kuehlfrank
+      password: VOUfsdHHdsZhGSS14PxurdT1u
+      initialization-mode: always
+      initialize: true
+      continue-on-error: true
+name: prod-YAML
+environment: production
