@@ -1,7 +1,7 @@
 auth0:
   audience: https://api-dev.kuehlfrank.de
 spring:
-    profiles: prod
+    profiles: dev
     jpa:
       properties:
         hibernate:
@@ -9,7 +9,8 @@ spring:
       hibernate:
         show-sql: true
         dll-auto: update
-    datasource:      url: jdbc:postgresql://localhost:5432/kuehlfrank
+    datasource:
+      url: jdbc:postgresql://localhost:5432/kuehlfrank
       username: kuehlfrank
       password: VOUfsdHHdsZhGSS14PxurdT1u
       initialization-mode: always
@@ -27,5 +28,5 @@ logging:
     org.hibernate:
       sql: DEBUG
       type.descriptor.sql.BasicBinder: TRACE
-name: prod-YAML
-environment: production
+name: dev-YAML
+environment: development
