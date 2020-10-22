@@ -1,5 +1,6 @@
 package kuehlfrank.backend.restapi;
 
+import java.util.Collection;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import kuehlfrank.backend.model.Ingredient;
 import kuehlfrank.backend.model.Inventory;
-import kuehlfrank.backend.model.Message;
+import kuehlfrank.backend.model.Recipe;
 import kuehlfrank.backend.repositories.IngredientRepository;
 import kuehlfrank.backend.repositories.InventoryRepository;
 import kuehlfrank.backend.repositories.RecipeRepository;
@@ -51,30 +52,7 @@ public class KuehlfrankRestController {
 	}
 	
 	@GetMapping(value = "/recipes")
-	public Object test(@RequestParam Long userId) { //TODO format
+	public Collection<Recipe> recipes(@RequestParam Long userId) { //TODO format
 		return recipeRepository.findPossibleRecipes(userId);
 	}
-
-	@GetMapping(value = "/version")
-	public Message version() {
-		return new Message("v4");
-	}
-
-	@GetMapping(value = "/public")
-	public Message publicEndpoint() {
-		return new Message("All good. You DO NOT need to be authenticated to call /api/public.");
-	}
-
-	@GetMapping(value = "/private")
-	public Message privateEndpoint() {
-		return new Message("All good. You can see this because you are Authenticated.");
-	}
-
-	@GetMapping(value = "/private-scoped")
-	public Message privateScopedEndpoint() {
-		return new Message(
-				"All good. You can see this because you are Authenticated with a Token granted the 'read:messages' scope");
-	}
-
-
 }

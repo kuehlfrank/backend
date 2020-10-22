@@ -44,7 +44,9 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .antMatchers("/public").permitAll()
                 .antMatchers("/private").authenticated()
                 .antMatchers("/private-scoped").hasAuthority("SCOPE_read:messages")
-                .antMatchers("/test").permitAll()
+                .antMatchers("/test/public").permitAll()
+                .antMatchers("/test/version").permitAll()
+                .antMatchers("/test/private-scoped").hasAuthority("SCOPE_read:messages")
                 .anyRequest().authenticated()
                 .and().cors()
                 .and().oauth2ResourceServer().jwt();
