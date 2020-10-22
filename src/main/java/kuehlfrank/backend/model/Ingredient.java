@@ -4,10 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.ManyToOne;
-
-import org.hibernate.annotations.Cascade;
-import org.hibernate.annotations.CascadeType;
+import javax.persistence.SequenceGenerator;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -21,11 +18,11 @@ import lombok.NoArgsConstructor;
 @Entity
 public class Ingredient {
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	private long id;
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "ingredient_generator")
+	@SequenceGenerator(name = "ingredient_generator", sequenceName = "ingredient_ingredient_id_seq", allocationSize = 1)
+	private long ingredientId;
+	
 	private String name;
 
-	@Cascade(value = CascadeType.ALL)
-	@ManyToOne
-	private Unit unit;
+	private boolean common;
 }

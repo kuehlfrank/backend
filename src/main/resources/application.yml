@@ -13,5 +13,10 @@ spring:
       initialization-mode: always
       initialize: true
       continue-on-error: true
+logging:
+  level:
+    org.hibernate:
+      sql: DEBUG
+      type.descriptor.sql.BasicBinder: TRACE
 name: prod-YAML
 environment: production

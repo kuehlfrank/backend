@@ -1,13 +1,14 @@
 package kuehlfrank.backend.model;
 
-import java.util.List;
+import java.math.BigDecimal;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
-import javax.persistence.OneToMany;
+import javax.persistence.ManyToOne;
 
 import org.hibernate.annotations.Cascade;
 import org.hibernate.annotations.CascadeType;
@@ -22,14 +23,22 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 @Entity
-public class Inventory {
+public class InventoryEntry {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private long inventoryId;
+	private long inventoryEntryId;
 
+	@ManyToOne
 	@Cascade(value = CascadeType.ALL)
-	@JoinColumn(name = "inventory_id")
-	@OneToMany
-	private List<InventoryEntry> inventoryEntries;
+	@JoinColumn(name = "ingredient_id")
+	private Ingredient ingredient;
+	
+	private BigDecimal amount;
+	
+	@ManyToOne
+	@Cascade(value = CascadeType.ALL)
+	@JoinColumn(name = "unit_id")
+	private Unit unit;
+	
 }
