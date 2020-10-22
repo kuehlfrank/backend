@@ -2,7 +2,6 @@ package kuehlfrank.backend;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
-import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
@@ -37,10 +36,9 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     public void configure(HttpSecurity http) throws Exception {
         http.antMatcher("/**")
                 .authorizeRequests()
-                .antMatchers("/version").permitAll()
-                .antMatchers("/public").permitAll()
-                .antMatchers("/private").authenticated()
-                .antMatchers("/private-scoped").hasAuthority("SCOPE_read:messages")
+                .antMatchers("/test/public").permitAll()
+                .antMatchers("/test/version").permitAll()
+                .antMatchers("/test/private-scoped").hasAuthority("SCOPE_read:messages")
                 .anyRequest().authenticated()
                 .and().cors()
                 .and().oauth2ResourceServer().jwt();

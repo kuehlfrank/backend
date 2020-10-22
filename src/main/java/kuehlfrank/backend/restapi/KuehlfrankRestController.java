@@ -1,6 +1,5 @@
 package kuehlfrank.backend.restapi;
 
-
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -42,32 +41,12 @@ public class KuehlfrankRestController {
 
 	@PutMapping("/inventory")
 	public void setInventory(@RequestBody Inventory inventory) {
-		//TODO
+		// TODO
 		log.info(inventory);
 	}
-	
-	@PostMapping("/ingredient") //TODO rmv
+
+	@PostMapping("/ingredient") // TODO rmv
 	public Ingredient setIngredient(@RequestBody Ingredient ingredient) {
 		return ingredientRepository.save(ingredient);
-	}
-
-	@GetMapping(value = "/version")
-	public Message version() {
-		return new Message("v4");
-	}
-
-	@GetMapping(value = "/public")
-	public Message publicEndpoint() {
-		return new Message("All good. You DO NOT need to be authenticated to call /api/public.");
-	}
-
-	@GetMapping(value = "/private")
-	public Message privateEndpoint() {
-		return new Message("All good. You can see this because you are Authenticated.");
-	}
-
-	@GetMapping(value = "/private-scoped")
-	public Message privateScopedEndpoint() {
-		return new Message("All good. You can see this because you are Authenticated with a Token granted the 'read:messages' scope");
 	}
 }
