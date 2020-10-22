@@ -1,4 +1,4 @@
-package kuehlfrank.backend.dbaccess;
+package kuehlfrank.backend.repositories;
 
 import org.springframework.data.repository.CrudRepository;
 

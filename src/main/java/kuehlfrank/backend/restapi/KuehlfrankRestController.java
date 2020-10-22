@@ -1,6 +1,5 @@
 package kuehlfrank.backend.restapi;
 
-
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,12 +13,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import kuehlfrank.backend.dbaccess.IngredientRepository;
-import kuehlfrank.backend.dbaccess.InventoryRepository;
-import kuehlfrank.backend.dbaccess.RecipeRepository;
 import kuehlfrank.backend.model.Ingredient;
 import kuehlfrank.backend.model.Inventory;
 import kuehlfrank.backend.model.Message;
+import kuehlfrank.backend.repositories.IngredientRepository;
+import kuehlfrank.backend.repositories.InventoryRepository;
+import kuehlfrank.backend.repositories.RecipeRepository;
 import lombok.extern.log4j.Log4j2;
 
 @RestController
@@ -42,13 +41,18 @@ public class KuehlfrankRestController {
 
 	@PutMapping("/inventory")
 	public void setInventory(@RequestBody Inventory inventory) {
-		//TODO
+		// TODO
 		log.info(inventory);
 	}
-	
-	@PostMapping("/ingredient") //TODO rmv
+
+	@PostMapping("/ingredient") // TODO rmv
 	public Ingredient setIngredient(@RequestBody Ingredient ingredient) {
 		return ingredientRepository.save(ingredient);
+	}
+	
+	@GetMapping(value = "/recipes")
+	public Object test(@RequestParam Long userId) { //TODO format
+		return recipeRepository.findPossibleRecipes(userId);
 	}
 
 	@GetMapping(value = "/version")
@@ -68,6 +72,9 @@ public class KuehlfrankRestController {
 
 	@GetMapping(value = "/private-scoped")
 	public Message privateScopedEndpoint() {
-		return new Message("All good. You can see this because you are Authenticated with a Token granted the 'read:messages' scope");
+		return new Message(
+				"All good. You can see this because you are Authenticated with a Token granted the 'read:messages' scope");
 	}
+
+
 }

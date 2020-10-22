@@ -28,7 +28,7 @@ public class Inventory {
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "inventory_id_generator")
 	@SequenceGenerator(name = "inventory_id_generator", sequenceName = "inventory_inventory_id_seq", allocationSize = 1)
-	private long inventoryId;
+	private Long inventoryId;
 
 	@Cascade(value = CascadeType.ALL)
 	@JoinColumn(name = "inventory_id")

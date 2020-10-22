@@ -28,7 +28,7 @@ public class InventoryEntry {
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "inventory_entry_id_generator")
 	@SequenceGenerator(name = "inventory_entry_id_generator", sequenceName = "inventory_entry_inventory_entry_id_seq", allocationSize = 1)
-	private long inventoryEntryId;
+	private Long inventoryEntryId;
 
 	@ManyToOne
 	@Cascade(value = CascadeType.ALL)
