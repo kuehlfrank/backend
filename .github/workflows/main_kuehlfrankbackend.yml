@@ -29,4 +29,4 @@ jobs:
         app-name: 'kuehlfrankbackend'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_540fd0ca027b4a41890f11609b0e88ac }}
-        package: '${{ github.workspace }}/target/*.war'
+        package: '${{ github.workspace }}/target/*.jar'
