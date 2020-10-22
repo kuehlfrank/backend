@@ -1,10 +1,31 @@
 auth0:
   audience: https://api-dev.kuehlfrank.de
 spring:
-  thymeleaf:
-    cache: false
-  security:
-    oauth2:
-      resourceserver:
-        jwt:
-          issuer-uri: https://tomstein.eu.auth0.com/
+    profiles: prod
+    jpa:
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.PostgreSQLDialect
+      hibernate:
+        show-sql: true
+        dll-auto: update
+    datasource:      url: jdbc:postgresql://localhost:5432/kuehlfrank
+      username: kuehlfrank
+      password: VOUfsdHHdsZhGSS14PxurdT1u
+      initialization-mode: always
+      initialize: true
+      continue-on-error: true
+    thymeleaf:
+      cache: false
+    security:
+      oauth2:
+        resourceserver:
+          jwt:
+            issuer-uri: https://tomstein.eu.auth0.com/  
+logging:
+  level:
+    org.hibernate:
+      sql: DEBUG
+      type.descriptor.sql.BasicBinder: TRACE
+name: prod-YAML
+environment: production

@@ -1,10 +1,24 @@
 package kuehlfrank.backend.model;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+@Entity
 public class Unit {
 
-	private final long id;
-	private final String label;
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	private long unitId;
+	private String label;
 }
