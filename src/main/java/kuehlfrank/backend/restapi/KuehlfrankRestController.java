@@ -36,8 +36,8 @@ public class KuehlfrankRestController {
 	private RecipeRepository recipeRepository;
 
 	@GetMapping("/inventory")
-	public Optional<Inventory> getInventory(@RequestParam(value = "id") long id) {
-		return inventoryRepository.findById(id);
+	public Optional<Inventory> getInventory(@RequestParam(value = "userId") Long userId) {
+		return inventoryRepository.findByUserId(userId);
 	}
 
 	@PutMapping("/inventory")
@@ -52,7 +52,7 @@ public class KuehlfrankRestController {
 	}
 	
 	@GetMapping(value = "/recipes")
-	public Collection<Recipe> recipes(@RequestParam Long userId) { //TODO format
+	public Collection<Recipe> recipes(@RequestParam Long userId) { //TODO user auth
 		return recipeRepository.findPossibleRecipes(userId);
 	}
 }
