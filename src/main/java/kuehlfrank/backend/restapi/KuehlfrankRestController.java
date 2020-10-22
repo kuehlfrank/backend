@@ -1,12 +1,16 @@
 package kuehlfrank.backend.restapi;
 
+
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -15,9 +19,12 @@ import kuehlfrank.backend.dbaccess.InventoryRepository;
 import kuehlfrank.backend.dbaccess.RecipeRepository;
 import kuehlfrank.backend.model.Ingredient;
 import kuehlfrank.backend.model.Inventory;
+import kuehlfrank.backend.model.Message;
 import lombok.extern.log4j.Log4j2;
 
 @RestController
+@RequestMapping(produces = MediaType.APPLICATION_JSON_VALUE)
+@CrossOrigin(origins = "*")
 @Log4j2
 public class KuehlfrankRestController {
 
@@ -28,11 +35,6 @@ public class KuehlfrankRestController {
 	@Autowired
 	private RecipeRepository recipeRepository;
 
-	@GetMapping("/ping")
-	public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
-		return String.format("Hello, %s", name);
-	}
-
 	@GetMapping("/inventory")
 	public Optional<Inventory> getInventory(@RequestParam(value = "id") long id) {
 		return inventoryRepository.findById(id);
@@ -40,17 +42,32 @@ public class KuehlfrankRestController {
 
 	@PutMapping("/inventory")
 	public void setInventory(@RequestBody Inventory inventory) {
-		System.out.println(inventory);
+		//TODO
+		log.info(inventory);
 	}
-
-	@PostMapping("/ingredient")
+	
+	@PostMapping("/ingredient") //TODO rmv
 	public Ingredient setIngredient(@RequestBody Ingredient ingredient) {
 		return ingredientRepository.save(ingredient);
 	}
 
-	@GetMapping("/ingredient")
-	public void getRecipe() {
-		log.info(recipeRepository.testFind());
+	@GetMapping(value = "/version")
+	public Message version() {
+		return new Message("v4");
 	}
 
+	@GetMapping(value = "/public")
+	public Message publicEndpoint() {
+		return new Message("All good. You DO NOT need to be authenticated to call /api/public.");
+	}
+
+	@GetMapping(value = "/private")
+	public Message privateEndpoint() {
+		return new Message("All good. You can see this because you are Authenticated.");
+	}
+
+	@GetMapping(value = "/private-scoped")
+	public Message privateScopedEndpoint() {
+		return new Message("All good. You can see this because you are Authenticated with a Token granted the 'read:messages' scope");
+	}
 }

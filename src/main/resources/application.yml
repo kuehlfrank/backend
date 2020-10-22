@@ -1,3 +1,5 @@
+auth0:
+  audience: https://api-dev.kuehlfrank.de
 spring:
     profiles: prod
     jpa:
@@ -13,6 +15,13 @@ spring:
       initialization-mode: always
       initialize: true
       continue-on-error: true
+    thymeleaf:
+      cache: false
+    security:
+      oauth2:
+        resourceserver:
+          jwt:
+            issuer-uri: https://tomstein.eu.auth0.com/  
 logging:
   level:
     org.hibernate:
