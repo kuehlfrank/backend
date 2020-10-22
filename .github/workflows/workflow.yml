@@ -13,11 +13,11 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build image with Maven
       run: mvn spring-boot:build-image
-    - name: apply new tag to image
+    - name: Apply new tag to image
       run: docker tag backend:0.0.1-SNAPSHOT ghcr.io/kuehlfrank/backend:latest
-    - name: login ghcr
+    - name: Login to ghcr
       run: echo ${{ secrets.CR_PAT }} | docker login ghcr.io -u $GITHUB_ACTOR --password-stdin
-    - name: push image
+    - name: Push image to ghcr
       run: docker push ghcr.io/kuehlfrank/backend:latest
     - name: Webhook Azure Web App
       uses: joelwmale/webhook-action@master

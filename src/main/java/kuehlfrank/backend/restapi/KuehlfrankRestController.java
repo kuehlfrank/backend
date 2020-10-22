@@ -27,10 +27,14 @@ public class KuehlfrankRestController {
 		System.out.println(inventory);
 	}
 	
+	@GetMapping(value = "/version")
+	public Message publicEndpoint() {
+		return new Message("v4");
+	}
 
 	@GetMapping(value = "/public")
 	public Message publicEndpoint() {
-		return new Message("All good. You DO NOT need to be authenticated to call /api/public. v3");
+		return new Message("All good. You DO NOT need to be authenticated to call /api/public.");
 	}
 
 	@GetMapping(value = "/private")
