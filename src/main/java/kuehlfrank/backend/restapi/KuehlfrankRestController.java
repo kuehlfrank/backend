@@ -28,7 +28,7 @@ public class KuehlfrankRestController {
 	}
 	
 	@GetMapping(value = "/version")
-	public Message publicEndpoint() {
+	public Message version() {
 		return new Message("v4");
 	}
 
