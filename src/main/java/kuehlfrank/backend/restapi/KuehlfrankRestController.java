@@ -30,7 +30,7 @@ public class KuehlfrankRestController {
 
 	@GetMapping(value = "/public")
 	public Message publicEndpoint() {
-		return new Message("All good. You DO NOT need to be authenticated to call /api/public. v2");
+		return new Message("All good. You DO NOT need to be authenticated to call /api/public. v3");
 	}
 
 	@GetMapping(value = "/private")
