@@ -1,5 +1,6 @@
 package kuehlfrank.backend.restapi;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,9 +14,17 @@ import kuehlfrank.backend.model.Message;
 @CrossOrigin(origins = "*")
 public class TestController {
 
+    @Value("${spring.profiles.active:Unknown}")
+    private String activeProfile;
+
     @GetMapping(value = "/version")
     public Message version() {
-        return new Message("v5");
+        return new Message("v6");
+    }
+
+    @GetMapping(value = "/activeProfile")
+    public Message activeProfile() {
+        return new Message(activeProfile);
     }
 
     @GetMapping(value = "/public")
