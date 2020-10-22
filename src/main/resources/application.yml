@@ -1,0 +1,10 @@
+auth0:
+  audience: https://api-dev.kuehlfrank.de
+spring:
+  thymeleaf:
+    cache: false
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://tomstein.eu.auth0.com/
