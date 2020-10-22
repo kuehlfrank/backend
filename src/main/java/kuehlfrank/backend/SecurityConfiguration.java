@@ -40,9 +40,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     public void configure(HttpSecurity http) throws Exception {
         http.antMatcher("/**")
                 .authorizeRequests()
-                .antMatchers("/test/activeProfile").permitAll()
+                .antMatchers("/test/serverInfo").permitAll()
                 .antMatchers("/test/public").permitAll()
-                .antMatchers("/test/version").permitAll()
                 .antMatchers("/test/private").authenticated()
                 .antMatchers("/test/private-scoped").hasAuthority("SCOPE_read:messages")
                 .anyRequest().authenticated()

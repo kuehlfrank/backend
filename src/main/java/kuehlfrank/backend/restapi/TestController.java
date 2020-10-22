@@ -1,5 +1,6 @@
 package kuehlfrank.backend.restapi;
 
+import kuehlfrank.backend.model.ServerInfo;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -17,14 +18,9 @@ public class TestController {
     @Value("${spring.profiles.active:Unknown}")
     private String activeProfile;
 
-    @GetMapping(value = "/version")
-    public Message version() {
-        return new Message("v6");
-    }
-
-    @GetMapping(value = "/activeProfile")
-    public Message activeProfile() {
-        return new Message(activeProfile);
+    @GetMapping(value = "/serverInfo")
+    public ServerInfo version() {
+        return new ServerInfo("v7", activeProfile);
     }
 
     @GetMapping(value = "/public")
@@ -39,7 +35,6 @@ public class TestController {
 
     @GetMapping(value = "/private-scoped")
     public Message privateScopedEndpoint() {
-        return new Message(
-                "All good. You can see this because you are Authenticated with a Token granted the 'read:messages' scope");
+        return new Message("All good. You can see this because you are Authenticated with a Token granted the 'read:messages' scope");
     }
 }
