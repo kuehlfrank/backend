@@ -17,23 +17,14 @@ public interface RecipeRepository extends CrudRepository<Recipe, Long> {
 			+ " FROM recipe_ingredient ri"//
 			+ " LEFT JOIN ( " + userInventory + " ) AS ui"//
 			+ " ON ri.ingredient_id = ui.ingredient_id"//
+			+ " INNER JOIN ingredient i"//
+			+ " ON ri.ingredient_id = i.ingredient_id"//
 			+ " WHERE ui.user_id IS NULL" //
-			+ " AND ri.recipe_id = r.recipe_id";// ;
-
-//	public static final String userInventory = "SELECT inv FROM "
-//			+ "InventoryEntry inv ";//
+			+ " AND ri.recipe_id = r.recipe_id" //
+			+ " AND NOT i.common";// ;
 
 	public static final String query = "SELECT * FROM recipe r"//
-			+ " WHERE ("//
-			+ unavailableIngredientAmount + " ) = 0"; //
-//
-//			// TODO
-//			+ " INNER JOIN INGREDIENT i"//
-//			+ " ON ri.INGREDIENT_ID = i.INGREDIENT_ID"//
-//			+ " WHERE ri.RECIPE_ID = r.RECIPE_ID"//
-//			+ " AND ri.INGREDIENT_ID IN (?)" //
-//			+ " AND NOT i.COMMON = TRUE"//
-//			+ ") = 0";
+			+ " WHERE ("+ unavailableIngredientAmount + ") = 0"; //
 
 	@Query(value = query, nativeQuery = true)
 	public Collection<Recipe> findPossibleRecipes(Long userId);

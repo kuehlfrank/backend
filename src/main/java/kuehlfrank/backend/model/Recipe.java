@@ -25,7 +25,12 @@ public class Recipe {
 	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "recipe_entry_id_generator")
 	@SequenceGenerator(name = "recipe_entry_id_generator", sequenceName = "recipe_entry_recipe_entry_id_seq", allocationSize = 1)
 	private Long recipeId;
+	
+	private String name;
+	
 	@OneToMany
 	@JoinColumn(name = "recipe_id")
-	private List<RecipeIngredient> recipeingredients;
+	private List<RecipeIngredient> recipeIngredients;
+	
+	
 }
