@@ -7,7 +7,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
-import javax.persistence.Table;
+import javax.persistence.SequenceGenerator;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -19,10 +19,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 @Entity
-@Table(name = "recipe")
 public class Recipe {
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "recipe_entry_id_generator")
+	@SequenceGenerator(name = "recipe_entry_id_generator", sequenceName = "recipe_entry_recipe_entry_id_seq", allocationSize = 1)
 	private long recipeId;
 	@OneToMany
 	private List<Ingredient> ingredients;
