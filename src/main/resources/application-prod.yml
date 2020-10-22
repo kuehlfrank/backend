@@ -10,9 +10,9 @@ spring:
         show-sql: false
         dll-auto: update
     datasource:
-      url: jdbc:postgresql://localhost:5432/kuehlfrank
+      url: jdbc:postgresql://kuehlfrank-postgres.westeurope.azurecontainer.io:5432/kuehlfrank
       username: kuehlfrank
-      password: VOUfsdHHdsZhGSS14PxurdT1u
+      password: GjfuVUdKLS93qF6OPxDi
       initialization-mode: always
       initialize: true
       continue-on-error: true
