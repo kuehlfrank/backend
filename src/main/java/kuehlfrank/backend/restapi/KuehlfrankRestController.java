@@ -38,12 +38,9 @@ public class KuehlfrankRestController {
 	private RecipeRepository recipeRepository;
 
 	@GetMapping("/inventory")
-	public Optional<Inventory> getInventory(@RequestParam(value = "userId") String userId) {
-	 Optional<Inventory> inv = inventoryRepository.findByUserId(userId);
-		if(!inv.isPresent()) {
-			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Unable to find inventory for user");
-		}
-		return inv;
+	public Inventory getInventory(@RequestParam(value = "userId") String userId) {
+		return inventoryRepository.findByUserId(userId)
+				.orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Unable to find inventory for user"));
 	}
 
 	@PutMapping("/inventory")
