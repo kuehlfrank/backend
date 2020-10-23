@@ -4,6 +4,7 @@ import java.util.Collection;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -21,6 +22,7 @@ import kuehlfrank.backend.repositories.IngredientRepository;
 import kuehlfrank.backend.repositories.InventoryRepository;
 import kuehlfrank.backend.repositories.RecipeRepository;
 import lombok.extern.log4j.Log4j2;
+import org.springframework.web.server.ResponseStatusException;
 
 @RestController
 @RequestMapping(produces = MediaType.APPLICATION_JSON_VALUE)
@@ -36,8 +38,12 @@ public class KuehlfrankRestController {
 	private RecipeRepository recipeRepository;
 
 	@GetMapping("/inventory")
-	public Optional<Inventory> getInventory(@RequestParam(value = "userId") Long userId) {
-		return inventoryRepository.findByUserId(userId);
+	public Optional<Inventory> getInventory(@RequestParam(value = "userId") String userId) {
+	 Optional<Inventory> inv = inventoryRepository.findByUserId(userId);
+		if(!inv.isPresent()) {
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Unable to find inventory for user");
+		}
+		return inv;
 	}
 
 	@PutMapping("/inventory")

@@ -29,7 +29,7 @@ INSERT INTO inventory (inventory_id) VALUES (1);
 INSERT INTO inventory_entry (inventory_id, ingredient_id, amount, unit_id) VALUES (1, 1, 1000, 1);
 INSERT INTO inventory_entry (inventory_id, ingredient_id, amount, unit_id) VALUES (1, 3, 5, 3);
 
-INSERT INTO kf_user (name, inventory_id) VALUES ('Hartmut Hansen', 1)
+INSERT INTO kf_user (USER_ID, name, inventory_id) VALUES ('auth0|123ea12feac42s', 'Hartmut Hansen', 1)
 
 
 

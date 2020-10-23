@@ -22,9 +22,9 @@ import lombok.NoArgsConstructor;
 @Table(name = "KF_USER")
 public class User {
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "user_id_generator")
-	@SequenceGenerator(name = "user_id_generator", sequenceName = "kf_user_user_id_seq", allocationSize = 1)
-	private Long userId;
+//	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "user_id_generator")
+//	@SequenceGenerator(name = "user_id_generator", sequenceName = "kf_user_user_id_seq", allocationSize = 1)
+	private String userId;
 	private String email;
 	private String name;
 	@ManyToOne
