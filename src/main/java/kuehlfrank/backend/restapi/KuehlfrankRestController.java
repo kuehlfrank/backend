@@ -1,11 +1,13 @@
 package kuehlfrank.backend.restapi;
 
 import java.util.Collection;
+import java.util.Objects;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
+import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -38,7 +40,15 @@ public class KuehlfrankRestController {
 	private RecipeRepository recipeRepository;
 
 	@GetMapping("/inventory")
-	public Inventory getInventory(@RequestParam(value = "userId") String userId) {
+	public Inventory getInventory(Authentication authentication, @RequestParam(value = "userId", required = false) String userId) {
+
+		if(userId == null) {
+			userId = authentication.getName(); // get users own inventory if not specified otherwise
+		}
+		else if(!Objects.equals(userId, authentication.getName())) { // Only allow getting users own inventory for now
+			throw new ResponseStatusException(HttpStatus.UNAUTHORIZED, "Can't access other users inventory");
+		}
+
 		return inventoryRepository.findByUserId(userId)
 				.orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Unable to find inventory for user"));
 	}
