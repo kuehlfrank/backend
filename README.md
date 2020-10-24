@@ -16,6 +16,7 @@ docker run -p 8080:8080 -it backend:0.0.1-SNAPSHOT
 ### Running the docker image form registry
 You might have to login to the registry first. See [this](https://docs.github.com/en/free-pro-team@latest/packages/getting-started-with-github-container-registry/migrating-to-github-container-registry-for-docker-images#authenticating-with-the-container-registry) guide here.
 ```
+docker pull ghcr.io/kuehlfrank/backend:latest
 docker run -p 8080:8080 -it ghcr.io/kuehlfrank/backend:latest
 ```
 
