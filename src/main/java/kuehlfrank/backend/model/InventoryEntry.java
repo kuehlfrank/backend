@@ -2,14 +2,9 @@ package kuehlfrank.backend.model;
 
 import java.math.BigDecimal;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
-import javax.persistence.SequenceGenerator;
+import javax.persistence.*;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.hibernate.annotations.Cascade;
 import org.hibernate.annotations.CascadeType;
 
@@ -30,6 +25,11 @@ public class InventoryEntry {
 	@SequenceGenerator(name = "inventory_entry_id_generator", sequenceName = "inventory_entry_inventory_entry_id_seq", allocationSize = 1)
 	private Long inventoryEntryId;
 
+	@JsonIgnoreProperties(ignoreUnknown = true, value = {"inventoryEntries"})
+	@JoinColumn(name = "inventory_id")
+	@OneToOne
+	private Inventory inventory;
+
 	@ManyToOne
 	@Cascade(value = CascadeType.ALL)
 	@JoinColumn(name = "ingredient_id")
@@ -41,5 +41,12 @@ public class InventoryEntry {
 	@Cascade(value = CascadeType.ALL)
 	@JoinColumn(name = "unit_id")
 	private Unit unit;
-	
+
+
+	public InventoryEntry(Inventory inventory, Ingredient ingredient, BigDecimal amount, Unit unit) {
+		this.inventory = inventory;
+		this.ingredient = ingredient;
+		this.amount = amount;
+		this.unit = unit;
+	}
 }

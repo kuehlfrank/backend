@@ -34,4 +34,5 @@ public class Inventory {
 	@JoinColumn(name = "inventory_id")
 	@OneToMany
 	private List<InventoryEntry> inventoryEntries;
+
 }
