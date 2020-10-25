@@ -1,13 +1,13 @@
 import os
 import requests 
 import json
-import psycopg2
 import time
 import random
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 baseUrl = "https://www.rewe.de/restservices/recipe/search"
+external_baseUrl = "https://www.rewe.de/rezepte"
 pageQuery = "?pageNumber="
 allrecipies = []
 
@@ -31,16 +31,7 @@ def getRecipies(driver, pageNumber):
     data = getJson(driver, url)
     return data["recipeTiles"]
 
-def getDbConnection():
-    # Establish a connection to the database.
-    conn = psycopg2.connect(database="kuehlfrank", 
-                            user="kuehlfrank",
-                            host="localhost",
-                            password="VOUfsdHHdsZhGSS14PxurdT1u",
-                            port="5432")
-    return conn
-
-def addRecipe(cursor, recipe):
+def addRecipe(recipe):
     print("Adding \"" + recipe["title"] + "\"")
     driver.get("https://www.rewe.de/rezepte" + recipe["jcrPath"])
     if (not recipe["title"] in driver.title):
@@ -52,12 +43,12 @@ def addRecipe(cursor, recipe):
     print(quantity)
     print(ingredients)
 
-    return { "title": recipe["title"], "external_id": recipe["jcrIdentifier"], "external_source": "Rewe Rezepte", "quantity": quantity, "ingredients": ingredients}
+    return { "title": recipe["title"], "external_id": recipe["jcrIdentifier"], "external_source": "Rewe Rezepte", "external_url": external_baseUrl + recipe["jcrPath"], "quantity": quantity, "ingredients": ingredients}
 
-def addPageRecipes(driver, cursor, pageRecipes):
+def addPageRecipes(driver, pageRecipes):
     scrapedRecipes = []
     for recipe in pageRecipes:
-        scrapedRecipe = addRecipe(cursor, recipe)
+        scrapedRecipe = addRecipe(recipe)
         if(scrapedRecipe):
             scrapedRecipes.append(scrapedRecipe)
 
@@ -89,9 +80,6 @@ driver = getDriver()
 meta = getMeta(driver)
 print("Meta: ", meta)
 
-# Create a cursor.
-conn = getDbConnection()
-cur = conn.cursor()
 
 pageNumbers = list(set(range(1, int(meta["pages"]) + 1)).difference(set([16,27,63,75,116,121])))
 random.shuffle(pageNumbers)
@@ -99,25 +87,9 @@ for pageNumber in pageNumbers:
     print("Page", pageNumber)
     pageRecipes = getRecipies(driver, pageNumber)
     random.shuffle(pageRecipes)
-    scrapedRecipes = addPageRecipes(driver, cur, pageRecipes)
+    scrapedRecipes = addPageRecipes(driver, pageRecipes)
     saveResults(pageNumber, scrapedRecipes)
 
-#SQL Statement -> Add recipes to database
-# j=0
-# while: j< len(url):
-#     #Aus JSON die Elemente
-#     name=data["name"]
-#     ingredients=data["zutat"]
-#     amount=data["menge"]
-#     #FIXME
-#     common=true
-#     while #anzahl Elemente im JSON(50, im letzten weniger):
-#     cur.execute("INSERT INTO RECIPE (RECIPE_ID, NAME, INGREDIENT_ID) Values ("+j+", "+name[j]+", "+ingredients[j]+")") #Quelle fürs Schema: https://riptutorial.com/de/python/example/18257/postgresql-datenbankzugriff-mit-psycopg2
-#     cur.execute("INSERT INTO RECIPEINGREDIENT (RECIPE_ID, INGREDIENT_ID, AMOUNT, COMMON) Values ("+j+", "+ingredients[j]+", "+amount[j]+", "+common[j])
-#     conn.commit()
-#     j+=1
-
-conn.close()
 driver.close()
 driver.quit()
 
