@@ -88,29 +88,18 @@ def addRecipe(dbconnection, recipe):
         print ("Error in transction Reverting all other operations of a transction ", error)
         dbconnection.rollback()
 
+def addRecipes(dbconnection, recipes):
+    for recipe in recipes:
+        addRecipe(dbconnection, recipe)
+
+def loadRecipesFromFile(file_path):
+    with open(file_path, 'r') as json_file:
+        return json.load(json_file)
+
 conn = getDbConnection()
 
-recipe = {
-    "name": "Englisch Frühstück",
-    "ingredients": [
-        {
-            "name": "Eiers",
-            "amount": 3.5,
-            "unit": "Stück"
-        },
-        {
-            "name": "Bacon",
-            "amount": 1,
-            "unit": "a"
-        },
-        {
-            "name": "Zwiebel",
-            "amount": None,
-            "unit": None
-        }
-    ]
-}
+recipes = loadRecipesFromFile('recipes/recipes_new.json')
 
-addRecipe(conn, recipe)
+addRecipes(conn, recipes)
 
 conn.close()
