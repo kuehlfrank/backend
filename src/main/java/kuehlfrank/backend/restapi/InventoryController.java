@@ -51,11 +51,15 @@ public class InventoryController {
 		if (userId == null) {
 			userId = authentication.getName(); // get users own inventory if not specified otherwise
 		} else if (!Objects.equals(userId, authentication.getName())) { // Only allow getting users own inventory for
-																		// now
 			throw new ResponseStatusException(HttpStatus.UNAUTHORIZED, "Can't access other users inventory");
 		}
 
 		return getInventoryForUser(userId);
+	}
+	
+	@GetMapping("/inventory")
+	public Inventory getInventory(Authentication authentication) {
+		return getInventory(authentication, authentication.getName());
 	}
 
 	@PostMapping("/inventory/{userId}/inventoryEntry")
