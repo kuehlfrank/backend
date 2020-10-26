@@ -46,16 +46,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "recipe-regex"
-version = "0.1.0"
-dependencies = [
- "lazy_static",
- "regex",
- "serde",
- "serde_json",
-]
-
-[[package]]
 name = "regex"
 version = "1.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -72,6 +62,16 @@ name = "regex-syntax"
 version = "0.6.20"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8cab7a364d15cde1e505267766a2d3c4e22a843e1a601f0fa7564c0f82ced11c"
+
+[[package]]
+name = "rust-parser"
+version = "0.1.0"
+dependencies = [
+ "lazy_static",
+ "regex",
+ "serde",
+ "serde_json",
+]
 
 [[package]]
 name = "ryu"

@@ -13,15 +13,15 @@ use std::io::{self, BufReader};
 
 use regex::Regex;
 
-use recipe::beautify_json;
+use recipe::beautify_jsons;
 
 fn main() -> io::Result<()> {
-    let current_dir = "ingredients/";
+    let ingredients_dir = "../ingredients/";
 
     // Fetch ingredient units
     let mut ingredients_files: Vec<String> = Vec::new();
 
-    for entry in read_dir(current_dir)? {
+    for entry in read_dir(ingredients_dir)? {
         let entry = entry?;
         let path = entry.path();
 
@@ -35,7 +35,7 @@ fn main() -> io::Result<()> {
     let mut units: HashSet<String> = HashSet::new();
 
     for ingredients_file in ingredients_files {
-        println!("Using file {}", ingredients_file);
+        println!("Using ingredients file {}", ingredients_file);
 
         let f = File::open(ingredients_file)?;
         let f = BufReader::new(f);
@@ -62,7 +62,7 @@ fn main() -> io::Result<()> {
 
     println!("Found units: {}", re_units);
 
-    beautify_json("recipes.json", re_units)?;
+    beautify_jsons("../recipes/", re_units)?;
 
     Ok(())
 }
