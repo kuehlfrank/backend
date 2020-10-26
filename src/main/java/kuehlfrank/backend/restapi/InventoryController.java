@@ -95,7 +95,7 @@ public class InventoryController {
 			@PathVariable Long inventoryEntryId, @RequestBody UpdateInventoryEntryDto dto) {
 		checkUserId(authentication, userId);
 		Inventory inventory = getInventoryForUser(userId);
-		Ingredient ingredient = inventoryRepository.findByInventoryEntryId(inventoryEntryId).orElseThrow(
+		Ingredient ingredient = inventoryEntryRepository.findByInventoryEntryId(inventoryEntryId).orElseThrow(
 				() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Unable to find inventoryEntry for inventoryEntryId"));
 		InventoryEntry inventoryEntry = new InventoryEntry(inventoryEntryId, inventory, ingredient, dto.getQuantity(), getUnit(dto.getUnitId()));
 		return inventoryEntryRepository.save(inventoryEntry);

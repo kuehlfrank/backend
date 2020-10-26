@@ -13,4 +13,6 @@ public interface InventoryEntryRepository extends CrudRepository<InventoryEntry,
 	@Query("SELECT inve FROM InventoryEntry inve WHERE inve.ingredient.ingredientId = :ingredientId AND inve.unit.unitId = :unitId")
 	Optional<InventoryEntry> findByIngredientAndUnitId(Long ingredientId, Long unitId);
 
+	@Query("SELECT invEntry.ingredient from InventoryEntry invEntry where invEntry.inventory.inventoryId = :inventoryEntryId")
+	Optional<Ingredient> findByInventoryEntryId(Long inventoryEntryId);
 }
