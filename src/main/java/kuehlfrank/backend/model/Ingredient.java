@@ -6,10 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Data
 @NoArgsConstructor
@@ -25,4 +22,9 @@ public class Ingredient {
 	private String name;
 
 	private boolean common;
+
+	public Ingredient(String name, boolean common) {
+		this.name = name;
+		this.common = common;
+	}
 }

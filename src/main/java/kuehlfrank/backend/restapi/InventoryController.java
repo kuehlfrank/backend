@@ -64,7 +64,7 @@ public class InventoryController {
 		}
 
 		Inventory inventory = inventoryRepository.findByUserId(userId).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Unable to find inventory for user"));
-		Ingredient ingredient = ingredientRepository.findById(addItemDto.getIngredientId()).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Unable to find ingredient"));
+		Ingredient ingredient = ingredientRepository.findByName(addItemDto.getIngredientName()).orElse(ingredientRepository.save(new Ingredient(addItemDto.getIngredientName(), addItemDto.isCommon())));
 		Unit unit = unitRepository.findById(addItemDto.getUnitId()).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Unable to find unit"));
 
 		InventoryEntry inventoryEntry = new InventoryEntry(inventory, ingredient, addItemDto.getAmount(), unit);
