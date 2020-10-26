@@ -27,6 +27,6 @@ public interface RecipeRepository extends CrudRepository<Recipe, Long> {
 			+ " WHERE ("+ unavailableIngredientAmount + ") = 0"; //
 
 	@Query(value = query, nativeQuery = true)
-	public Collection<Recipe> findPossibleRecipes(Long userId);
+	public Collection<Recipe> findPossibleRecipes(String userId);
 
 }

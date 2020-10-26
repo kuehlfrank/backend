@@ -5,7 +5,6 @@ import java.util.Optional;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
-import kuehlfrank.backend.model.Ingredient;
 import kuehlfrank.backend.model.Inventory;
 
 public interface InventoryRepository extends CrudRepository<Inventory, Long>{

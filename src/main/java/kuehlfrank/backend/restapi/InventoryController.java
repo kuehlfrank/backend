@@ -115,16 +115,10 @@ public class InventoryController {
 				() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Unable to find inventory for user"));
 	}
 
-//	@GetMapping(value = "/recipes")
-//	public Collection<Recipe> recipes(@RequestParam Long userId) { //TODO user auth
-//		return recipeRepository.findPossibleRecipes(userId);
-//	}
-
 	private void checkUserId(Authentication authentication, String userId) {
 		if (userId == null) {
 			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "userId can't be empty");
 		} else if (!Objects.equals(userId, authentication.getName())) { // Only allow getting users own inventory for
-																		// now
 			throw new ResponseStatusException(HttpStatus.UNAUTHORIZED, "Can't access other users inventory");
 		}
 	}
