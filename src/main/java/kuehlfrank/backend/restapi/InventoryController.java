@@ -1,9 +1,7 @@
 package kuehlfrank.backend.restapi;
 
 import java.util.Objects;
-import java.util.Optional;
 
-import lombok.var;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -31,6 +29,7 @@ import kuehlfrank.backend.repositories.InventoryEntryRepository;
 import kuehlfrank.backend.repositories.InventoryRepository;
 import kuehlfrank.backend.repositories.UnitRepository;
 import lombok.NonNull;
+import lombok.var;
 
 @RestController
 @RequestMapping(produces = MediaType.APPLICATION_JSON_VALUE)
@@ -96,7 +95,7 @@ public class InventoryController {
 			@PathVariable Long inventoryEntryId, @RequestBody UpdateInventoryEntryDto dto) {
 		checkUserId(authentication, userId);
 		Inventory inventory = getInventoryForUser(userId);
-		Ingredient ingredient = inventoryEntryRepository.getIngredientByInventoryEntryId(inventoryEntryId).orElseThrow(
+		Ingredient ingredient = inventoryRepository.findByInventoryEntryId(inventoryEntryId).orElseThrow(
 				() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Unable to find inventoryEntry for inventoryEntryId"));
 		InventoryEntry inventoryEntry = new InventoryEntry(inventoryEntryId, inventory, ingredient, dto.getQuantity(), getUnit(dto.getUnitId()));
 		return inventoryEntryRepository.save(inventoryEntry);
