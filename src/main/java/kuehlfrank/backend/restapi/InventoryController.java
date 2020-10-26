@@ -2,28 +2,33 @@ package kuehlfrank.backend.restapi;
 
 import java.util.Objects;
 
-import kuehlfrank.backend.dto.AddItemDto;
-import kuehlfrank.backend.model.Ingredient;
-import kuehlfrank.backend.model.InventoryEntry;
-import kuehlfrank.backend.model.Unit;
-import kuehlfrank.backend.repositories.IngredientRepository;
-import kuehlfrank.backend.repositories.InventoryEntryRepository;
-import kuehlfrank.backend.repositories.UnitRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.security.core.Authentication;
-import org.springframework.web.bind.annotation.*;
-
-import kuehlfrank.backend.model.Inventory;
-import kuehlfrank.backend.repositories.InventoryRepository;
-import lombok.extern.log4j.Log4j2;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
+
+import kuehlfrank.backend.dto.AddItemDto;
+import kuehlfrank.backend.model.Ingredient;
+import kuehlfrank.backend.model.Inventory;
+import kuehlfrank.backend.model.InventoryEntry;
+import kuehlfrank.backend.model.Unit;
+import kuehlfrank.backend.repositories.IngredientRepository;
+import kuehlfrank.backend.repositories.InventoryEntryRepository;
+import kuehlfrank.backend.repositories.InventoryRepository;
+import kuehlfrank.backend.repositories.UnitRepository;
 
 @RestController
 @RequestMapping(produces = MediaType.APPLICATION_JSON_VALUE)
 @CrossOrigin(origins = "*")
-@Log4j2
 public class InventoryController {
 
 	@Autowired
