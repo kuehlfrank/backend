@@ -98,7 +98,7 @@ pub fn generate_ingredient(
     }
 }
 
-pub fn beautify_json(file_path: &str, re_units: String) -> io::Result<()> {
+pub fn beautify_jsons(path: &str, re_units: String) -> io::Result<()> {
     let re1 = Regex::new(&format!(
         "^(?P<amount>[0-9]+(?:\\.[0-9]+)?) *(?P<unit>{}) *(?P<ingredient>.+)$",
         re_units
@@ -107,26 +107,43 @@ pub fn beautify_json(file_path: &str, re_units: String) -> io::Result<()> {
     let re2 = Regex::new(r"^(?P<amount>[0-9]+(?:\.[0-9]+)?) *(?P<ingredient>.+)$").unwrap();
     let re3 = Regex::new(r"^(?P<ingredient>.+)$").unwrap();
 
-    let input_recipes = read_input_recipes(file_path)?;
+    
     let mut output_recipes: Vec<OutputRecipe> = Vec::new();
 
-    for recipe in input_recipes {
-        let mut output_ingredients: Vec<Ingredient> = Vec::new();
+    let mut recipes_files: Vec<String> = Vec::new();
 
-        for ingredient in recipe.ingredients {
-            output_ingredients.push(generate_ingredient(&re1, &re2, &re3, &ingredient).unwrap());
+    for entry in read_dir(path)? {
+        let entry = entry?;
+        let path = entry.path();
+
+        if path.is_file() && path.extension().is_some() && path.extension().unwrap() == "json" {
+            recipes_files.push(String::from(path.as_path().to_str().unwrap()));
         }
-
-        output_recipes.push(OutputRecipe {
-            title: recipe.title,
-            external_id: recipe.external_id,
-            external_source: recipe.external_source,
-            quantity: recipe.quantity,
-            ingredients: output_ingredients,
-        });
     }
 
-    write_output_recipes(&format!("{}.new.json", file_path), &output_recipes)?;
+    for recipes_file in recipes_files {
+        println!("Using recipes file {}", recipes_file);
+
+        let input_recipes = read_input_recipes(&recipes_file)?;
+
+        for recipe in input_recipes {
+            let mut output_ingredients: Vec<Ingredient> = Vec::new();
+    
+            for ingredient in recipe.ingredients {
+                output_ingredients.push(generate_ingredient(&re1, &re2, &re3, &ingredient).unwrap());
+            }
+    
+            output_recipes.push(OutputRecipe {
+                title: recipe.title,
+                external_id: recipe.external_id,
+                external_source: recipe.external_source,
+                quantity: recipe.quantity,
+                ingredients: output_ingredients,
+            });
+        }
+    }
+
+    write_output_recipes(&format!("{}/recipes_new.json", path), &output_recipes)?;
 
     Ok(())
 }
