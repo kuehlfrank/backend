@@ -3,19 +3,17 @@ package kuehlfrank.backend.dto;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NonNull;
+import org.springframework.lang.Nullable;
 
 import java.math.BigDecimal;
 
 @Data
-@Builder
 public class AddItemDto {
 
     // Ingredient Name
     @NonNull
     private String name;
 
-    @NonNull
-    @Builder.Default
     private Boolean common = false;
 
     @NonNull
