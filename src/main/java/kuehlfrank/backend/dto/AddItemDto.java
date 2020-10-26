@@ -1,9 +1,7 @@
 package kuehlfrank.backend.dto;
 
-import lombok.Builder;
 import lombok.Data;
 import lombok.NonNull;
-import org.springframework.lang.Nullable;
 
 import java.math.BigDecimal;
 

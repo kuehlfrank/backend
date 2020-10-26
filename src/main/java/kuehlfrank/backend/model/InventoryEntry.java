@@ -5,13 +5,9 @@ import java.math.BigDecimal;
 import javax.persistence.*;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.*;
 import org.hibernate.annotations.Cascade;
 import org.hibernate.annotations.CascadeType;
-
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
@@ -48,5 +44,9 @@ public class InventoryEntry {
 		this.ingredient = ingredient;
 		this.amount = amount;
 		this.unit = unit;
+	}
+
+	public void increaseAmount(@NonNull BigDecimal amountToAdd) {
+		amount = amount.add(amountToAdd);
 	}
 }

@@ -1,7 +1,9 @@
 package kuehlfrank.backend.restapi;
 
 import java.util.Objects;
+import java.util.Optional;
 
+import lombok.var;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -63,17 +65,22 @@ public class InventoryController {
 			throw new ResponseStatusException(HttpStatus.UNAUTHORIZED, "Can't access other users inventory");
 		}
 
-		Inventory inventory = inventoryRepository.findByUserId(userId).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Unable to find inventory for user"));
-		Ingredient ingredient = ingredientRepository.findByName(addItemDto.getIngredientName()).orElse(ingredientRepository.save(new Ingredient(addItemDto.getIngredientName(), addItemDto.isCommon())));
-		Unit unit = unitRepository.findById(addItemDto.getUnitId()).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Unable to find unit"));
+		var existingIngredient = ingredientRepository.findByName(addItemDto.getIngredientName());
+		var unit = unitRepository.findById(addItemDto.getUnitId()).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Unable to find unit"));
+		// try to find existing InventoryEntry
+		if(existingIngredient.isPresent() && inventoryEntryRepository.findByIngredientAndUnitId(existingIngredient.get().getIngredientId(), unit.getUnitId()).isPresent()) {
+			var ie = inventoryEntryRepository.findByIngredientAndUnitId(existingIngredient.get().getIngredientId(), unit.getUnitId()).get();
 
-		InventoryEntry inventoryEntry = new InventoryEntry(inventory, ingredient, addItemDto.getAmount(), unit);
+			ie.increaseAmount(addItemDto.getAmount());
+			return inventoryEntryRepository.save(ie);
+		} else {
+			Inventory inventory = inventoryRepository.findByUserId(userId).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Unable to find inventory for user"));
 
-		return inventoryEntryRepository.save(inventoryEntry);
+			// use existing ingredient if possible else create new one
+			Ingredient ingredient = existingIngredient.orElseGet(() -> ingredientRepository.save(new Ingredient(addItemDto.getIngredientName(), addItemDto.isCommon())));
+
+			InventoryEntry inventoryEntry = new InventoryEntry(inventory, ingredient, addItemDto.getAmount(), unit);
+			return inventoryEntryRepository.save(inventoryEntry);
+		}
 	}
-
-//	@GetMapping(value = "/recipes")
-//	public Collection<Recipe> recipes(@RequestParam Long userId) { //TODO user auth
-//		return recipeRepository.findPossibleRecipes(userId);
-//	}
 }

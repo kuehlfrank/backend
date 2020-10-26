@@ -9,4 +9,7 @@ import java.util.Optional;
 
 public interface InventoryEntryRepository extends CrudRepository<InventoryEntry, Long>{
 
+    @Query("SELECT inve FROM InventoryEntry inve WHERE inve.ingredient.ingredientId = :ingredientId AND inve.unit.unitId = :unitId")
+    Optional<InventoryEntry> findByIngredientAndUnitId(Long ingredientId, Long unitId);
+
 }
