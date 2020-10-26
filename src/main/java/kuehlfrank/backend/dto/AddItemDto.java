@@ -1,24 +1,43 @@
 package kuehlfrank.backend.dto;
 
+import lombok.Builder;
+import lombok.Data;
+import lombok.NonNull;
+
 import java.math.BigDecimal;
 
+@Data
+@Builder
 public class AddItemDto {
 
-    private Long ingredientId;
+    // Ingredient Name
+    @NonNull
+    private String name;
 
-    private BigDecimal amount;
+    @NonNull
+    @Builder.Default
+    private Boolean common = false;
 
+    @NonNull
+    private BigDecimal quantity;
+
+    @NonNull
     private Long unitId;
 
-    public Long getIngredientId() {
-        return ingredientId;
-    }
 
     public BigDecimal getAmount() {
-        return amount;
+        return quantity;
     }
 
     public Long getUnitId() {
         return unitId;
+    }
+
+    public String getIngredientName() {
+        return name;
+    }
+
+    public boolean isCommon() {
+        return common;
     }
 }
