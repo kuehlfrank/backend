@@ -1,15 +1,19 @@
 package kuehlfrank.backend.repositories;
 
-import kuehlfrank.backend.model.Inventory;
-import kuehlfrank.backend.model.InventoryEntry;
+import java.util.Optional;
+
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
-import java.util.Optional;
+import kuehlfrank.backend.model.Ingredient;
+import kuehlfrank.backend.model.InventoryEntry;
 
-public interface InventoryEntryRepository extends CrudRepository<InventoryEntry, Long>{
+public interface InventoryEntryRepository extends CrudRepository<InventoryEntry, Long> {
 
-    @Query("SELECT inve FROM InventoryEntry inve WHERE inve.ingredient.ingredientId = :ingredientId AND inve.unit.unitId = :unitId")
-    Optional<InventoryEntry> findByIngredientAndUnitId(Long ingredientId, Long unitId);
+	@Query("SELECT inve FROM InventoryEntry inve WHERE inve.ingredient.ingredientId = :ingredientId AND inve.unit.unitId = :unitId")
+	Optional<InventoryEntry> findByIngredientAndUnitId(Long ingredientId, Long unitId);
+
+	@Query("SELECT invEntry.ingredient from InventoryEntry invEntry where invEntry.inventoryId = :inventoryEntryId")
+	Optional<Ingredient> getIngredientByInventoryEntryId(Long inventoryEntryId);
 
 }
