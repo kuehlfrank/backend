@@ -12,6 +12,8 @@ INSERT INTO public.unit (unit_id, label) VALUES (11, 'kleiner');
 INSERT INTO public.unit (unit_id, label) VALUES (12, 'Köpfe');
 INSERT INTO public.unit (unit_id, label) VALUES (13, 'Glas');
 INSERT INTO public.unit (unit_id, label) VALUES (14, 'Handvoll');
+INSERT INTO public.unit (unit_id, label) VALUES (15, 'cl');
+INSERT INTO public.unit (unit_id, label) VALUES (16, 'mg');
 
 INSERT INTO public.recipe (recipe_id, name) VALUES (1, '3-Zutaten-Erdnussbutterkekse');
 INSERT INTO public.recipe (recipe_id, name) VALUES (2, 'Mehlige Erdnussbutterkekse');
