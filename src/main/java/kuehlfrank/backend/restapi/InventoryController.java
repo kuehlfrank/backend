@@ -1,7 +1,11 @@
 package kuehlfrank.backend.restapi;
 
+import java.util.Arrays;
 import java.util.Objects;
+import java.util.stream.Collectors;
 
+import kuehlfrank.backend.model.*;
+import kuehlfrank.backend.repositories.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -19,15 +23,6 @@ import org.springframework.web.server.ResponseStatusException;
 
 import kuehlfrank.backend.dto.AddItemDto;
 import kuehlfrank.backend.dto.UpdateInventoryEntryDto;
-import kuehlfrank.backend.model.Ingredient;
-import kuehlfrank.backend.model.Inventory;
-import kuehlfrank.backend.model.InventoryEntry;
-import kuehlfrank.backend.model.Message;
-import kuehlfrank.backend.model.Unit;
-import kuehlfrank.backend.repositories.IngredientRepository;
-import kuehlfrank.backend.repositories.InventoryEntryRepository;
-import kuehlfrank.backend.repositories.InventoryRepository;
-import kuehlfrank.backend.repositories.UnitRepository;
 import lombok.NonNull;
 import lombok.var;
 
@@ -42,6 +37,8 @@ public class InventoryController {
 	private InventoryEntryRepository inventoryEntryRepository;
 	@Autowired
 	private IngredientRepository ingredientRepository;
+	@Autowired
+	private IngredientAlternativeNameRepository ingredientAlternativeNameRepository;
 	@Autowired
 	private UnitRepository unitRepository;
 
@@ -73,6 +70,8 @@ public class InventoryController {
 		if(existingIngredient.isPresent() && inventoryEntryRepository.findByIngredientAndUnitId(existingIngredient.get().getIngredientId(), unit.getUnitId()).isPresent()) {
 			var ie = inventoryEntryRepository.findByIngredientAndUnitId(existingIngredient.get().getIngredientId(), unit.getUnitId()).get();
 
+			// TODO: Insert new alternative names
+			
 			ie.increaseAmount(addItemDto.getAmount());
 			return inventoryEntryRepository.save(ie);
 		} else {
@@ -80,6 +79,10 @@ public class InventoryController {
 
 			// use existing ingredient if possible else create new one
 			Ingredient ingredient = existingIngredient.orElseGet(() -> ingredientRepository.save(new Ingredient(addItemDto.getIngredientName(), addItemDto.isCommon())));
+
+			// add all alternative names
+			var names = Arrays.stream(addItemDto.getAlternative_names()).map(s -> new IngredientAlternativeName(s, ingredient)).collect(Collectors.toList());
+			ingredientAlternativeNameRepository.saveAll(names);
 
 			InventoryEntry inventoryEntry = new InventoryEntry(inventory, ingredient, addItemDto.getAmount(), unit);
 			return inventoryEntryRepository.save(inventoryEntry);

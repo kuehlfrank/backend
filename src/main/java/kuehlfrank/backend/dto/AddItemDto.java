@@ -14,6 +14,8 @@ public class AddItemDto {
 
     private Boolean common = false;
 
+    private String[] alternative_names = new String[0];
+
     @NonNull
     private BigDecimal quantity;
 

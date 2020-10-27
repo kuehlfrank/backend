@@ -25,6 +25,7 @@ public class InventoryEntry {
 	@OneToOne
 	private Inventory inventory;
 
+	@JsonIgnoreProperties(ignoreUnknown = true, value = {"alternativeNames"})
 	@ManyToOne
 	@Cascade(value = CascadeType.ALL)
 	@JoinColumn(name = "ingredient_id")

@@ -11,6 +11,8 @@ INSERT INTO ingredient (name, common) VALUES ('Zucker', true);
 INSERT INTO ingredient (name, common) VALUES ('Eier', false);
 INSERT INTO ingredient (name, common) VALUES ('Mehl', false);
 
+INSERT INTO ingredient_alternative_name (name, ingredient_id) VALUES ('Peanut Butter', 1);
+
 INSERT INTO recipe_ingredient (recipe_id, ingredient_id, amount, unit_id) VALUES (1, 1, 240, 1);
 INSERT INTO recipe_ingredient (recipe_id, ingredient_id, amount, unit_id) VALUES (1, 2, 100, 1);
 INSERT INTO recipe_ingredient (recipe_id, ingredient_id, amount, unit_id) VALUES (1, 3, 1, 3);
