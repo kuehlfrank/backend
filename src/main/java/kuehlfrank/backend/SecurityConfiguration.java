@@ -2,6 +2,7 @@ package kuehlfrank.backend;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
@@ -42,11 +43,12 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .authorizeRequests()
                 .antMatchers("/test/serverInfo").permitAll()
                 .antMatchers("/test/public").permitAll()
-                .antMatchers("/register").permitAll()
+                .antMatchers(HttpMethod.POST, "/register").permitAll()
                 .antMatchers("/test/private").authenticated()
                 .antMatchers("/test/private-scoped").hasAuthority("SCOPE_read:messages")
                 .anyRequest().authenticated()
                 .and().cors()
-                .and().oauth2ResourceServer().jwt();
+                .and().csrf().disable()
+                .oauth2ResourceServer().jwt();
     }
 }
