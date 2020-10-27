@@ -71,7 +71,7 @@ public class InventoryController {
 			var ie = inventoryEntryRepository.findByIngredientAndUnitId(existingIngredient.get().getIngredientId(), unit.getUnitId()).get();
 
 			// TODO: Insert new alternative names
-			
+
 			ie.increaseAmount(addItemDto.getAmount());
 			return inventoryEntryRepository.save(ie);
 		} else {

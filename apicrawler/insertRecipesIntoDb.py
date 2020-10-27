@@ -29,8 +29,8 @@ def insertIngredient(cur, ingredient):
         return None
 
 def insertRecipe(cur, recipe):
-    if recipe and "name" in recipe and "ingredients" in recipe:
-        cur.execute("INSERT INTO RECIPE (NAME) Values (%(name)s) RETURNING RECIPE_ID", recipe)
+    if recipe and "title" in recipe and "ingredients" in recipe:
+        cur.execute("INSERT INTO RECIPE (NAME) Values (%(title)s) RETURNING RECIPE_ID", recipe)
         id_of_new_recipe = cur.fetchone()[0]
         for ingredient in recipe["ingredients"]:
             parameter = {
@@ -78,10 +78,10 @@ def ensureIngredientIDs(cur, recipe):
 
 def addRecipe(dbconnection, recipe):
     try:
+        print("Adding", recipe["title"])
         cur = dbconnection.cursor()
         ensureUnitIDs(cur, recipe)
         ensureIngredientIDs(cur, recipe)
-        print(recipe)
         insertRecipe(cur, recipe)
         dbconnection.commit()
     except (Exception, psycopg2.DatabaseError) as error:
@@ -93,12 +93,12 @@ def addRecipes(dbconnection, recipes):
         addRecipe(dbconnection, recipe)
 
 def loadRecipesFromFile(file_path):
-    with open(file_path, 'r') as json_file:
+    with open(file_path, 'r', encoding='utf8') as json_file:
         return json.load(json_file)
 
-conn = getDbConnection()
-
 recipes = loadRecipesFromFile('recipes/recipes_new.json')
+
+conn = getDbConnection()
 
 addRecipes(conn, recipes)
 
