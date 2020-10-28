@@ -16,6 +16,8 @@ public class AddItemDto {
 
     private String[] alternative_names = new String[0];
 
+    private String imgSrc;
+
     @NonNull
     private BigDecimal quantity;
 

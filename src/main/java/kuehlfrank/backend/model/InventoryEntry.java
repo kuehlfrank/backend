@@ -30,19 +30,24 @@ public class InventoryEntry {
 	@Cascade(value = CascadeType.ALL)
 	@JoinColumn(name = "ingredient_id")
 	private Ingredient ingredient;
-	
+
 	private BigDecimal amount;
-	
+
+	// URL for image associated with a item added by the user
+	// Most likely a static link to openfoodfacts.org
+	private String imageSrcUrl;
+
 	@ManyToOne
 	@Cascade(value = CascadeType.ALL)
 	@JoinColumn(name = "unit_id")
 	private Unit unit;
 
 
-	public InventoryEntry(Inventory inventory, Ingredient ingredient, BigDecimal amount, Unit unit) {
+	public InventoryEntry(Inventory inventory, Ingredient ingredient, BigDecimal amount, String imageSrcUrl, Unit unit) {
 		this.inventory = inventory;
 		this.ingredient = ingredient;
 		this.amount = amount;
+		this.imageSrcUrl = imageSrcUrl;
 		this.unit = unit;
 	}
 

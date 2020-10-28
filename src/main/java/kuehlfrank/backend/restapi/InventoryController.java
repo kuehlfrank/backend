@@ -84,7 +84,7 @@ public class InventoryController {
 			var names = Arrays.stream(addItemDto.getAlternative_names()).map(s -> new IngredientAlternativeName(s, ingredient)).collect(Collectors.toList());
 			ingredientAlternativeNameRepository.saveAll(names);
 
-			InventoryEntry inventoryEntry = new InventoryEntry(inventory, ingredient, addItemDto.getAmount(), unit);
+			InventoryEntry inventoryEntry = new InventoryEntry(inventory, ingredient, addItemDto.getAmount(), addItemDto.getImgSrc(), unit);
 			return inventoryEntryRepository.save(inventoryEntry);
 		}
 	}
@@ -104,7 +104,7 @@ public class InventoryController {
 		Inventory inventory = getInventoryForUser(userId);
 		Ingredient ingredient = inventoryEntryRepository.findByInventoryEntryId(inventoryEntryId).orElseThrow(
 				() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Unable to find inventoryEntry for inventoryEntryId"));
-		InventoryEntry inventoryEntry = new InventoryEntry(inventoryEntryId, inventory, ingredient, dto.getQuantity(), getUnit(dto.getUnitId()));
+		InventoryEntry inventoryEntry = new InventoryEntry(inventoryEntryId, inventory, ingredient, dto.getQuantity(), dto.getImgSrc(), getUnit(dto.getUnitId()));
 		return inventoryEntryRepository.save(inventoryEntry);
 	}
 
