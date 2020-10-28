@@ -8,7 +8,6 @@ spring:
           dialect: org.hibernate.dialect.PostgreSQLDialect
       hibernate:
         show-sql: false
-        dll-auto: update
     datasource:
       url: jdbc:postgresql://kuehlfrank-postgres.westeurope.azurecontainer.io:5432/kuehlfrank
       username: kuehlfrank

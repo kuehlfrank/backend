@@ -9,6 +9,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.List;
+import java.util.UUID;
 
 @Data
 @NoArgsConstructor
@@ -17,8 +18,8 @@ import java.util.List;
 @Entity
 public class Ingredient {
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long ingredientId;
+	@GeneratedValue
+	private UUID ingredientId;
 	
 	private String name;
 

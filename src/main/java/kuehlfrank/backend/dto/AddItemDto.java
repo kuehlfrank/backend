@@ -4,6 +4,7 @@ import lombok.Data;
 import lombok.NonNull;
 
 import java.math.BigDecimal;
+import java.util.UUID;
 
 @Data
 public class AddItemDto {
@@ -22,14 +23,14 @@ public class AddItemDto {
     private BigDecimal quantity;
 
     @NonNull
-    private Long unitId;
+    private UUID unitId;
 
 
     public BigDecimal getAmount() {
         return quantity;
     }
 
-    public Long getUnitId() {
+    public UUID getUnitId() {
         return unitId;
     }
 

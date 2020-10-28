@@ -1,6 +1,7 @@
 package kuehlfrank.backend.model;
 
 import java.util.List;
+import java.util.UUID;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -21,8 +22,8 @@ import lombok.NoArgsConstructor;
 @Entity
 public class Recipe {
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long recipeId;
+	@GeneratedValue
+	private UUID recipeId;
 	
 	private String name;
 	
