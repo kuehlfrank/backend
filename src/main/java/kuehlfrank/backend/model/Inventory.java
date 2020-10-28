@@ -2,6 +2,7 @@ package kuehlfrank.backend.model;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -24,8 +25,8 @@ import lombok.NoArgsConstructor;
 public class Inventory {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer inventoryId;
+	@GeneratedValue
+	private UUID inventoryId;
 
 	@Cascade(value = CascadeType.ALL)
 	@JoinColumn(name = "inventory_id")

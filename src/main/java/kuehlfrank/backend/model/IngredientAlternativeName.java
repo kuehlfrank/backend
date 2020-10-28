@@ -6,6 +6,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.Cascade;
 
+import java.util.UUID;
+
 import javax.persistence.*;
 
 @Data
@@ -14,8 +16,8 @@ import javax.persistence.*;
 @Entity
 public class IngredientAlternativeName {
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer ingredientAlternativeNameId;
+	@GeneratedValue
+	private UUID ingredientAlternativeNameId;
 
 	private String name;
 

@@ -1,5 +1,7 @@
 package kuehlfrank.backend.model;
 
+import java.util.UUID;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -19,6 +21,6 @@ public class Unit {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer unitId;
+	private UUID unitId;
 	private String label;
 }

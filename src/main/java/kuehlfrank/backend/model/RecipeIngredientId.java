@@ -1,6 +1,7 @@
 package kuehlfrank.backend.model;
 
 import java.io.Serializable;
+import java.util.UUID;
 
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
@@ -19,8 +20,8 @@ public class RecipeIngredientId implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 	@Column(name = "recipe_id")
-	private Integer recipeId;
+	private UUID recipeId;
 	@Column(name = "ingredient_id")
-	private Integer ingredientId;
+	private UUID ingredientId;
 	
 }

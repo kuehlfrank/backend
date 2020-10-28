@@ -1,6 +1,7 @@
 package kuehlfrank.backend.model;
 
 import java.math.BigDecimal;
+import java.util.UUID;
 
 import javax.persistence.*;
 
@@ -17,8 +18,8 @@ import org.hibernate.annotations.CascadeType;
 public class InventoryEntry {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer inventoryEntryId;
+	@GeneratedValue
+	private UUID inventoryEntryId;
 
 	@JsonIgnoreProperties(ignoreUnknown = true, value = {"inventoryEntries"})
 	@JoinColumn(name = "inventory_id")

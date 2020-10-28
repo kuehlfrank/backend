@@ -1,13 +1,14 @@
 package kuehlfrank.backend.repositories;
 
 import java.util.Collection;
+import java.util.UUID;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
 import kuehlfrank.backend.model.Recipe;
 
-public interface RecipeRepository extends CrudRepository<Recipe, Integer> {
+public interface RecipeRepository extends CrudRepository<Recipe, UUID> {
 
 	public static final String userInventory = "SELECT u.user_id, ie.ingredient_id FROM kf_user u"//
 			+ " INNER JOIN inventory_entry ie ON u.inventory_id = ie.inventory_id"//
