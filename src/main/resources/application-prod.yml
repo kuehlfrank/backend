@@ -31,3 +31,10 @@ logging:
 name: prod-YAML
 environment: production
 webhook.secret: S0wHX2boUt8FfsF9T2lM5wb05eEsIPGfjY6j8zNXlDRVhhyM4C09hr75NzHLrttw
+server:
+  forward-headers-strategy: native
+  servlet:
+    session:
+      timeout: 1d
+      cookie:
+        max-age: 1d
