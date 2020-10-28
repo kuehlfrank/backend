@@ -10,7 +10,7 @@ import org.springframework.lang.Nullable;
 public class UpdateInventoryEntryDto {
 
     @NonNull private BigDecimal quantity;
-    @NonNull private Long unitId;
+    @NonNull private Integer unitId;
     private String imgSrc;
 
 }

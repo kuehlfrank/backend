@@ -25,7 +25,7 @@ public class Inventory {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long inventoryId;
+	private Integer inventoryId;
 
 	@Cascade(value = CascadeType.ALL)
 	@JoinColumn(name = "inventory_id")

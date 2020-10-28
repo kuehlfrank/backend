@@ -7,7 +7,7 @@ import org.springframework.data.repository.CrudRepository;
 
 import kuehlfrank.backend.model.Inventory;
 
-public interface InventoryRepository extends CrudRepository<Inventory, Long>{
+public interface InventoryRepository extends CrudRepository<Inventory, Integer>{
 
 	
 	@Query("SELECT inv FROM Inventory inv INNER JOIN User u ON inv.inventoryId = u.inventory.inventoryId WHERE u.userId = :userId")

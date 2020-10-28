@@ -18,7 +18,7 @@ public class InventoryEntry {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long inventoryEntryId;
+	private Integer inventoryEntryId;
 
 	@JsonIgnoreProperties(ignoreUnknown = true, value = {"inventoryEntries"})
 	@JoinColumn(name = "inventory_id")

@@ -15,7 +15,7 @@ import javax.persistence.*;
 public class IngredientAlternativeName {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long ingredientAlternativeNameId;
+	private Integer ingredientAlternativeNameId;
 
 	private String name;
 

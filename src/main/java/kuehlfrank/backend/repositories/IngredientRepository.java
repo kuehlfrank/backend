@@ -7,7 +7,7 @@ import kuehlfrank.backend.model.Ingredient;
 
 import java.util.Optional;
 
-public interface IngredientRepository extends CrudRepository<Ingredient, Long>{
+public interface IngredientRepository extends CrudRepository<Ingredient, Integer>{
 
     @Query("SELECT ing FROM Ingredient ing  WHERE ing.name = :ingredientName")
     Optional<Ingredient> findByName(String ingredientName);

@@ -91,7 +91,7 @@ public class InventoryController {
 
 	@DeleteMapping("/inventory/{userId}/inventoryEntry/{inventoryEntryId}")
 	public Message deleteInventoryEntry(Authentication authentication, @PathVariable String userId,
-			@PathVariable Long inventoryEntryId) {
+			@PathVariable Integer inventoryEntryId) {
 		checkUserId(authentication, userId);
 		inventoryEntryRepository.deleteById(inventoryEntryId);
 		return new Message("success");
@@ -99,7 +99,7 @@ public class InventoryController {
 
 	@PutMapping("/inventory/{userId}/inventoryEntry/{inventoryEntryId}")
 	public InventoryEntry updateInventoryEntry(Authentication authentication, @PathVariable String userId,
-			@PathVariable Long inventoryEntryId, @RequestBody UpdateInventoryEntryDto dto) {
+			@PathVariable Integer inventoryEntryId, @RequestBody UpdateInventoryEntryDto dto) {
 		checkUserId(authentication, userId);
 		Inventory inventory = getInventoryForUser(userId);
 		Ingredient ingredient = inventoryEntryRepository.findByInventoryEntryId(inventoryEntryId).orElseThrow(
@@ -108,7 +108,7 @@ public class InventoryController {
 		return inventoryEntryRepository.save(inventoryEntry);
 	}
 
-	private Unit getUnit(@NonNull Long unitId) {
+	private Unit getUnit(@NonNull Integer unitId) {
 		return unitRepository.findById(unitId)
 				.orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Unable to find unit"));
 	}

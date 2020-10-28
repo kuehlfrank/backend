@@ -19,8 +19,8 @@ public class RecipeIngredientId implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 	@Column(name = "recipe_id")
-	private Long recipeId;
+	private Integer recipeId;
 	@Column(name = "ingredient_id")
-	private Long ingredientId;
+	private Integer ingredientId;
 	
 }

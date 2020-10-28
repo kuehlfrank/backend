@@ -22,7 +22,7 @@ import lombok.NoArgsConstructor;
 public class Recipe {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long recipeId;
+	private Integer recipeId;
 	
 	private String name;
 	

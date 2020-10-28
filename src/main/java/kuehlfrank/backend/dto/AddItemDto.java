@@ -22,14 +22,14 @@ public class AddItemDto {
     private BigDecimal quantity;
 
     @NonNull
-    private Long unitId;
+    private Integer unitId;
 
 
     public BigDecimal getAmount() {
         return quantity;
     }
 
-    public Long getUnitId() {
+    public Integer getUnitId() {
         return unitId;
     }
 
