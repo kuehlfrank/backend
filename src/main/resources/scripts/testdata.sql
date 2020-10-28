@@ -1,3 +1,4 @@
+BEGIN TRANSACTION;
 INSERT INTO public.unit (unit_id, label) VALUES (1, 'g');
 INSERT INTO public.unit (unit_id, label) VALUES (2, 'kg');
 INSERT INTO public.unit (unit_id, label) VALUES (3, 'stück');
@@ -12358,3 +12359,4 @@ INSERT INTO public.kf_user (user_id, name, inventory_id) VALUES ('auth0|123ea12f
 INSERT INTO public.kf_user (user_id, name, inventory_id) VALUES ('auth0|5f919f0ea0aa3000751e975b', 'Tom Stein', 1);
 INSERT INTO public.kf_user (user_id, name, inventory_id) VALUES ('auth0|5f91274aa0aa3000751e503b', 'Niggo', 1);
 INSERT INTO public.kf_user (user_id, name, inventory_id) VALUES ('google-oauth2|117818551775174378858', 'Tom Stein', 1);
+END TRANSACTION;
