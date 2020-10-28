@@ -7,12 +7,12 @@ RUN mkdir -p /build
 WORKDIR /build
 COPY pom.xml /build
 #Download all required dependencies into one layer
-RUN mvn -B dependency:resolve dependency:resolve-plugins
+RUN mvn -q -B dependency:resolve dependency:resolve-plugins
 #RUN mvn dependency:resolve-plugins
 #Copy source code
 COPY src /build/src
 # Build application
-RUN mvn package
+RUN mvn -q package
 
 
 FROM openjdk:14-slim as runtime
