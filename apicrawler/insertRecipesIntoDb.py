@@ -30,7 +30,7 @@ def insertIngredient(cur, ingredient):
 
 def insertRecipe(cur, recipe):
     if recipe and "title" in recipe and "ingredients" in recipe:
-        cur.execute("INSERT INTO RECIPE (NAME) Values (%(title)s) RETURNING RECIPE_ID", recipe)
+        cur.execute("INSERT INTO RECIPE (NAME, EXTERNAL_ID, EXTERNAL_SOURCE, EXTERNAL_URL, EXTERNAL_IMG_SRC_URL) Values (%(title)s, %(external_id)s, %(external_source)s, %(external_url)s, %(external_img_url)s) RETURNING RECIPE_ID", recipe)
         id_of_new_recipe = cur.fetchone()[0]
         for ingredient in recipe["ingredients"]:
             parameter = {
