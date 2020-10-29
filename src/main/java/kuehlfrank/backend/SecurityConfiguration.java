@@ -43,7 +43,6 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .authorizeRequests()
                 .antMatchers("/test/serverInfo").permitAll()
                 .antMatchers("/test/public").permitAll()
-                .antMatchers(HttpMethod.POST, "/register").permitAll()
                 .antMatchers("/test/private").authenticated()
                 .antMatchers("/test/private-scoped").hasAuthority("SCOPE_read:messages")
                 .anyRequest().authenticated()

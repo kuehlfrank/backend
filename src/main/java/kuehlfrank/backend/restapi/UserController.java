@@ -26,21 +26,6 @@ public class UserController {
 	private UserRepository userRepository;
 	@Autowired
 	private InventoryRepository inventoryRepository;
-	
-	@Value("${webhook.secret}")
-	private String webhookSecret;
-	
-	@PostMapping("/register")
-	public User registerUser(@RequestBody RegisterUserDto registerUserDto){
-		if (!webhookSecret.equals(registerUserDto.getWebhookSecret())) {
-			throw new ResponseStatusException(HttpStatus.UNAUTHORIZED, "wrong secret");
-		}
-		if (userRepository.existsById(registerUserDto.getUserId())) {
-			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "userId already exists");
-		}
-		Inventory inventory = inventoryRepository.save(new Inventory());
-		return userRepository.save(new User(registerUserDto.getUserId(), registerUserDto.getName(), inventory));
-	}
 
 	@PostMapping("/ensureRegistered")
 	public ResponseEntity<?> registerUser(@RequestBody EnsureUserRegisteredDto ensureUserRegisteredDto, Authentication authentication){
