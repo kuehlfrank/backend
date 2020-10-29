@@ -10,17 +10,14 @@ jobs:
     name: Build and publish image
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Build image with Maven
-      run: mvn spring-boot:build-image
-    - name: Apply new tag to image
-      run: docker tag backend:0.0.1-SNAPSHOT ghcr.io/kuehlfrank/backend:latest
-    - name: Login to ghcr
-      run: echo ${{ secrets.CR_PAT }} | docker login ghcr.io -u $GITHUB_ACTOR --password-stdin
-    - name: Push image to ghcr
-      run: docker push ghcr.io/kuehlfrank/backend:latest
-    - name: Webhook Azure Web App
-      uses: joelwmale/webhook-action@master
-      with:
-        url: ${{ secrets.WEBHOOK_URL }}
-
+      - uses: actions/checkout@v2
+      - name: Build the latest Docker image
+        run: docker build . --file Dockerfile --tag ghcr.io/kuehlfrank/backend:latest
+      - name: Login to ghcr
+        run: echo ${{ secrets.CR_PAT }} | docker login ghcr.io -u $GITHUB_ACTOR --password-stdin
+      - name: Push image to ghcr
+        run: docker push ghcr.io/kuehlfrank/backend:latest
+      - name: Webhook Azure Web App
+        uses: joelwmale/webhook-action@master
+        with:
+          url: ${{ secrets.WEBHOOK_URL }}

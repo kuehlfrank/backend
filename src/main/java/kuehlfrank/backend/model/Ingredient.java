@@ -1,15 +1,15 @@
 package kuehlfrank.backend.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.SequenceGenerator;
+import javax.persistence.*;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import java.util.List;
+import java.util.UUID;
 
 @Data
 @NoArgsConstructor
@@ -18,11 +18,25 @@ import lombok.NoArgsConstructor;
 @Entity
 public class Ingredient {
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "ingredient_id_generator")
-	@SequenceGenerator(name = "ingredient_id_generator", sequenceName = "ingredient_ingredient_id_seq", allocationSize = 1)
-	private Long ingredientId;
+	@GeneratedValue
+	private UUID ingredientId;
 	
 	private String name;
 
 	private boolean common;
+
+	@OneToMany
+	@JoinColumn(name = "ingredient_id")
+	private List<IngredientAlternativeName> alternativeNames;
+
+	public Ingredient(String name, boolean common) {
+		this.name = name;
+		this.common = common;
+	}
+
+	public Ingredient(String name, boolean common, List<IngredientAlternativeName> alternativeNames) {
+		this.name = name;
+		this.common = common;
+		this.alternativeNames = alternativeNames;
+	}
 }

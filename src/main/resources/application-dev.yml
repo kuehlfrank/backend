@@ -7,8 +7,7 @@ spring:
         hibernate:
           dialect: org.hibernate.dialect.PostgreSQLDialect
       hibernate:
-        show-sql: true
-        dll-auto: update
+        ddl-auto: none
     datasource:
       url: jdbc:postgresql://localhost:5432/kuehlfrank
       username: kuehlfrank
@@ -30,3 +29,4 @@ logging:
       type.descriptor.sql.BasicBinder: TRACE
 name: dev-YAML
 environment: development
+webhook.secret: S0wHX2boUt8FfsF9T2lM5wb05eEsIPGfjY6j8zNXlDRVhhyM4C09hr75NzHLrttw

@@ -1,24 +1,44 @@
 package kuehlfrank.backend.dto;
 
-import java.math.BigDecimal;
+import lombok.Data;
+import lombok.NonNull;
 
+import java.math.BigDecimal;
+import java.util.UUID;
+
+@Data
 public class AddItemDto {
 
-    private Long ingredientId;
+    // Ingredient Name
+    @NonNull
+    private String name;
 
-    private BigDecimal amount;
+    private Boolean common = false;
 
-    private Long unitId;
+    private String[] alternative_names = new String[0];
 
-    public Long getIngredientId() {
-        return ingredientId;
-    }
+    private String imgSrc;
+
+    @NonNull
+    private BigDecimal quantity;
+
+    @NonNull
+    private UUID unitId;
+
 
     public BigDecimal getAmount() {
-        return amount;
+        return quantity;
     }
 
-    public Long getUnitId() {
+    public UUID getUnitId() {
         return unitId;
+    }
+
+    public String getIngredientName() {
+        return name;
+    }
+
+    public boolean isCommon() {
+        return common;
     }
 }

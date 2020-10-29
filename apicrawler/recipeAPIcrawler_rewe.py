@@ -9,7 +9,6 @@ from selenium.webdriver.common.by import By
 baseUrl = "https://www.rewe.de/restservices/recipe/search"
 external_baseUrl = "https://www.rewe.de/rezepte"
 pageQuery = "?pageNumber="
-allrecipies = []
 
 def getDriver():
     fp = webdriver.FirefoxProfile()
@@ -26,7 +25,7 @@ def getMeta(driver):
     data = getJson(driver, baseUrl)
     return data["meta"]
 
-def getRecipies(driver, pageNumber):
+def getRecipes(driver, pageNumber):
     url = baseUrl + pageQuery + str(pageNumber)
     data = getJson(driver, url)
     return data["recipeTiles"]
@@ -58,21 +57,21 @@ def addPageRecipes(driver, pageRecipes):
         time.sleep(sleep_time)
     return scrapedRecipes
 
-def saveResults(pageNumber, recipies):
-    if not os.path.exists('recipies'):
-        os.makedirs('recipies')
-    with open(f"recipies/recipies_{pageNumber}.json", "w", encoding='utf8') as f: 
-        f.write(json.dumps(recipies)) 
+def saveResults(pageNumber, recipes):
+    if not os.path.exists('recipes'):
+        os.makedirs('recipes')
+    with open(f"recipes/recipes_{pageNumber}.json", "w", encoding='utf8') as f: 
+        f.write(json.dumps(recipes)) 
 
     if not os.path.exists('ingredients'):
         os.makedirs('ingredients')
-    allingredients = list(set([ingredient for l in list(map(lambda i: i["ingredients"], recipies)) for ingredient in l]))
+    allingredients = list(set([ingredient for l in list(map(lambda i: i["ingredients"], recipes)) for ingredient in l]))
     with open(f"ingredients/ingredients_{pageNumber}.txt", "w", encoding='utf8') as f: 
         f.write("\n".join(allingredients)) 
 
     if not os.path.exists('quantities'):
         os.makedirs('quantities')
-    allquantities = list(set(map(lambda i: i["quantity"], recipies)))
+    allquantities = list(set(map(lambda i: i["quantity"], recipes)))
     with open(f"quantities/quantities_{pageNumber}.txt", "w", encoding='utf8') as f: 
         f.write("\n".join(allquantities))
 
@@ -85,7 +84,7 @@ pageNumbers = list(set(range(1, int(meta["pages"]) + 1)).difference(set([16,27,6
 random.shuffle(pageNumbers)
 for pageNumber in pageNumbers:
     print("Page", pageNumber)
-    pageRecipes = getRecipies(driver, pageNumber)
+    pageRecipes = getRecipes(driver, pageNumber)
     random.shuffle(pageRecipes)
     scrapedRecipes = addPageRecipes(driver, pageRecipes)
     saveResults(pageNumber, scrapedRecipes)
