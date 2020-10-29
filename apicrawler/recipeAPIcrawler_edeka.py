@@ -27,14 +27,29 @@ def getRecipes(pageNumber):
     return data["recipes"]
 
 def getAllIngredients(recipe):
-    ingredients = []
-    ingredientGroups = recipe["ingredientGroups"]
-    for ingredientGroup in ingredientGroups:
+    ingredients_map = {}
+    for ingredientGroup in recipe["ingredientGroups"]:
         for ingredientGroupIngredient in ingredientGroup["ingredientGroupIngredients"]:
             ingredient = ingredientGroupIngredient["ingredient"]
-            quantity = str(ingredientGroupIngredient["quantity"])
+            quantity = ingredientGroupIngredient["quantity"]
             unit = ingredientGroupIngredient["unit"]
-            ingredients.append(f"{ingredient} {quantity} {unit}")
+            if ingredient in ingredients_map and ingredients_map[ingredient]["unit"] == unit and quantity:
+                if ingredients_map[ingredient]["quantity"] is float:
+                    ingredients_map[ingredient]["quantity"] += float(quantity)
+                else:
+                    ingredients_map[ingredient]["quantity"] = float(quantity)
+            else:
+                ingredients_map[ingredient] = {
+                    "quantity": quantity,
+                    "unit": unit
+                }
+    ingredients = []
+    for k,v in ingredients_map.items():
+        ingredient = k
+        quantity = v["quantity"]
+        unit = v["unit"]
+        ingredients.append(f"{quantity} {unit} {ingredient}")
+
     return ingredients
 
 def addRecipe(recipe):
@@ -87,11 +102,9 @@ meta = getMeta()
 print("Meta: ", meta)
 
 pageNumbers = list(set(range(1, int(meta["pages"]) + 1)).difference(set([])))
-random.shuffle(pageNumbers)
 for pageNumber in pageNumbers:
     print("Page", pageNumber)
     pageRecipes = getRecipes(pageNumber)
-    random.shuffle(pageRecipes)
     scrapedRecipes = addPageRecipes(pageRecipes)
     saveResults(pageNumber, scrapedRecipes, "edeka")
 

@@ -1,612 +1,599 @@
-Schupfnudel 200.0 g
-Gemüsebrühe 0.5 Tasse
-Zwiebel 100.0 g
-Apfel 1.0 kleiner
-Salz 0.5 TL
-Weißwein, lieblich 50.0 ml
-Basilikum 0.5 Handvoll
-Pellkartoffel 600.0 g
-Thymian 2.0 Zweige
-Agavendicksaft 0.5 EL
-Marzipanrohmasse 700.0 g
-Ei 4.0 
-Kokosöl 1.0 TL
-Holunderbeeren-Balsamico 1.0 EL
-Trockenhefe 1.0 Päckchen
-Balsamico-Essig 1.0 EL
-Traubenkernöl 3.0 EL
-Schalotte, fein geschnitten 1.0 kleine
-Meersalz 0.0 
-Tomate 150.0 g
-Rucola 50.0 g
-Mangold 350.0 g
-Ei 3.0 
-Stremellachs, geräuchert 300.0 g
-Petersilie 1.0 EL
-Butter 100.0 g
-Kürbisfleisch 100.0 g
-Birne 0.5 
-Honig 1.0 Msp.
-Schalotte, fein geschnitten 1.0 
-Zimt 0.5 TL
-Weizenmehl 25.0 g
-Hefe mit Backpulver, (Fertigmischung) 10.0 g
-Rotwein, halbtrocken 40.0 ml
-Garnele 100.0 g
-Zwiebel 1.0 kleine
-Knoblauchzehe 4.0 
-Olivenöl, kalt gepresst 1.0 
-Dinkelvollkornmehl 75.0 g
-Petersilienwurzel 200.0 g
-San Daniele Schinken 140.0 g
-Rapsöl 1.0 EL
-Kürbis 350.0 g
-Kümmel, gemahlen 0.0 
-Schnittlauchröllchen 1.0 EL
-Walnusskerne 75.0 g
-Reis, bereits gegart 250.0 g
-Kräuter, frische 1.0 EL
-Thymian 0.5 TL
-Hackfleisch vom Schwein 250.0 g
-Zucker 60.0 g
-roter Pfeffer, grob gestoßen 1.0 TL
-Chilipulver 0.0 etwas
-Basilikum 1.0 EL
-Petersilie 3.0 EL
-Paprikapulver, edelsüß 0.5 TL
-Pfeffer, weiß 0.0 
-Cranberry 75.0 g
-Thymian 2.0 TL
-Schokolade, zartbitter mit Orange 1.0 Stück
-Majoran 1.0 TL
-Rotwein, trocken 400.0 ml
-Cocktailtomaten 200.0 g
-Aubergine 1.0 
-Lauchzwiebel 3.0 
-Sahne 75.0 ml
-Paprika, gelb 1.0 
-Gouda, jung 40.0 g
-Grillkäse 1.0 Scheibe
-Wasser 50.0 ml
-Cocktailtomaten 4.0 
-Rinderfond 400.0 ml
-Johannisbrotkernmehl  1.0 TL
-Dinkelgrieß 40.0 g
-Zitrone, Saft auspressen 0.5 
-Mineralwasser, classic 300.0 ml
-Paprika, gelb 120.0 g
-Kokosmilch 2.0 EL
-Weizenmehl 30.0 g
-Buttermilch 1.0 Tasse
-Ei 1.0 
-Zitronensaft 1.0 EL
-Grissini 6.0 Stangen
-Tomatenmark 2.0 EL
-Pastinake 1.0 kleine
-kräftiger trockener Rotwein 200.0 ml
-Balsamico Bianco 3.0 EL
-Aceto balsamico 2.0 EL
-Apfelring, getrocknet 4.0 
-Bourbon Vanille, gemahlen 1.0 Packung
-Petersilie, glatt 1.0 Bund
-Minze 4.0 Zweige
-Entenbrust 225.0 g
-Sauerkirsche, tiefgefroren 150.0 g
-Brokkoli 500.0 g
-Banane 1.0 große
-Weinsteinbackpulver 1.0 Packung
-Hähnchenbrustfilet 2.0 
-Walnussöl, kaltgepresst 6.0 EL
-Frühlingszwiebel 50.0 g
-Magerquark 125.0 g
-Olivenöl, mit Chili 1.0 EL
-Pinienkern 10.0 g
-Lammlachs 2.0 
-Schalotte 6.0 
-Senfkorn 0.5 EL
-Rotwein, halbtrocken 2.0 EL
-Blattsalatmischung 200.0 g
-Butterschmalz 75.0 g
-Rosmarin 0.0 
-Walnussbaguette 1.0 
-Honig 5.0 EL
-Lorbeerblatt 1.0 
-Naturjoghurt 200.0 g
-Butter 0.5 EL
-Wasser, lauwarm 300.0 ml
-Geflügelfond 400.0 ml
-Rotweinessig 1.0 EL
-Kichererbsenmehl 150.0 g
-Maronen, küchenfertig (z.B. im Vakuumpack) 100.0 g
-Zwiebel, rot 1.0 kleine
-Speisestärke 0.5 TL
-Speisestärke 1.0 TL
-Zitronengras 1.0 Stängel
-Paprika, gelb 150.0 g
-Parmesan 30.0 g
-Paprikaschote, gelb 0.5 
-Zitronenpfeffer 0.0 
-Parmesan, frisch gehobelt 15.0 g
-Gemüsezwiebel 0.5 
-Krokette 320.0 g
-Milch 1.5 Liter
-Sellerie 1.0 Staude
-Limette 2.0 
-Cocktailtomate 65.0 g
-Wasser, lauwarm 90.0 ml
-Pfefferkorn, weiß 0.5 TL
-Entenfond 200.0 ml
-Kartoffel 800.0 g
-Reis mit Wildreis 0.75 Tasse
-Tomatenessig (alternativ Obstessig) 2.0 EL
-Zwiebel 200.0 g
-Maracuja-Nektar 250.0 ml
-Joghurt 75.0 g
-Salatgurke 0.5 
-ACE-Getränk mit Kohlensäure 250.0 ml
-Fleur de Sel 0.0 
-Milch 500.0 ml
-Senf, mittelscharf 0.5 EL
-Gemüsefond 1.0 Liter
-Pimentkorn 0.5 TL
-Mango, getrocknet 100.0 g
-Zitronenthymian 2.0 Zweige
-Salz 1.0 Prise
-Rosmarinzweig 0.5 
-Schalotte 400.0 g
-Endiviensalat 200.0 g
-Saure Sahne 1.0 EL
-Pfeffer, grob, bunt 0.0 
-Traubenkernöl 2.0 TL
-Gelierzucker 1:1 250.0 g
-Thymianblatt 1.0 EL
-Petersilie, glatt 1.0 TL
-Paprikaschote, rot 0.5 
-Tomate 1.0 kg
-Lachsfilet 100.0 g
-Fleischkäsebrät, roh 350.0 g
-Zitronenthymian 3.0 Stiele
-Olive, schwarz, entsteint 10.0 
-Spitzpaprika, rot 1.0 große
-Aprikose, getrocknet 40.0 g
-Zucchini 0.5 
-Rapsöl, kalt gepresst 0.5 EL
-Fischsauce, asiatisch (Fertigprodukt) 90.0 ml
-Weizenmehl 1.0 gestr. TL
-Fett für die Form 0.0 
-Haselnuss, gemahlen 150.0 g
-Muskat 1.0 Prise
-Schweineschnitzel vom Rücken 4.0 
-Hokkaido Kürbis, gewürfelt 100.0 g
-Mini-Mozzarella-Kugel 4.0 
-Schinken, gekocht 75.0 g
-Olivenöl, kalt gepresst 1.0 TL
-Gemüsebrühe 800.0 ml
-glatte Petersilie 1.0 Bund
-Öl 1.0 TL
-Suppengrün 1.0 Bund
-Weißwein 100.0 ml
-Petersilie None None
-Olivenöl 3.0 EL
-Kabanos 50.0 g
-Feldsalat 250.0 g
-Basilikumblättchen, fein gehackt 10.0 g
-Kräuterseitling 400.0 g
-Schalotte 30.0 g
-Paprika, edelsüß 1.0 TL
-Muskatnuss 1.0 Prise
-Salz 0.0 
-Erdbeeren 250.0 g
-Erdnussöl 3.0 EL
-Butter 0.5 TL
-Salz 1.0 TL
-Aubergine 150.0 g
-Kakaopulver 1.0 Prise
-Weißwein, trocken 100.0 ml
-Chinakohl 1.0 
-Butter 3.5 EL
-Apfelessig 1.0 EL
-Orangensaft, frisch, gepresst 6.0 EL
-Rosmarin 1.0 EL
-Zucker 300.0 g
-Crushed Ice 2.0 Tassen
-Puderzucker 100.0 g
-Pilzfond 200.0 ml
-Senf, mittelscharf 0.5 TL
-Walnusskern, geröstet und grob gehackt 50.0 g
-Rosenkohl 300.0 g
-glatte Petersilie 0.5 Bund
-Petersilie, fein geschnitten 1.0 TL
-Tomate, getrocknet 25.0 g
-Pecannuss 30.0 g
-Rosmarin 2.0 Zweige
-Essig 0.5 EL
-Feta 60.0 g
-Staudensellerie 2.0 Stängel
-Schalotte 60.0 g
-Vanillezucker 1.0 Päckchen
-Holunderbeerengetränk 2.0 EL
-Butter zum Braten 1.0 EL
-Lauch 250.0 g
-Knoblauchzehe 1.0 kleiner
-Gemüsebrühe, kräftig 0.75 Tasse
-Hähnchenbrustfilet 400.0 g
-Weizenmehl 300.0 g
-Lorbeerblatt 1.0 kleines
-Rucola 25.0 g
-Zucker 1.0 Prise
-Portwein 40.0 ml
-Paprika, gelb 1.0 kleine
-Puderzucker 60.0 g
-Milch, 1,5 % Fett 2.0 EL
-Orangenschale 1.0 EL
-Petersilie, fein geschnitten 1.0 EL
-Rapsöl 3.0 EL
-Zwiebel, rot 2.0 
-Kartoffel 200.0 g
-Kalamata-Olive, schwarz 4.0 
-Spargel, grün 300.0 g
-Tomate 1.0 
-Paprika, grün 120.0 g
-Bier, dunkel 300.0 ml
-Olive, schwarz 10.0 
-Oreganoblättchen, frisch 1.0 EL
-Zwiebel, weiß 1.0 
-Tomate 400.0 g
-Olivenöl, kalt gepresst 2.0 EL
-mildes Currypulver 2.5 TL
-Rindersteak 2.0 
-Aprikose 1.0 
-Zuckerschote 400.0 g
-Olivenöl, kalt gepresst 1.0 EL
-Walnuss, gehackt 1.0 EL
-Staudensellerie 1.0 Stängel
-Pastinake 200.0 g
-Radieschen 2.0 Bund
-Frühlingszwiebel 2.0 
-Lauchzwiebel 4.0 kleine
-Vollkorn-Früchte-Müsli 100.0 g
-Limette, Saft auspressen 1.0 
-Milch 50.0 ml
-Olivenöl 0.0 
-Erdbeeren 100.0 g
-Zwiebel 160.0 g
-Mandarine 1.0 
-Orientalischer Gewürztee 3.0 Beutel
-Petersilie 3.0 Zweige
-Sauerrahmbutter 250.0 g
-Fassbrause, mit Holunder 2.0 Flaschen
-Traube, rot 200.0 g
-Weizenmehl 1.0 TL
-Majoran 3.0 Msp.
-Rucola 75.0 g
-Zitronensaft 4.0 EL
-Walnussöl, kaltgepresst 1.0 TL
-Zucchini 150.0 g
-Tagliatelle 600.0 g
-Pflanzenöl 3.0 EL
-Zitronenmelisseblättchen 0.0 einige
-Kartoffel 0.5 
-Honig 2.0 TL
-Risotto-Reis, mit Steinpilzen 350.0 g
-Salz, Pfeffer 0.0 
-Olive, schwarz 30.0 g
-Rosé-Wein 400.0 ml
-Rinderfond 200.0 ml
-Olivenöl, kalt gepresst 1.5 TL
-Schnittlauch 0.25 Bund
-Tomate, in Stücken 400.0 g
-Karotte 200.0 g
-Zucker 0.5 TL
-Olivenöl 1.0 EL
-Fruchtsaft 50.0 ml
-Zucker 1.0 TL
-Oregano 1.0 Zweig
-Sahne 100.0 ml
-Schalotte 1.0 
-Ei 12.0 
-Lauch 80.0 g
-Thymian 3.0 Zweige
-Geflügelfond 150.0 ml
-Aprikose, getrocknet 100.0 g
-Chilischote, rot 0.5 
-Tomatenmark 1.0 EL
-Wasser 3.0 EL
-Lebkuchengewürz 1.0 Prise
-Zwiebel, rot 1.0 
-Zucchini 2.0 
-Curry 0.0 
-Tomate, getrocknet 2.0 
-Austernpilz 1.0 kg
-Zimtstange 0.5 
-Kaninchenrollbraten 1.4 kg
-Rohrohrzucker 1.0 EL
-Tomatenmark 50.0 g
-Frühlingszwiebel 60.0 g
-Kartoffel, festkochend  100.0 g
-Pfeffer aus der Mühle 0.0 
-Haferflocken, extrazart 4.0 EL
-Buttermilch 100.0 ml
-Kerbel 0.5 Bund
-Zucker, braun 1.0 EL
-Staudensellerie 60.0 g
-Wassermelone 400.0 g
-Oregano 0.5 EL
-Apfel 1.0 
-Dattel, ohne Stein 40.0 g
-Vollkorntoast 160.0 g
-Traube blau 50.0 g
-Zwiebel 60.0 g
-Fleischbrühe 450.0 ml
-Vollkornreis 1.0 Tasse
-Holunder-Balsamessig 0.5 EL
-Butter 40.0 g
-Kräuterseitling 250.0 g
-Muskatnuss 0.0 
-Zucker 120.0 g
-Lebkuchen (angetrocknet) 40.0 g
-Hähnchenbrustfilet 500.0 g
-Feta 75.0 g
-Parmesan, gerieben 75.0 g
-Minipaprika 3.0 
-Walnussessig 3.0 TL
-Weißkohlblatt 150.0 g
-Kresse 10.0 g
-Butter 150.0 g
-Zitrone, unbehandelt 1.0 kleine
-Mandel, geschält 50.0 g
-Rosmarinnadel 1.0 geh. TL
-Rinderhack 200.0 g
-Olivenöl 2.0 EL
-Öl, zum Bestreichen 0.5 EL
-Rotkraut 400.0 g
-Maisgrieß (Polenta) 3.0 EL
-Knoblauchzehe 2.0 
-Butter 20.0 g
-Frühlingszwiebel 1.5 
-Lorbeerblatt 2.0 
-Walnusskern 2.0 EL
-Walnussöl, kaltgepresst 2.0 EL
-Ei 2.0 
-Zimt 1.0 TL
-Gemüsebrühe 200.0 ml
-Parmesan 80.0 g
-Kartoffel 500.0 g
-Polentagrieß 200.0 g
-Walnussöl, kaltgepresst 3.0 EL
-Puddingpulver Vanille 110.0 g
-Speck, durchwachsen, geräuchert 80.0 g
-Butter zum Einfetten 0.0 
-Portwein 125.0 ml
-Gartenkresse 1.0 Kästchen
-Majoranblättchen, frisch 2.0 TL
-Senfkörner, gemahlen 25.0 g
-Buttermilch 375.0 ml
-Paprika, rot 200.0 g
-Schwarzkirsch-Konfitüre 0.5 EL
-Weizenmehl 0.0 
-Kräuter, frische 0.0 
-Rapsöl, kalt gepresst 1.0 EL
-Kohlrabi 300.0 g
-Dill 0.5 Bund
-Möhre 300.0 g
-Linguine 250.0 g
-Schweineschnitzel 250.0 g
-Rotwein 150.0 ml
-Zwiebel 150.0 g
-Vollkornmüsli 100.0 g
-Sahne 1.0 EL
-Galiamelone 225.0 g
-Tomate, getrocknet 20.0 g
-Zitronengras 4.0 Stängel
-Bourbon Vanille, gemahlen 1.0 TL
-Rotwein, trocken 250.0 ml
-Paprika, grün 150.0 g
-Kalbskotelette 2.0 
-Lorbeerblatt 4.0 
-Jakobsmuschel 200.0 g
-grober schwarzer Pfeffer 0.0 
-Linse, braun, klein (Berglinse) 150.0 g
-Rapsöl 0.5 EL
-Knollensellerie 100.0 g
-Rinderfilet 600.0 g
-Paprika, rot 1.0 
-Aceto balsamico 6.0 EL
-Kartoffel, mehlig kochend 400.0 g
-Mascarpone 0.5 EL
-Petersilie 2.0 EL
-Weizenmehl 150.0 g
-Hühnerbrühe 200.0 ml
-Schalotte 2.0 
-Petersilie 0.25 Bund
-Spinat 100.0 g
-Wasser 250.0 ml
-Pfeffer, schwarz 0.0 
-Eigelb 1.0 
-Abrieb einer unbehandelten Orange 0.0 
-Backpulver 3.0 TL
-Haferflocken, extrazart 2.0 EL
-Minipaprika 300.0 g
-Zucker 0.5 EL
-scharfer Senf 25.0 g
-Wasser, heiß 2.0 EL
-Schinkenspeck, gewürfelt 1.0 EL
-Hartkäse 50.0 g
-Zitronensaft 1.0 Spritzer
-Rosmarin 1.0 Stiel
-Limettensaft 40.0 ml
-Butter 2.0 EL
-Rinderfilet 800.0 g
-Kräuter, frische 0.5 Handvoll
-Cashewkern 100.0 g
-Zwiebel 1.0 
-Sprossen 2.0 EL
-Speck, durchwachsen, geräuchert 75.0 g
-Orange, abgeriebene Schale 1.0 TL
-Thymian 1.0 Zweig
-Austernpilz 250.0 g
-Zimt 1.0 Prise
-Zitronenmelisse 6.0 Blätter
-Frischkäse mit Meerrettich 50.0 g
-Spargel, grün 375.0 g
-Joghurt 150.0 g
-Rapsöl, zum Anbraten 0.5 EL
-Geflügelfond 300.0 ml
-Tomatenmark, scharf 0.5 EL
-Pflanzenöl 2.0 EL
-Sesam 1.0 TL
-Pfeffer, grob 0.25 TL
-Weizenmehl (Type 550) 600.0 g
-Himbeeren 150.0 g
-Birne 350.0 g
-Rucola 120.0 g
-Sojasoße 2.0 EL
-Nektarine 1.0 
-Grissini 400.0 g
-Vollkorntoastie 2.0 
-Serrano-Schinken 60.0 g
-Kaninchenkeule 2.0 
-Gurke 150.0 g
-Pfeffer 0.0 
-Schafsmilchjoghurt 50.0 g
-Blattsalatmischung 100.0 g
-Fruchtsaft 1.0 EL
-Harissa (Würzpaste) 1.0 TL
-Agavendicksaft 1.0 TL
-Sellerie 200.0 g
-Zimt 1.0 Msp.
-Anisstern 1.0 kleiner
-Kartoffel, festkochend  500.0 g
-Roquefort (Blauschimmelkäse) 50.0 g
-Kokosraspeln None None
-Pflanzenöl 1.0 EL
-Thymian 1.0 TL
-Ingwer, walnussgroß, in dünne Scheiben geschnitten 1.0 Stück
-Ribeye Bratenstück 1000.0 g
-Vanilleschote aus der Mühle 0.0 
-Vanillezucker 1.0 TL
-Paprika, rot 150.0 g
-Thymianblatt 1.0 TL
-Olive, schwarz, entsteint 25.0 g
-Chilischote 1.0 
-Vollkornnudel 120.0 g
-Zucker 0.0 
-Paprika, rot 180.0 g
-Garnelen 200.0 g
-Zwetschge 300.0 g
-Dill 1.0 Stängel
-Rosmarin 1.0 Prise
-Feta 25.0 g
-Sauerkraut 500.0 g
-Gemüse nach Wahl 360.0 g
-Tomate, getrocknet 40.0 g
-Dinkelvollkornmehl 185.0 g
-Zwiebel 80.0 g
-Weißwein 3.0 EL
-Chiasamen 1.0 EL
-Rosmarin 1.0 Zweig
-Gemüsefond 250.0 ml
-Birnenschnaps 1.0 TL
-Salbei 2.0 Stiele
-Schinkenwürfel 40.0 g
-Paniermehl 150.0 g
-Gemüsebrühe 3.0 TL
-Bindemittel 0.5 TL
-Vollkorntoast 3.0 Scheiben
-Oregano 2.0 Stiele
-Blutorangensaft 0.5 Tasse
-Lammkrone 500.0 g
-Rinderfond 250.0 ml
-Zucker, braun 0.0 gestr. EL
-Paprikamark 2.0 EL
-Olivenöl, kalt gepresst 3.0 EL
-Weizenmehl (Type 550) 1.0 geh. EL
-Maiskolben, frisch 1.0 
-Feta 200.0 g
-Tomate, in Stücken mit Basilikum 200.0 g
-Dinkelvollkornmehl 500.0 g
-Olive, schwarz 50.0 g
-Paprikapulver 0.0 
-Paprikapulver, edelsüß 3.0 EL
-Lammsteak 400.0 g
-Butter 25.0 g
-Milch 75.0 ml
-Fleischkäsebrät, roh 500.0 g
-Trüffel-Öl 0.0 einige Tropfen
-Weinsteinbackpulver 0.5 TL
-Karotte 100.0 g
-würziger Honig 1.0 EL
-Banane 1.0 
-Gemüsefond 80.0 ml
-Ingwer 0.5 Stück
-Paprika, orange 1.0 
-Grano Padano (ital. Extrahartkäse) 25.0 g
-Weinessig 2.5 EL
-Senf, mild 1.0 TL
-Knoblauchzehe 1.0 
-Birne 2.0 kleine
-Mascarpone 60.0 g
-Balsamico Bianco 1.0 EL
-Tomate 600.0 g
-Seeteufel 300.0 g
-Paprika, rot 1.0 kleine
-Schupfnudel 400.0 g
-Milch 200.0 ml
-Kartoffel, mehlig kochend 300.0 g
-Vollmilchschokolade, mit ganzen Nüssen 100.0 g
-Dinkelvollkornmehl 5.0 EL
-Mandel, gemahlen 60.0 g
-Pesto mediterrano 0.5 TL
-Minzblatt 1.0 EL
-Vanillezucker 1.0 Packung
-Schalotte 1.0 kleine
-Speisestärke 90.0 g
-Champignon 450.0 g
-Kokosmilch 0.5 Tasse
-Schalotte 50.0 g
-Zitronenschale 0.5 EL
-Nelken 1.0 
-Champignon, braun 300.0 g
-Ingwerpulver 0.25 TL
-Mehl für die Arbeitsfläche 0.0 
-Butter 250.0 g
-Schmand 200.0 g
-Weinessig 100.0 ml
-Rindergulasch 1.0 kg
-rosa Pfefferbeere 0.5 EL
-Petersilie 2.0 Stängel
-Joghurt 2.0 EL
-Butter 30.0 g
-Pistazie, gehackt None None
-Paprika, rot 120.0 g
-Chia-Öl 1.0 TL
-Ei 5.0 
-Butter, weich 40.0 g
-Koriandergrün 1.0 Bund
-Petersilie, fein geschnitten 3.0 EL
-Butter 1.0 TL
-Knoblauchzehe 0.5 
-Olivenöl, kalt gepresst 50.0 ml
-Honig 1.0 EL
-Backpulver 0.5 TL
-Pollo fino (Hähnchenkeule ohne Knochen) 4.0 
-Aceto balsamico 3.0 TL
-Knoblauchzehe 1.0 kleine
-Tomate, getrocknet, eingelegt 40.0 g
-Naturjoghurt 1.0 Becher
-Tomate, getrocknet 6.0 
-Kiwi 1.0 
-Nelke 1.0 Msp.
-Erdbeerkonfitüre 50.0 g
-Direktsaft aus Apfel, Johannisbeeren und Kirschen 100.0 ml
-Joghurt, griechisch (10% Fett) 100.0 g
-Cranberry, getrocknet 30.0 g
-Gemüsebrühe 1.0 Tasse
-Zucchini 1.0 
-Pflaumensaft 70.0 ml
-Kardamom 1.0 Msp.
-Spitzpaprika, rot 2.0 
-Fenchelknolle 1.0 große
-Olivenöl, kalt gepresst 0.5 EL
-Koriander, gemahlen 1.0 gestr. TL
-Chai-Tee 1.0 Beutel
+1.0  Nektarine
+1.0 EL Rapsöl
+80.0 ml Gemüsefond
+0.75 Tasse Gemüsebrühe, kräftig
+1.0 Stiel Rosmarin
+50.0 g Traube blau
+2.0  Vollkorntoastie
+40.0 g Aprikose, getrocknet
+40.0 g Tomate, getrocknet
+300.0 g Spargel, grün
+2.0 Flaschen Fassbrause, mit Holunder
+150.0 g Tomate
+1.0 Packung Vanillezucker
+40.0 ml Rotwein, halbtrocken
+1.0 kg Austernpilz
+50.0 g Schalotte
+0.5 Tasse Kokosmilch
+0.0  Butter zum Einfetten
+0.0  Pfeffer aus der Mühle
+2.0 EL Olivenöl
+1.0 EL Schinkenspeck, gewürfelt
+1.0  Eigelb
+200.0 g Jakobsmuschel
+2.0 EL Sojasoße
+3.0 EL Balsamico Bianco
+100.0 g Aprikose, getrocknet
+1.0 TL Majoran
+200.0 ml Pilzfond
+400.0 ml Rosé-Wein
+225.0 g Galiamelone
+1.0 Prise Muskatnuss
+60.0 g Puderzucker
+400.0 g Rotkraut
+0.5 TL Butter
+150.0 g Gurke
+4.0 EL Zitronensaft
+0.5 EL Öl, zum Bestreichen
+12.0  Ei
+0.0  Fleur de Sel
+1.0 Prise Lebkuchengewürz
+0.0 einige Tropfen Trüffel-Öl
+1.0  Lorbeerblatt
+250.0 ml Wasser
+1.0 EL Fruchtsaft
+1.0 EL Sahne
+2.0 EL Walnusskern
+3.0 TL Backpulver
+0.0  Pfeffer, schwarz
+1.0 TL Thymianblatt
+2.0  Schalotte
+200.0 g Paprika, rot
+0.0  Muskatnuss
+0.25 Bund Schnittlauch
+1.0 Stück Ingwer, walnussgroß, in dünne Scheiben geschnitten
+50.0 g Roquefort (Blauschimmelkäse)
+250.0 g Linguine
+4.0 EL Haferflocken, extrazart
+1.0  Apfel
+1.0 TL Zucker
+150.0 g Paprika, rot
+10.0 g Kresse
+120.0 g Rucola
+1.0 Stängel Zitronengras
+0.0  Salz, Pfeffer
+100.0 g Kürbisfleisch
+150.0 g Kichererbsenmehl
+300.0 ml Mineralwasser, classic
+50.0 g Kabanos
+2.0  Knoblauchzehe
+2.0 Zweige Zitronenthymian
+0.5 TL Pesto mediterrano
+4.0  Cocktailtomaten
+500.0 g Kartoffel
+2.0 EL Tomatenmark
+1.0 Packung Bourbon Vanille, gemahlen
+10.0  Olive, schwarz, entsteint
+2.0  Limette
+1.0 TL Butter
+150.0 g Aubergine
+1.0 Becher Naturjoghurt
+0.25 TL Pfeffer, grob
+30.0 g Weizenmehl
+1.0 EL Zitronensaft
+1.0  Zwiebel
+0.0  Curry
+1.0 Liter Gemüsefond
+0.5  Chilischote, rot
+1.0 Bund glatte Petersilie
+50.0 g Tomatenmark
+6.0  Schalotte
+1.0 gestr. TL Koriander, gemahlen
+2.0  Tomate, getrocknet
+0.5 EL Schwarzkirsch-Konfitüre
+50.0 g Frischkäse mit Meerrettich
+600.0 g Pellkartoffel
+60.0 g Zucker
+0.0  grober schwarzer Pfeffer
+125.0 g Magerquark
+1.0  Kiwi
+1.0 EL Honig
+1.0  Schalotte
+50.0 ml Milch
+2.0  Ei
+160.0 g Vollkorntoast
+250.0 g Austernpilz
+0.5 TL Backpulver
+25.0 g Butter
+1.0  Knoblauchzehe
+0.5  Paprikaschote, rot
+500.0 g Sauerkraut
+30.0 g Cranberry, getrocknet
+1.0  Zucchini
+0.5 TL Paprikapulver, edelsüß
+75.0 ml Milch
+100.0 ml Weinessig
+1.0  Maiskolben, frisch
+0.5 EL Mascarpone
+0.0 gestr. EL Zucker, braun
+0.0  Kräuter, frische
+1.0 TL Speisestärke
+4.0  Lorbeerblatt
+375.0 g Spargel, grün
+3.0 EL Rapsöl
+0.5 TL Salz
+150.0 g Joghurt
+1.0  Chilischote
+300.0 g Kartoffel, mehlig kochend
+200.0 g Karotte
+2.0 TL Thymian
+4.0  Schweineschnitzel vom Rücken
+225.0 g Entenbrust
+75.0 g Dinkelvollkornmehl
+2.0 EL Paprikamark
+3.0  Ei
+2.0  Kalbskotelette
+450.0 ml Fleischbrühe
+400.0 g Schupfnudel
+100.0 g Knollensellerie
+0.5 EL rosa Pfefferbeere
+400.0 g Lammsteak
+0.5  Paprikaschote, gelb
+3.5 EL Butter
+3.0 EL Walnussöl, kaltgepresst
+0.0  Abrieb einer unbehandelten Orange
+25.0 g Feta
+0.5  Kartoffel
+1.0 kleine Knoblauchzehe
+50.0 ml Fruchtsaft
+3.0 EL Olivenöl, kalt gepresst
+4.0  Apfelring, getrocknet
+4.0  Pollo fino (Hähnchenkeule ohne Knochen)
+0.0  Salz
+0.5 TL Pfefferkorn, weiß
+1.0 EL Olivenöl, mit Chili
+185.0 g Dinkelvollkornmehl
+1.0 EL Walnuss, gehackt
+4.0  Kalamata-Olive, schwarz
+1.0  Paprika, gelb
+3.0 Beutel Orientalischer Gewürztee
+300.0 ml Geflügelfond
+1.0 TL Petersilie, fein geschnitten
+1.0 TL Vanillezucker
+0.5 TL Bindemittel
+6.0 Blätter Zitronenmelisse
+3.0 EL Pflanzenöl
+300.0 g Minipaprika
+1.0 Msp. Honig
+40.0 g Dattel, ohne Stein
+50.0 g Mandel, geschält
+1.0 EL Schnittlauchröllchen
+100.0 g Kartoffel, festkochend 
+1.0 Stängel Staudensellerie
+250.0 ml Maracuja-Nektar
+250.0 g Butter
+50.0 g Schafsmilchjoghurt
+300.0 g Seeteufel
+None None Petersilie
+30.0 g Olive, schwarz
+1.0 EL Oreganoblättchen, frisch
+400.0 ml Rotwein, trocken
+1.0 kleiner Apfel
+0.5 TL Zucker
+0.5  Salatgurke
+600.0 g Weizenmehl (Type 550)
+80.0 g Zwiebel
+1.0 EL Kräuter, frische
+500.0 g Hähnchenbrustfilet
+1.0 TL Weizenmehl
+1.0  Zwiebel, weiß
+0.5 EL Tomatenmark, scharf
+4.0 kleine Lauchzwiebel
+1.0 EL Minzblatt
+1.0 EL Basilikum
+2.0 EL Joghurt
+250.0 g Hackfleisch vom Schwein
+0.5  Zitrone, Saft auspressen
+0.5 EL Zucker
+250.0 ml Gemüsefond
+1.0 kleiner Knoblauchzehe
+1.0 geh. TL Rosmarinnadel
+0.5 TL Thymian
+60.0 g Mascarpone
+150.0 ml Geflügelfond
+40.0 g Tomate, getrocknet, eingelegt
+300.0 g Kohlrabi
+60.0 g Mandel, gemahlen
+450.0 g Champignon
+1.0 Bund Petersilie, glatt
+0.25 Bund Petersilie
+150.0 g Paprika, grün
+3.0 EL Traubenkernöl
+75.0 ml Sahne
+250.0 g Erdbeeren
+10.0 g Basilikumblättchen, fein gehackt
+1.0 EL Rosmarin
+3.0 Zweige Petersilie
+3.0 TL Gemüsebrühe
+250.0 g Feldsalat
+0.5 Bund glatte Petersilie
+65.0 g Cocktailtomate
+1.0 Spritzer Zitronensaft
+150.0 g Weißkohlblatt
+2.0  Zucchini
+100.0 g Cashewkern
+1.0 TL Kokosöl
+100.0 ml Sahne
+2.0 EL Kokosmilch
+0.5 EL Oregano
+800.0 ml Gemüsebrühe
+0.5 TL Pimentkorn
+2.0  Spitzpaprika, rot
+3.0 Stiele Zitronenthymian
+150.0 g Linse, braun, klein (Berglinse)
+100.0 ml Direktsaft aus Apfel, Johannisbeeren und Kirschen
+1.0 TL Salz
+0.0  Vanilleschote aus der Mühle
+75.0 g Butterschmalz
+2.0  Frühlingszwiebel
+100.0 g Vollmilchschokolade, mit ganzen Nüssen
+0.0  Fett für die Form
+0.0  Pfeffer
+0.0 etwas Chilipulver
+100.0 g Butter
+1.0 EL Balsamico-Essig
+6.0 EL Aceto balsamico
+100.0 ml Buttermilch
+0.5 Stück Ingwer
+1.0  Schalotte, fein geschnitten
+100.0 ml Weißwein
+300.0 ml Wasser, lauwarm
+1.0  Limette, Saft auspressen
+350.0 g Mangold
+2.0 EL Pflanzenöl
+1.5 Liter Milch
+1.0 EL Petersilie, fein geschnitten
+1.0 Msp. Zimt
+40.0 g Schinkenwürfel
+160.0 g Zwiebel
+0.5 TL Senf, mittelscharf
+30.0 g Butter
+1.0 Msp. Kardamom
+75.0 g Speck, durchwachsen, geräuchert
+0.5 EL Olivenöl, kalt gepresst
+2.0 TL Majoranblättchen, frisch
+1.0 Zweig Oregano
+50.0 g Frühlingszwiebel
+1.0 TL roter Pfeffer, grob gestoßen
+1.0 TL Zimt
+400.0 ml Rinderfond
+1.0 kleine Paprika, rot
+150.0 g Sauerkirsche, tiefgefroren
+300.0 ml Bier, dunkel
+600.0 g Tomate
+75.0 g Feta
+120.0 g Paprika, grün
+250.0 g Kräuterseitling
+200.0 g Kartoffel
+400.0 g Hähnchenbrustfilet
+1.0 Staude Sellerie
+1.0 kg Rindergulasch
+200.0 g Petersilienwurzel
+50.0 g Erdbeerkonfitüre
+0.0  Zitronenpfeffer
+1.5  Frühlingszwiebel
+1.0  Banane
+1.0 EL Orangenschale
+4.0 Zweige Minze
+1.0 kleiner Anisstern
+100.0 g Blattsalatmischung
+3.0 EL Weißwein
+0.0  Kümmel, gemahlen
+40.0 g Butter, weich
+None None Pistazie, gehackt
+1.0 TL Öl
+150.0 g Paniermehl
+75.0 g Cranberry
+75.0 g Rucola
+0.5 EL Agavendicksaft
+200.0 g Schupfnudel
+100.0 g Garnele
+3.0 EL Wasser
+2.0 EL Walnussöl, kaltgepresst
+6.0 Stangen Grissini
+1.0 Kästchen Gartenkresse
+90.0 g Speisestärke
+100.0 g Maronen, küchenfertig (z.B. im Vakuumpack)
+40.0 g Lebkuchen (angetrocknet)
+2.5 TL mildes Currypulver
+0.5  Gemüsezwiebel
+10.0 g Pinienkern
+0.0  Weizenmehl
+0.0 einige Zitronenmelisseblättchen
+400.0 g Zuckerschote
+100.0 g Erdbeeren
+300.0 g Rosenkohl
+120.0 g Paprika, gelb
+80.0 g Speck, durchwachsen, geräuchert
+200.0 ml Hühnerbrühe
+30.0 g Pecannuss
+20.0 g Tomate, getrocknet
+25.0 g Olive, schwarz, entsteint
+1.0 große Fenchelknolle
+1.0 Päckchen Vanillezucker
+2.0 EL Wasser, heiß
+1.0 Tasse Buttermilch
+120.0 g Vollkornnudel
+15.0 g Parmesan, frisch gehobelt
+200.0 g Schmand
+90.0 ml Fischsauce, asiatisch (Fertigprodukt)
+1.0 EL Butter zum Braten
+1.0 Tasse Vollkornreis
+80.0 g Parmesan
+25.0 g Tomate, getrocknet
+25.0 g Senfkörner, gemahlen
+1.0 TL Paprika, edelsüß
+1.0 TL Orange, abgeriebene Schale
+200.0 ml Milch
+1.0 TL Harissa (Würzpaste)
+2.0 EL Tomatenessig (alternativ Obstessig)
+1.0 kg Tomate
+200.0 ml Rinderfond
+3.0  Minipaprika
+300.0 g Champignon, braun
+1.0 TL Birnenschnaps
+1.0 kleines Lorbeerblatt
+1.0 TL Olivenöl, kalt gepresst
+3.0  Lauchzwiebel
+150.0 g Paprika, gelb
+3.0 Scheiben Vollkorntoast
+1.0 EL Balsamico Bianco
+0.5 Bund Dill
+5.0 EL Dinkelvollkornmehl
+800.0 g Rinderfilet
+100.0 g Joghurt, griechisch (10% Fett)
+1.0 TL Chia-Öl
+2.0 EL Milch, 1,5 % Fett
+0.5 EL Rapsöl
+1.0 EL Tomatenmark
+2.0 kleine Birne
+320.0 g Krokette
+25.0 g Grano Padano (ital. Extrahartkäse)
+60.0 g Frühlingszwiebel
+3.0 EL Petersilie
+4.0 Stängel Zitronengras
+1.0 EL Pflanzenöl
+60.0 g Schalotte
+1.0 TL Petersilie, glatt
+5.0 EL Honig
+0.5 EL Zitronenschale
+3.0 EL Erdnussöl
+400.0 ml Geflügelfond
+0.0  Olivenöl
+100.0 g Vollkorn-Früchte-Müsli
+1.0 Scheibe Grillkäse
+150.0 ml Rotwein
+1.0 EL Holunderbeeren-Balsamico
+200.0 g Garnelen
+1.0 Prise Rosmarin
+1.0 TL Johannisbrotkernmehl 
+4.0  Knoblauchzehe
+0.5  Knoblauchzehe
+75.0 g Joghurt
+60.0 g Zwiebel
+0.5 TL Speisestärke
+1.0  Mandarine
+2.0 EL Holunderbeerengetränk
+1.0 EL Zucker, braun
+6.0 EL Orangensaft, frisch, gepresst
+150.0 g Haselnuss, gemahlen
+100.0 g Mango, getrocknet
+1.0 kleine Paprika, gelb
+100.0 g Spinat
+1.0 Prise Kakaopulver
+30.0 g Schalotte
+50.0 ml Weißwein, lieblich
+1.0 EL Chiasamen
+0.5 Handvoll Basilikum
+1.0 EL Rapsöl, kalt gepresst
+400.0 g Schalotte
+200.0 g Feta
+180.0 g Paprika, rot
+3.0 EL Olivenöl
+200.0 ml Entenfond
+400.0 g Wassermelone
+150.0 g Zwiebel
+250.0 ml ACE-Getränk mit Kohlensäure
+200.0 g Sellerie
+360.0 g Gemüse nach Wahl
+100.0 g Lachsfilet
+0.5 EL Butter
+1.0 TL Bourbon Vanille, gemahlen
+300.0 g Weizenmehl
+1.0  Paprika, orange
+3.0 Msp. Majoran
+2.0  Hähnchenbrustfilet
+200.0 g Polentagrieß
+100.0 g Hokkaido Kürbis, gewürfelt
+90.0 ml Wasser, lauwarm
+1.0  Tomate
+150.0 g Himbeeren
+100.0 g Vollkornmüsli
+1.0 EL Thymianblatt
+40.0 g Dinkelgrieß
+2.0  Rindersteak
+250.0 g Schweineschnitzel
+400.0 g Tomate
+300.0 g Möhre
+0.0  Pfeffer, weiß
+1.0 Prise Muskat
+25.0 g scharfer Senf
+100.0 g Karotte
+3.0 EL Petersilie, fein geschnitten
+1000.0 g Ribeye Bratenstück
+1.0 TL Thymian
+250.0 ml Rinderfond
+300.0 g Zwetschge
+1.0 kleine Zitrone, unbehandelt
+0.5  Birne
+600.0 g Rinderfilet
+0.5 EL Rapsöl, zum Anbraten
+100.0 g Zwiebel
+6.0  Tomate, getrocknet
+350.0 g Birne
+1.0 Beutel Chai-Tee
+1.0 EL würziger Honig
+150.0 g Zucchini
+2.0 TL Traubenkernöl
+0.5 Bund Kerbel
+50.0 g Hartkäse
+140.0 g San Daniele Schinken
+75.0 g Schinken, gekocht
+1.0 TL Senf, mild
+1.0 EL Petersilie
+30.0 g Parmesan
+2.0  Zwiebel, rot
+0.25 TL Ingwerpulver
+2.0 EL Olivenöl, kalt gepresst
+0.5 EL Senf, mittelscharf
+20.0 g Butter
+150.0 g Weizenmehl
+2.0 Tassen Crushed Ice
+100.0 ml Weißwein, trocken
+25.0 g Weizenmehl
+0.0  Zucker
+200.0 ml Gemüsebrühe
+200.0 g Blattsalatmischung
+0.0  Pfeffer, grob, bunt
+40.0 ml Portwein
+2.0 Bund Radieschen
+1.0 TL Walnussöl, kaltgepresst
+3.0 TL Aceto balsamico
+25.0 g Rucola
+800.0 g Kartoffel
+400.0 g Tomate, in Stücken
+600.0 g Tagliatelle
+1.0 Bund Suppengrün
+1.0  Zwiebel, rot
+1.0 geh. EL Weizenmehl (Type 550)
+2.0  Lammlachs
+400.0 g Kräuterseitling
+50.0 g Walnusskern, geröstet und grob gehackt
+0.0  Mehl für die Arbeitsfläche
+200.0 g Cocktailtomaten
+200.0 g Tomate, in Stücken mit Basilikum
+50.0 g Olive, schwarz
+40.0 g Gouda, jung
+200.0 g Endiviensalat
+50.0 ml Wasser
+1.0  Aubergine
+125.0 ml Portwein
+1.0  Aprikose
+1.0 EL Rotweinessig
+0.5 EL Holunder-Balsamessig
+200.0 g Rinderhack
+4.0  Ei
+40.0 ml Limettensaft
+1.0 EL Rohrohrzucker
+40.0 g Butter
+0.5  Zucchini
+1.0  Ei
+2.5 EL Weinessig
+1.0 kleine Zwiebel
+200.0 g Traube, rot
+0.5 Tasse Gemüsebrühe
+1.0 EL Apfelessig
+0.0  Meersalz
+2.0 Stiele Oregano
+300.0 g Stremellachs, geräuchert
+1.0 EL Saure Sahne
+0.0  Rosmarin
+3.0 EL Maisgrieß (Polenta)
+1.0 TL Sesam
+3.0 TL Walnussessig
+1.0 Packung Weinsteinbackpulver
+120.0 g Zucker
+120.0 g Paprika, rot
+2.0 EL Haferflocken, extrazart
+2.0 Zweige Thymian
+350.0 g Risotto-Reis, mit Steinpilzen
+1.0 EL Olivenöl, kalt gepresst
+500.0 ml Milch
+10.0 g Hefe mit Backpulver, (Fertigmischung)
+60.0 g Feta
+200.0 g Naturjoghurt
+0.5 Tasse Blutorangensaft
+1.0 Zweig Rosmarin
+2.0 EL Petersilie
+6.0 EL Walnussöl, kaltgepresst
+350.0 g Fleischkäsebrät, roh
+250.0 ml Rotwein, trocken
+2.0  Kaninchenkeule
+2.0 TL Honig
+1.0 Päckchen Trockenhefe
+1.0 kleine Zwiebel, rot
+1.0 TL Agavendicksaft
+1.0 Stück Schokolade, zartbitter mit Orange
+2.0  Lorbeerblatt
+2.0 Stängel Staudensellerie
+0.5 TL Weinsteinbackpulver
+500.0 g Brokkoli
+1.0 Bund Koriandergrün
+200.0 g Zwiebel
+60.0 g Staudensellerie
+1.0 Prise Salz
+250.0 g Sauerrahmbutter
+0.5  Zimtstange
+60.0 g Serrano-Schinken
+200.0 ml kräftiger trockener Rotwein
+1.0 kleine Pastinake
+1.0 kleine Schalotte
+200.0 g Pastinake
+75.0 g Walnusskerne
+2.0 EL Aceto balsamico
+250.0 g Reis, bereits gegart
+0.75 Tasse Reis mit Wildreis
+2.0 Stängel Petersilie
+0.0  Paprikapulver
+1.0  Paprika, rot
+1.0 große Banane
+375.0 ml Buttermilch
+400.0 g Kartoffel, mehlig kochend
+0.5 EL Rapsöl, kalt gepresst
+110.0 g Puddingpulver Vanille
+1.0 Msp. Nelke
+3.0 Zweige Thymian
+80.0 g Lauch
+4.0  Mini-Mozzarella-Kugel
+500.0 g Dinkelvollkornmehl
+400.0 g Grissini
+500.0 g Kartoffel, festkochend 
+250.0 g Lauch
+0.5 EL Senfkorn
+700.0 g Marzipanrohmasse
+1.0 Tasse Gemüsebrühe
+5.0  Ei
+500.0 g Lammkrone
+0.5 EL Essig
+1.0  Walnussbaguette
+1.0  Chinakohl
+1.0 große Spitzpaprika, rot
+1.0 Stängel Dill
+1.0 Zweig Thymian
+2.0 EL Sprossen
+0.5  Rosmarinzweig
+350.0 g Kürbis
+1.0  Nelken
+None None Kokosraspeln
+70.0 ml Pflaumensaft
+2.0 EL Butter
+2.0 Stiele Salbei
+1.4 kg Kaninchenrollbraten
+1.0 gestr. TL Weizenmehl
+0.5 TL Zimt
+75.0 g Parmesan, gerieben
+1.0 Prise Zucker
+50.0 g Rucola
+3.0 EL Paprikapulver, edelsüß
+10.0  Olive, schwarz
+250.0 g Gelierzucker 1:1
