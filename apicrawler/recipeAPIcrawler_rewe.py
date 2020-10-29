@@ -66,22 +66,22 @@ def addPageRecipes(driver, pageRecipes):
         time.sleep(sleep_time)
     return scrapedRecipes
 
-def saveResults(pageNumber, recipes):
-    if not os.path.exists('recipes'):
-        os.makedirs('recipes')
-    with open(f"recipes/recipes_{pageNumber}.json", "w", encoding='utf8') as f: 
+def saveResults(pageNumber, recipes, prefix):
+    if not os.path.exists(f'{prefix}/recipes'):
+        os.makedirs(f'{prefix}/recipes')
+    with open(f"{prefix}/recipes/recipes_{pageNumber}.json", "w", encoding='utf8') as f: 
         f.write(json.dumps(recipes)) 
 
-    if not os.path.exists('ingredients'):
-        os.makedirs('ingredients')
+    if not os.path.exists(f'{prefix}/ingredients'):
+        os.makedirs(f'{prefix}/ingredients')
     allingredients = list(set([ingredient for l in list(map(lambda i: i["ingredients"], recipes)) for ingredient in l]))
-    with open(f"ingredients/ingredients_{pageNumber}.txt", "w", encoding='utf8') as f: 
+    with open(f"{prefix}/ingredients/ingredients_{pageNumber}.txt", "w", encoding='utf8') as f: 
         f.write("\n".join(allingredients)) 
 
-    if not os.path.exists('quantities'):
-        os.makedirs('quantities')
+    if not os.path.exists(f'{prefix}/quantities'):
+        os.makedirs(f'{prefix}/quantities')
     allquantities = list(set(map(lambda i: i["quantity"], recipes)))
-    with open(f"quantities/quantities_{pageNumber}.txt", "w", encoding='utf8') as f: 
+    with open(f"{prefix}/quantities/quantities_{pageNumber}.txt", "w", encoding='utf8') as f: 
         f.write("\n".join(allquantities))
 
 driver = getDriver()
@@ -89,14 +89,14 @@ meta = getMeta(driver)
 print("Meta: ", meta)
 
 
-pageNumbers = list(set(range(1, int(meta["pages"]) + 1)).difference(set([])))
+pageNumbers = list(set(range(1, int(meta["pages"]) + 1)).difference(set([6,10,30,41,50,67,69,73,76,121,152,165])))
 random.shuffle(pageNumbers)
 for pageNumber in pageNumbers:
     print("Page", pageNumber)
     pageRecipes = getRecipes(driver, pageNumber)
     random.shuffle(pageRecipes)
     scrapedRecipes = addPageRecipes(driver, pageRecipes)
-    saveResults(pageNumber, scrapedRecipes)
+    saveResults(pageNumber, scrapedRecipes, "rewe")
 
 driver.close()
 driver.quit()
