@@ -96,7 +96,7 @@ def loadRecipesFromFile(file_path):
     with open(file_path, 'r', encoding='utf8') as json_file:
         return json.load(json_file)
 
-recipes = loadRecipesFromFile('recipes/recipes_new.json')
+recipes = loadRecipesFromFile('recipes/recipes.json.new')
 
 conn = getDbConnection()
 
