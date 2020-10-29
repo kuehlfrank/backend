@@ -1,3 +1,4 @@
+use std::collections::HashSet;
 use std::fs::{read_dir, File};
 use std::io::prelude::*;
 use std::io::{self, BufReader, BufWriter};
@@ -107,8 +108,8 @@ pub fn beautify_jsons(path: &str, re_units: String) -> io::Result<()> {
     let re2 = Regex::new(r"^(?P<amount>[0-9]+(?:\.[0-9]+)?) *(?P<ingredient>.+)$").unwrap();
     let re3 = Regex::new(r"^(?P<ingredient>.+)$").unwrap();
 
-    
     let mut output_recipes: Vec<OutputRecipe> = Vec::new();
+    let mut output_recipes_names: HashSet<String> = HashSet::new();
 
     let mut recipes_files: Vec<String> = Vec::new();
 
@@ -127,23 +128,26 @@ pub fn beautify_jsons(path: &str, re_units: String) -> io::Result<()> {
         let input_recipes = read_input_recipes(&recipes_file)?;
 
         for recipe in input_recipes {
-            let mut output_ingredients: Vec<Ingredient> = Vec::new();
-    
-            for ingredient in recipe.ingredients {
-                output_ingredients.push(generate_ingredient(&re1, &re2, &re3, &ingredient).unwrap());
+            if output_recipes_names.insert(String::from(&recipe.title)) {
+                let mut output_ingredients: Vec<Ingredient> = Vec::new();
+
+                for ingredient in recipe.ingredients {
+                    output_ingredients
+                        .push(generate_ingredient(&re1, &re2, &re3, &ingredient).unwrap());
+                }
+
+                output_recipes.push(OutputRecipe {
+                    title: recipe.title,
+                    external_id: recipe.external_id,
+                    external_source: recipe.external_source,
+                    quantity: recipe.quantity,
+                    ingredients: output_ingredients,
+                });
             }
-    
-            output_recipes.push(OutputRecipe {
-                title: recipe.title,
-                external_id: recipe.external_id,
-                external_source: recipe.external_source,
-                quantity: recipe.quantity,
-                ingredients: output_ingredients,
-            });
         }
     }
 
-    write_output_recipes(&format!("{}/recipes_new.json", path), &output_recipes)?;
+    write_output_recipes(&format!("{}/recipes.json.new", path), &output_recipes)?;
 
     Ok(())
 }
