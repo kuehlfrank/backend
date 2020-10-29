@@ -95,7 +95,7 @@ for pageNumber in pageNumbers:
     print("Page", pageNumber)
     pageRecipes = getRecipes(driver, pageNumber)
     random.shuffle(pageRecipes)
-    scrapedRecipes = addPageRecipes(driver, pageRecipes[:2])
+    scrapedRecipes = addPageRecipes(driver, pageRecipes)
     saveResults(pageNumber, scrapedRecipes)
 
 driver.close()
