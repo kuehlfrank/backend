@@ -38,11 +38,20 @@ def addRecipe(recipe):
         return
     quantity = driver.find_element_by_xpath("//span[contains(@class,'quantity-display')]").get_attribute("innerHTML")
     ingredients = list(map(lambda e: e.get_attribute("innerHTML"), driver.find_elements_by_xpath("//span[contains(@class,'ingredient-label-text')]")))
-    
+    external_img_url = recipe["image"]["smallest"]["url"]["url"]
+
     print(quantity)
     print(ingredients)
 
-    return { "title": recipe["title"], "external_id": recipe["jcrIdentifier"], "external_source": "Rewe Rezepte", "external_url": external_baseUrl + recipe["jcrPath"], "quantity": quantity, "ingredients": ingredients}
+    return {
+        "title": recipe["title"], 
+        "external_id": recipe["jcrIdentifier"], 
+        "external_source": "Rewe Rezepte", 
+        "external_url": external_baseUrl + recipe["jcrPath"], 
+        "external_img_url": external_img_url,
+        "quantity": quantity, 
+        "ingredients": ingredients
+    }
 
 def addPageRecipes(driver, pageRecipes):
     scrapedRecipes = []
@@ -57,22 +66,22 @@ def addPageRecipes(driver, pageRecipes):
         time.sleep(sleep_time)
     return scrapedRecipes
 
-def saveResults(pageNumber, recipes):
+def saveResults(pageNumber, recipes, prefix):
     if not os.path.exists('recipes'):
         os.makedirs('recipes')
-    with open(f"recipes/recipes_{pageNumber}.json", "w", encoding='utf8') as f: 
+    with open(f"recipes/{prefix}_recipes_{pageNumber}.json", "w", encoding='utf8') as f: 
         f.write(json.dumps(recipes)) 
 
     if not os.path.exists('ingredients'):
         os.makedirs('ingredients')
     allingredients = list(set([ingredient for l in list(map(lambda i: i["ingredients"], recipes)) for ingredient in l]))
-    with open(f"ingredients/ingredients_{pageNumber}.txt", "w", encoding='utf8') as f: 
+    with open(f"ingredients/{prefix}_ingredients_{pageNumber}.txt", "w", encoding='utf8') as f: 
         f.write("\n".join(allingredients)) 
 
     if not os.path.exists('quantities'):
         os.makedirs('quantities')
     allquantities = list(set(map(lambda i: i["quantity"], recipes)))
-    with open(f"quantities/quantities_{pageNumber}.txt", "w", encoding='utf8') as f: 
+    with open(f"quantities/{prefix}_quantities_{pageNumber}.txt", "w", encoding='utf8') as f: 
         f.write("\n".join(allquantities))
 
 driver = getDriver()
@@ -80,14 +89,14 @@ meta = getMeta(driver)
 print("Meta: ", meta)
 
 
-pageNumbers = list(set(range(1, int(meta["pages"]) + 1)).difference(set([16,27,63,75,116,121])))
+pageNumbers = list(set(range(1, int(meta["pages"]) + 1)).difference(set([6,10,30,41,50,67,69,73,76,121,152,165])))
 random.shuffle(pageNumbers)
 for pageNumber in pageNumbers:
     print("Page", pageNumber)
     pageRecipes = getRecipes(driver, pageNumber)
     random.shuffle(pageRecipes)
     scrapedRecipes = addPageRecipes(driver, pageRecipes)
-    saveResults(pageNumber, scrapedRecipes)
+    saveResults(pageNumber, scrapedRecipes, "rewe")
 
 driver.close()
 driver.quit()

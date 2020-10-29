@@ -1,0 +1,523 @@
+Butter 2.0 TL
+Garam Masala (Gewürzmischung) 1.0 TL
+Gemüsebrühe 1.0 Liter
+Sojakern, getrocknet 20.0 g
+Schweinebauch, roh 600.0 g
+Knoblauch 1.0 Zehe
+Zwiebel 100.0 g
+Salz 0.5 TL
+Möhre 4.0 
+Weißwein 200.0 ml
+Zucker, braun 1.0 TL
+Butter 50.0 g
+Schlagsahne 200.0 ml
+Walnüsse 50.0 g
+Salbeiblatt 6.0 
+Zimt 0.0 etwas
+Meersalz 0.0 
+Kurkuma 1.0 TL
+Ei 3.0 
+Apfel 150.0 g
+Petersilie 1.0 EL
+Pfeffer, weiß 1.0 Prise
+Zucker 130.0 g
+Meerrettich 0.0 etwas
+Balsamico-Essig 4.0 EL
+Haselnuss, ganz 50.0 g
+Kimchi (eingelegter Chinakohl) 100.0 g
+Zartbitterschokolade, 72% Kakaoanteil 100.0 g
+Butter, weich 100.0 g
+Spargel, grün 600.0 g
+Thymian 4.0 Zweige
+Cocktailtomate 100.0 g
+Rucola 40.0 g
+Feta 70.0 g
+Rosenkohl 500.0 g
+Karotte 1.0 
+Rapsöl 1.0 EL
+Nacho 16.0 
+Paprikapulver, edelsüß 1.0 TL
+Pastinake 1.0 
+Olivenöl 2.0 TL
+Thymian 1.0 EL
+Dinkelmehl (Typ 630) 300.0 g
+Himbeeren (alternativ TK-Himbeeren) 300.0 g
+Pflanzenöl zum Frittieren 250.0 ml
+Mayonnaise 20.0 g
+Hartweizengrieß 75.0 g
+Apfel 100.0 g
+Limette, davon der Saft 1.0 
+Pinienkerne 60.0 g
+Majoran 1.0 TL
+Frischkäse mit Meerrettich 200.0 g
+Zitronensaft 2.5 EL
+Paprika, gelb 1.0 
+Rapsöl 2.0 EL
+Saure Sahne 4.0 EL
+Meersalz, grob 1.0 TL
+Zitronensaft 0.5 TL
+Orangensaft 100.0 ml
+Sojabohnensprossen 80.0 g
+Multivitaminsaft 100.0 ml
+Öl zum Braten 1.0 TL
+küchenfertige Gans 1.0 
+Staudensellerie 3.0 Stangen
+Paprika, gelb 120.0 g
+Zwiebel 40.0 g
+Ei 1.0 
+Zitronensaft 1.0 EL
+Puderzucker 125.0 g
+Sojasauce 4.0 EL
+Himbeeren 1.0 Handvoll
+Paprika, grün 300.0 g
+Chilischote, rot 20.0 
+Dillspitze 2.0 
+Rispentomate 400.0 g
+Hähnchenkeule 1.0 kg
+Speisestärke 4.0 TL
+Doppelrahm-Frischkäse 30.0 g
+Rapsöl, kalt gepresst 60.0 g
+Zitronensaft 2.0 EL
+Mozzarella 2.0 Kugeln
+Apfelessig 50.0 ml
+Butter, kalt 200.0 g
+Frühlingszwiebel 50.0 g
+Thymian, getrocknet 3.0 Zweige
+Stevia, flüssig 10.0 Tropfen
+Thymian 0.0 etwas
+Kartoffel, mehlig kochend 500.0 g
+Joghurt, fettarm 150.0 g
+Salz 0.0 etwas
+Mandeln, gemahlen 50.0 g
+Lorbeerblatt 1.0 
+Schnittlauch 1.0 Bund
+Olivenöl, kalt gepresst 1.5 EL
+Bacon (Frühstücksspeck) 10.0 Scheiben
+Speisestärke 0.5 TL
+Thymian 1.0 Stängel
+Vanilleeis 0.0 
+Speisestärke 1.0 TL
+Salbei 5.0 Blätter
+Brötchen vom Vortag 1.0 
+Kartoffel, mehlig kochend 800.0 g
+Paprika, rot 2.0 
+Taco-Shells 8.0 
+Rapsöl, kalt gepresst 2.0 EL
+Sellerie 100.0 g
+Salz, Pfeffer 0.0 etwas
+Wildfond 1.0 Liter
+Salatgurke 0.5 
+Früchtetee 2.0 Beutel
+Rohrzucker 6.0 EL
+Rapsöl 4.0 EL
+Pfeffer 1.0 Prise
+Soja Kochcreme (Soja cuisine) 2.0 TL
+Salz 1.0 Prise
+Garnele 200.0 g
+Rinderhack 500.0 g
+Birne 4.0 
+Spaghetti 300.0 g
+Orangensaft 1.0 EL
+Zucker 2.0 TL
+Paniermehl 0.0 etwas
+Liebstöckel 2.0 EL
+Mehrkornbrötchen 4.0 
+Basilikum 0.0 einige Blätter
+Muskatnuss, frisch gerieben 0.0 
+Rapsöl 5.0 EL
+Meerrettich 2.0 TL
+Frühlingszwiebel 300.0 g
+Balsamico di Balsamico 2.0 EL
+Muskat 1.0 Prise
+Agavendicksaft 0.0 
+Olivenöl 120.0 ml
+Muskat 0.0 etwas
+Rinderfilet 200.0 g
+Birne 1.0 
+Cantaloupe-Melone 400.0 g
+Gemüsebrühe 800.0 ml
+Rucola 150.0 g
+Rucola 1.0 
+Mandelmus 2.0 EL
+Tagliatelle 500.0 g
+Weißkohl 600.0 g
+Trockenhefe 2.0 TL
+Petersilie 0.0 etwas
+Butter, kalt 50.0 g
+Hefe, trocken 1.0 Päckchen
+Cocktailtomaten 5.0 
+Muskatnuss 1.0 Prise
+Rote Bete, frisch 1.0 Knolle
+Feta 100.0 g
+Salz 0.0 
+Erdnussöl 3.0 EL
+Dijon Senf 60.0 g
+Rucola 1.0 Bund
+Spargel, grün 1.0 kg
+Salz 1.0 TL
+Schmand 40.0 g
+Weißwein, trocken 100.0 ml
+Mehl 120.0 g
+Rapsöl 2.0 TL
+Olivenöl, nativ extra 1.0 EL
+Gemüsebrühe 2.0 Liter
+Olivenöl 5.0 EL
+Truthahnaufschnitt 40.0 g
+Rucola 1.0 Handvoll
+Schweineflomen (Fett) 1.0 kg
+Erbse 250.0 g
+Dinkelmehl 500.0 g
+Sonnenblumenöl 30.0 ml
+Apfelsaft 100.0 ml
+Zartbitterschokolade, 81% Kakaoanteil 200.0 g
+Sherry, trocken 1.0 EL
+frische Minze 0.5 Bund
+Möhre 100.0 g
+Suppennudel 150.0 g
+Chilischote, rot 2.0 
+Speisestärke 30.0 g
+Basmati-Reis 200.0 g
+Speisestärke 3.0 EL
+Vollkornbrötchen 4.0 
+Bohne, grün 200.0 g
+Thymianblatt 2.0 EL
+Vanillezucker 1.0 Päckchen
+Rosmarin 3.0 Zweige
+Milch 150.0 ml
+Hähnchenbrustfilet 400.0 g
+Spaghetti 350.0 g
+Zucker 1.0 Prise
+Grünkohl 100.0 g
+Süßkartoffel 250.0 g
+Weizenmehl (Type 405) 2.0 EL
+Putenschnitzel 500.0 g
+Salz 0.25 TL
+Petersilie, fein geschnitten 1.0 EL
+Minzblatt 1.0 TL
+Rapsöl 3.0 EL
+Bacon (Frühstücksspeck) 15.0 Scheiben
+Zwiebel, rot 2.0 
+Kräuter, frische 2.0 EL
+Joghurt 100.0 ml
+Apfel 7.0 kleine
+Ciabatta-Brot 250.0 g
+Rückenspeck (grüner Speck, fetter Speck) 150.0 g
+Zitrone 0.5 
+Pekanuss oder Walnuss 50.0 g
+SalaVerde (alternativ Romasalat) 250.0 g
+Kichererbsen 300.0 g
+Hähnchenbrust 300.0 g
+Backpulver 2.0 TL
+Mascarpone 100.0 g
+Vollkorn-Weizenmehl 125.0 g
+Pflanzenöl 4.0 EL
+Weizenmehl (Type 405) 170.0 g
+Ziegengouda 8.0 Scheiben
+Olivenöl, kalt gepresst 2.0 EL
+Olivenöl, kalt gepresst 1.0 EL
+Knoblauchzehe 3.0 
+Lorbeerblatt 3.0 
+Frühlingszwiebel 2.0 
+geräucherter Heilbutt 4.0 Scheiben
+Staudensellerie 120.0 g
+Ei, Größe M 8.0 
+gehackte Tomate (ca. 400 ml) 0.0 
+Sellerie 150.0 g
+Milch 50.0 ml
+Kartoffel 0.0 
+Apfel 3.0 
+Apfelmus 7.0 EL
+Staudensellerie 100.0 g
+Apfelsaft 1.0 Liter
+Räucherlachs 4.0 Scheiben
+Rib-Eye-Steak 4.0 
+Orange 2.0 
+Cayennepfeffer 1.5 TL
+Walnusskern 100.0 g
+Blattsalat 250.0 g
+Mango-Chutney 4.0 TL
+Granulierter Knoblauch 0.0 
+Butter 80.0 g
+Granatapfel 1.0 
+Salz, Pfeffer 0.0 
+Rinderfond 200.0 ml
+Sambal Oelek (Chilisauce) 1.0 TL
+Mineralwasser, classic 1.0 Tasse
+Paprika, orange 100.0 g
+Zwiebel, rot 100.0 g
+Karotte 200.0 g
+Gemüsebrühe 4.0 Tassen
+Olivenöl 1.0 EL
+Chicorée, rot 1.0 
+Shii-Take 100.0 g
+Zitrone, unbehandelt 8.0 
+Orange 1.0 
+Wasabi (jap. Meerrettichpulver) 1.0 EL
+Kapstachelbeere (Physalis) 8.0 
+gehackte Tomaten 1.0 Dose
+Tomatenmark 1.0 EL
+Zucchini 2.0 
+Curry 4.0 TL
+Butter 0.0 etwas
+Thymian 4.0 Stängel
+Puderzucker 50.0 g
+Minzblatt 0.0 einige Blätter
+Mehl 200.0 g
+geräuchertes Forellenfilet 4.0 Scheiben
+Hefe 0.5 Würfel
+Parmesan 60.0 g
+Cocktailtomate 10.0 
+Taleggio (ital. Weichkäse) 4.0 Scheiben
+Orange, unbehandelt 2.0 
+Apfel 1.0 
+Tabasco 10.0 Spritzer
+Schafskäse 75.0 g
+Fenchelknolle 1.0 kleine
+Butter 40.0 g
+Muskatnuss 0.0 
+Kalbsleber 600.0 g
+Rinderfilet 1.2 kg
+Schlagsahne 750.0 g
+Saft einer halben Zitrone 0.0 
+Hähnchenbrustfilet 500.0 g
+Salz 1.5 TL
+Zwiebel, weiß 150.0 g
+Sahne 125.0 ml
+Paprika 120.0 g
+Mango, davon das Fruchtfleisch 200.0 g
+Sauerkirsche 150.0 g
+Salatgurke 150.0 g
+Johannisbrotkernmehl  0.5 TL
+Avocado 60.0 g
+Cocktailtomate 120.0 g
+Sonnenblumenöl, kaltgepresst 2.0 EL
+Thymian, frisch 0.0 etwas
+Knoblauchzehe 2.0 kleine
+Zwetschge 500.0 g
+Tomate 300.0 g
+Eigelb 3.0 
+Salz, Pfeffer 1.0 Msp.
+Chorizo 100.0 g
+Salz, Pfeffer, Zucker 1.0 Prise
+Knoblauchzehe 2.0 
+Chilischote, rot 1.0 
+Butter 20.0 g
+Zwiebel 2.0 mittelgroße
+Geflügelbrühe 500.0 ml
+Selleriegrün 1.0 EL
+Ei 2.0 
+Zimt 1.0 TL
+Pinienkerne 20.0 g
+Speisestärke 60.0 g
+Speck 300.0 g
+Frischkäse, natur 200.0 g
+Semmelbrösel 50.0 g
+Gurke 80.0 g
+Kokosmilch 400.0 ml
+Gartenkresse 50.0 g
+Kirschsaft 200.0 ml
+Apfel-Mangomark 4.0 TL
+Chinakohl 500.0 g
+Orangensaft 200.0 ml
+Speck, durchwachsen, geräuchert 80.0 g
+Oregano 0.0 etwas
+Butter 130.0 g
+Butter zum Einfetten 0.0 
+Zucker 200.0 g
+Salbei 4.0 Blätter
+Milch 100.0 ml
+Mango 1.0 
+Rotkohl 0.5 
+Spitzkohl 1.0 
+Balsamico Bianco-Essig 5.0 EL
+Cracker 16.0 
+Rapsöl, kalt gepresst 1.0 EL
+Brotaufstrich Tomate-Basilikum 80.0 g
+Apfel 500.0 g
+Basilikum 1.0 Bund
+Champignon 150.0 g
+Möhre 2.0 
+Orangensaft 20.0 ml
+Radieschensprossen 1.0 Beet
+Pflanzenöl 0.0 
+Zwiebel 150.0 g
+Koriander 1.0 Bund
+Karotte 2.0 
+Feige 1.0 
+Semmelbrösel 150.0 g
+Öl zum Ausbacken 0.0 
+Knollensellerie 100.0 g
+Sesamöl 1.0 TL
+feiner Zucker 50.0 g
+Paprika, rot 1.0 
+Baguette 8.0 Scheiben
+Zucker 70.0 g
+Petersilie 2.0 EL
+Sonnenblumenöl 2.0 EL
+Haselnusskerne 50.0 g
+Blattspinat 300.0 g
+Kümmel 1.0 Msp.
+Cayennepfeffer 0.0 
+Schalotte 2.0 
+veganer Soja Bratstreifen 250.0 g
+Eigelb 1.0 
+Bio-Orange 1.0 
+Milch 1.0 EL
+Abrieb einer unbehandelten Orange 0.0 
+Minze 1.5 TL
+Lauch 200.0 g
+Ingwer 10.0 g
+Zitronensaft 1.0 Spritzer
+Butter 2.0 EL
+Pinienkern 20.0 g
+Zwiebel 1.0 
+Tomate, passiert 250.0 g
+Weizenmehl 75.0 g
+Balsamessig 5.0 EL
+Honig 3.0 EL
+Zimt 1.0 Prise
+Rosine 3.0 EL
+Rohrohrzucker 60.0 g
+Geflügelfond 300.0 ml
+Langkornreis 1.0 Tasse
+Lauch 100.0 g
+Sesam 1.0 TL
+Chilisauce 2.0 EL
+Petersilie 100.0 g
+Sellerie 3.0 Stangen
+Himbeeren 150.0 g
+Rotwein 100.0 ml
+Mini-Mozzarella-Kugel 125.0 g
+glatte Petersilie, fein gehackt 1.0 TL
+Gemüsebrühe 100.0 ml
+Zitrone, davon Saft und Abrieb 3.0 
+Bärlauchkäse 200.0 g
+Mayonnaise, vegan 4.0 TL
+Rhabarber 100.0 g
+Quark, fettarm 50.0 g
+Sojasahne 4.0 EL
+Pfeffer 0.0 
+Lauchzwiebel 2.0 Stangen
+Parmesan 50.0 g
+Senfpulver, englisch 1.0 TL
+Zimt 1.0 Msp.
+Gemüsefond 3.0 EL
+Kartoffel, festkochend  500.0 g
+Pflanzenöl 1.0 EL
+Bio-Joghurt Sanddorn-Orange 300.0 g
+Thymian 1.0 TL
+Linse 150.0 g
+Olivenöl 4.0 EL
+Schnittlauch 4.0 Stängel
+Salbei 1.0 Bund
+Vanillezucker 1.0 TL
+Pfifferling 500.0 g
+Süßkartoffel 400.0 g
+Paprika, rot 150.0 g
+unbehandelte Zitrone, davon die abgeriebene Schale 1.0 TL
+Agavendicksaft 2.0 TL
+Zitronensaft 800.0 ml
+Petersilienblatt 1.0 EL
+Rehkeule 1.5 kg
+Linse, rot 2.0 Tasse
+Spätzle 100.0 g
+Zwiebel 2.0 
+Küchenzwiebel 1.0 große
+Peperoni, mittelscharf 1.0 
+Rosmarin 4.0 Stängel
+Senf, mittelscharf 1.0 TL
+Rucola 125.0 g
+Zucker 100.0 g
+Zwiebel 80.0 g
+Lachs, geräucherter 120.0 g
+Sojasauce, hell 1.0 EL
+Avocado 1.0 
+Rosmarin 1.0 Zweig
+Hackfleisch, gemischt 600.0 g
+Oregano 2.0 Stiele
+Raclettekäse 250.0 g
+Frischkäse 200.0 g
+Schupfnudel 500.0 g
+Fingermöhre 500.0 g
+Nelken 2.0 
+Rotwein 300.0 ml
+Frühlingszwiebel 4.0 
+Olivenöl, kalt gepresst 3.0 EL
+Essig 1.0 EL
+Rum 1.0 Schuss
+Nudel 400.0 g
+Zucker 1.0 EL
+Würzöl, Zitrone 1.0 EL
+Butter zum Einfetten 0.0 etwas
+Orangensaft 50.0 ml
+Schmand 4.0 EL
+Olive, schwarz 50.0 g
+Kräuter, frische 3.0 EL
+Chicorée, gelb 1.0 
+Schlagsahne 100.0 g
+Suppenfleisch vom Rind 600.0 g
+große Kartoffel 5.0 
+Senf 1.0 TL
+Karotte 100.0 g
+Orangensaft 125.0 ml
+Mehl 450.0 g
+Feldsalat oder Babyspinat 100.0 g
+Apfel 4.0 
+Knoblauchzehe 1.0 
+Gemüsebrühe 1.0 TL
+Hanftaler Paprika 200.0 g
+Backpulver 1.0 TL
+Tandoori-Paste 5.0 EL
+Zitrone, unbehandelt 1.0 
+Oregano, getrocknet 3.0 Zweige
+Tomate 120.0 g
+Honig, flüssig 1.0 EL
+Honig 1.0 TL
+Weißkohl 0.5 
+Kartoffel, mehlig kochend 300.0 g
+Mehl 400.0 g
+Honig, flüssig 0.5 TL
+Gelierzucker 1.0 kg
+Chiliflocke, getrocknet 1.5 EL
+Küchenzwiebel 2.0 große
+dunkle Schokoraspel 2.0 EL
+Linse, rot 240.0 g
+Linse, rot 100.0 g
+Mie-Nudeln 200.0 g
+Apfeldicksaft 1.0 TL
+Speisestärke 2.0 EL
+Mozzarella 125.0 g
+Chili 1.0 Prise
+Jalapenos, in Scheiben geschnitten 4.0 EL
+Erdbeere 150.0 g
+Petersilie 4.0 Stängel
+Pfeffer, grob 0.5 TL
+Paprika, rot 300.0 g
+frische Minze 4.0 Stängel
+Nelken 3.0 
+Öl, zum Anbraten 4.0 EL
+Vanilleschote 1.0 
+Weinessig, weiß 2.0 EL
+Ananas 300.0 g
+Honig 1.0 EL
+Minzblatt None None
+Koriander 1.0 Handvoll
+Backpulver 0.5 TL
+Meerrettichspan 1.0 TL
+Magerquark 500.0 g
+Traubenkernöl 2.0 
+Tabasco 0.0 
+Zitronensaft 2.0 TL
+Meersalz, grob 0.0 
+Roquefort (Blauschimmelkäse) 100.0 g
+Kirschtomate 360.0 g
+Tomate 4.0 
+Staudensellerie 140.0 g
+Kürbis 1.0 kg
+Butter 3.0 EL
+Blumenkohl 440.0 g
+Zucchini 1.0 
+frische Petersilie 0.0 etwas
+Mehl 250.0 g
+Rinderhack 700.0 g
+Knusper-Müsli mit Frucht 120.0 g
