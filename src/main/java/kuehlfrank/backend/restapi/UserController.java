@@ -50,7 +50,7 @@ public class UserController {
 		}
 
 		Inventory inventory = inventoryRepository.save(new Inventory());
-		var user = userRepository.save(new User(authentication.getName(), ensureUserRegisteredDto.getName(), inventory));
+		var user = userRepository.save(new User(authentication.getName(), ensureUserRegisteredDto.getUsername(), inventory));
 		return new ResponseEntity<>(user, HttpStatus.CREATED);
 	}
 }

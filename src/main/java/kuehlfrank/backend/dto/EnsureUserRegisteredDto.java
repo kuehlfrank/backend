@@ -1,9 +1,9 @@
 package kuehlfrank.backend.dto;
 
-import lombok.Data;
-import lombok.NonNull;
+import lombok.*;
 
 @Data
+@NoArgsConstructor
 public class EnsureUserRegisteredDto {
-	@NonNull private String name;
+	@NonNull private String username;
 }
