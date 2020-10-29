@@ -67,21 +67,21 @@ def addPageRecipes(driver, pageRecipes):
     return scrapedRecipes
 
 def saveResults(pageNumber, recipes, prefix):
-    if not os.path.exists(f'{prefix}/recipes'):
-        os.makedirs(f'{prefix}/recipes')
-    with open(f"{prefix}/recipes/recipes_{pageNumber}.json", "w", encoding='utf8') as f: 
+    if not os.path.exists('recipes'):
+        os.makedirs('recipes')
+    with open(f"recipes/{prefix}_recipes_{pageNumber}.json", "w", encoding='utf8') as f: 
         f.write(json.dumps(recipes)) 
 
-    if not os.path.exists(f'{prefix}/ingredients'):
-        os.makedirs(f'{prefix}/ingredients')
+    if not os.path.exists('ingredients'):
+        os.makedirs('ingredients')
     allingredients = list(set([ingredient for l in list(map(lambda i: i["ingredients"], recipes)) for ingredient in l]))
-    with open(f"{prefix}/ingredients/ingredients_{pageNumber}.txt", "w", encoding='utf8') as f: 
+    with open(f"ingredients/{prefix}_ingredients_{pageNumber}.txt", "w", encoding='utf8') as f: 
         f.write("\n".join(allingredients)) 
 
-    if not os.path.exists(f'{prefix}/quantities'):
-        os.makedirs(f'{prefix}/quantities')
+    if not os.path.exists('quantities'):
+        os.makedirs('quantities')
     allquantities = list(set(map(lambda i: i["quantity"], recipes)))
-    with open(f"{prefix}/quantities/quantities_{pageNumber}.txt", "w", encoding='utf8') as f: 
+    with open(f"quantities/{prefix}_quantities_{pageNumber}.txt", "w", encoding='utf8') as f: 
         f.write("\n".join(allquantities))
 
 driver = getDriver()
