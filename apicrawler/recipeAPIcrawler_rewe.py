@@ -38,11 +38,20 @@ def addRecipe(recipe):
         return
     quantity = driver.find_element_by_xpath("//span[contains(@class,'quantity-display')]").get_attribute("innerHTML")
     ingredients = list(map(lambda e: e.get_attribute("innerHTML"), driver.find_elements_by_xpath("//span[contains(@class,'ingredient-label-text')]")))
-    
+    external_img_url = recipe["image"]["smallest"]["url"]["url"]
+
     print(quantity)
     print(ingredients)
 
-    return { "title": recipe["title"], "external_id": recipe["jcrIdentifier"], "external_source": "Rewe Rezepte", "external_url": external_baseUrl + recipe["jcrPath"], "quantity": quantity, "ingredients": ingredients}
+    return {
+        "title": recipe["title"], 
+        "external_id": recipe["jcrIdentifier"], 
+        "external_source": "Rewe Rezepte", 
+        "external_url": external_baseUrl + recipe["jcrPath"], 
+        "external_img_url": external_img_url,
+        "quantity": quantity, 
+        "ingredients": ingredients
+    }
 
 def addPageRecipes(driver, pageRecipes):
     scrapedRecipes = []
@@ -80,13 +89,13 @@ meta = getMeta(driver)
 print("Meta: ", meta)
 
 
-pageNumbers = list(set(range(1, int(meta["pages"]) + 1)).difference(set([16,27,63,75,116,121])))
+pageNumbers = list(set(range(1, int(meta["pages"]) + 1)).difference(set([])))
 random.shuffle(pageNumbers)
 for pageNumber in pageNumbers:
     print("Page", pageNumber)
     pageRecipes = getRecipes(driver, pageNumber)
     random.shuffle(pageRecipes)
-    scrapedRecipes = addPageRecipes(driver, pageRecipes)
+    scrapedRecipes = addPageRecipes(driver, pageRecipes[:2])
     saveResults(pageNumber, scrapedRecipes)
 
 driver.close()
