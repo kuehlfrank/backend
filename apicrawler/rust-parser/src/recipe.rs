@@ -10,6 +10,8 @@ pub struct InputRecipe {
     title: String,
     external_id: String,
     external_source: String,
+    external_url: String,
+    external_img_url: String,
     quantity: String,
     ingredients: Vec<String>,
 }
@@ -26,6 +28,8 @@ pub struct OutputRecipe {
     title: String,
     external_id: String,
     external_source: String,
+    external_url: String,
+    external_img_url: String,
     quantity: String,
     ingredients: Vec<Ingredient>,
 }
@@ -137,6 +141,8 @@ pub fn beautify_jsons(path: &str, re_units: String) -> io::Result<()> {
                 title: recipe.title,
                 external_id: recipe.external_id,
                 external_source: recipe.external_source,
+                external_url: recipe.external_url,
+                external_img_url: recipe.external_img_url,
                 quantity: recipe.quantity,
                 ingredients: output_ingredients,
             });
