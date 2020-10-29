@@ -3,6 +3,9 @@ package kuehlfrank.backend.restapi;
 import java.util.Collection;
 import java.util.Objects;
 
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -15,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
 import kuehlfrank.backend.model.Recipe;
+import kuehlfrank.backend.repositories.RecipeJpaRepository;
 import kuehlfrank.backend.repositories.RecipeRepository;
 
 @RestController
@@ -23,7 +27,7 @@ import kuehlfrank.backend.repositories.RecipeRepository;
 public class RecipeController {
 
 	@Autowired
-	private RecipeRepository recipeRepository;
+	private RecipeJpaRepository recipeRepository;
 
 	@GetMapping(value = "/suggestions/{userId}")
 	public Collection<Recipe> getRecipes(Authentication authentication, @PathVariable String userId) {
@@ -36,6 +40,11 @@ public class RecipeController {
 	@GetMapping(value = "/suggestions")
 	public Collection<Recipe> recipes(Authentication authentication) {
 		return getRecipes(authentication, authentication.getName());
+	}
+	
+	@GetMapping(value = "/recipes2")
+	public Collection recipes2(Authentication authentication) {
+		return recipeRepository.findBestMatchingRecipes(authentication.getName());
 	}
 	
 	@GetMapping(value = "/random")
