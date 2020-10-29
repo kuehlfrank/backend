@@ -1,0 +1,535 @@
+Gemüsebrühe 1.0 Liter
+Lebensmittelfarbe, pink 0.0 
+Dragee-Osterei None None
+Knoblauch 1.0 Zehe
+Zwiebel 100.0 g
+Salz 0.5 TL
+Kerbel 3.0 Stiele
+Milch 300.0 ml
+Butter 50.0 g
+Blue Curacao 16.0 cl
+Ei 4.0 
+Kardamomkapsel, grün 2.0 
+Koriander, gemahlen 1.0 Prise
+Tomatenketchup 75.0 g
+Schlagsahne 200.0 ml
+Trockenhefe 1.0 Päckchen
+Zimt 0.0 etwas
+Backpulver 0.5 Päckchen
+Rum 20.0 cl
+Tomatenmark 100.0 g
+Rucola 30.0 g
+Wirsing 1.0 Kopf
+Petersilie 1.0 EL
+Frischkäse, natur 1200.0 g
+Butter 75.0 g
+Butter 100.0 g
+Bier, z. B. Pils 200.0 ml
+Pfefferonen 6.0 
+Erbsen, tiefgekühlt 200.0 g
+Zimt 0.5 TL
+Frischkäse 100.0 g
+Petersilie 3.0 Stiele
+Puderzucker 0.0 etwas
+rote Zwiebel 80.0 g
+Kokosblütenzucker 1.5 EL
+Frühlingszwiebel 4.0 Stangen
+Butter 60.0 g
+Butter, weich 100.0 g
+Zitrone, unbehandelt 0.5 
+Bio-Limette 1.0 
+Milch 3.0 EL
+Paprikapulver, edelsüß 1.0 TL
+Paprikapulver 0.5 TL
+Fladenbrot 1.0 
+Dinkelmehl (Typ 630) 300.0 g
+Kräuter, frische 1.0 EL
+Bohnen, grün 400.0 g
+Zucker 60.0 g
+Sojasauce 2.0 EL
+Kalbsbratwurst 4.0 Stück
+Rotkohl 300.0 g
+Orange 4.0 
+Mandelblatt 4.0 EL
+Milch 400.0 ml
+Natron 1.0 TL
+Basilikum 2.0 Bund
+Rinderhüftsteak 400.0 g
+Rollfondant, grün 0.0 
+Backpulver 1.0 Päckchen
+Lauchzwiebel 3.0 
+Rapsöl 2.0 EL
+Schweineschnitzel 4.0 
+Himbeeren 300.0 g
+Orangensaft 100.0 ml
+Milch 30.0 ml
+Rinderfond 400.0 ml
+Mineralwasser, classic 60.0 ml
+Speisequark 250.0 g
+Weizenmehl 250.0 g
+Nelken 2.0 TL
+Cheddarkäse 4.0 Scheiben
+Chiliflocken 1.0 TL
+Ei 1.0 
+Muskat 0.25 TL
+Tomate, in Stücken 1.0 Dose
+Sojasauce 4.0 EL
+Joghurt, 3,5% Fett 250.0 g
+Pflanzenöl 60.0 ml
+Sahnesteif 2.0 Päckchen
+Hähnchenbrustfilet 600.0 g
+Weizenmehl (Type 550) 160.0 g
+Puderzucker zum Besieben 0.0 etwas
+Crushed Ice 16.0 EL
+Mandel, gemahlen 200.0 g
+Zucchini, gelb 100.0 g
+Sahnesteif 2.0 Packung
+Weichweizengrieß 100.0 g
+Kreuzkümmel (Cumin) 1.0 Prise
+Zartbitter-Couverture 200.0 g
+Butter 1.0 EL
+Rispentomate 2.0 
+Schwarztee 1.0 Beutel
+Quark, fettarm 80.0 g
+Weizenmehl 200.0 g
+Lorbeerblatt 1.0 
+Papaya 500.0 g
+unbehandelte Orange, davon die abgeriebene Schale 0.5 
+Schnittlauch 1.0 Bund
+Schokoladenchips 48.0 
+Wasser, lauwarm 300.0 ml
+Zitrone 1.0 
+Sojasoße 1.0 EL
+Haselnuss, gemahlen 50.0 g
+Schokolade, weiß 200.0 g
+Hartweizengrieß 80.0 g
+Sahne 500.0 g
+Butter, weich 150.0 g
+Ingwer 1.0 
+Kokosflocken 50.0 g
+Brot 1.0 
+Hackfleisch, gemischt 500.0 g
+Chilipulver 0.5 TL
+Paprika, rot 2.0 
+Zwiebel 200.0 g
+Soßenbinder, dunkel 0.0 
+Mayonnaise 4.0 EL
+Rispentomate 12.0 mittelgroße
+Apfelessig 2.0 EL
+Bunte Streusel 1.0 
+Rapsöl 4.0 EL
+Pfeffer 1.0 Prise
+getrockneter Oregano 1.0 TL
+Brötchen vom Vortag 100.0 g
+Lebensmittelstifte, blau 0.0 
+Salz 1.0 Prise
+Mozzarella 2.0 
+Backkakao 2.0 EL
+rote Zwiebel 1.0 
+Kokosmehl 1.0 EL
+Zwiebel, rot 3.0 mittelgroße
+Gewürznelke 6.0 
+Ahornsirup 3.0 EL
+Honig 2.0 EL
+Butter 260.0 g
+Ketchup 150.0 g
+Milch 350.0 ml
+Paniermehl 0.0 etwas
+Hefe, frisch 20.0 g
+Erdbeeren, frisch 100.0 g
+Zwiebel 1.0 große
+Rapsöl 5.0 EL
+Fischsauce 4.0 EL
+Fett für die Form 0.0 
+Aceto balsamico 8.0 EL
+Lebensmittelfarbe, lila 2.0 Tropfen
+Zimt 3.0 TL
+Honig 150.0 g
+Muskat 1.0 Prise
+Gurke 0.3 
+Gurke 0.5 Stk.
+Hefewürfel 0.5 
+Nudel 200.0 g
+Milch 250.0 ml
+Weißwein 100.0 ml
+Apfelessig 1.5 EL
+Sesamsamen 2.0 EL
+Olivenöl 3.0 EL
+Aceto balsamico 4.0 EL
+Muskatnuss 1.0 Prise
+Feige, getrocknet 150.0 g
+Puderzucker 1.0 EL
+Sahne 400.0 ml
+Salz 0.0 
+Butter 125.0 g
+Maisgrieß (Polenta) 100.0 g
+Champignon 250.0 g
+Olivenöl 5.0 EL
+Pflanzenöl 0.0 etwas
+Zucker 300.0 g
+Oregano 1.0 TL
+Sahne 400.0 g
+Rollfondant, blau 0.0 
+frische Minze 0.5 Bund
+Thymianzweig 0.0 einige
+Frischkäse 400.0 g
+Sternanis 2.0 
+Pistazie, gehackt 25.0 g
+Speisestärke 30.0 g
+Puderzucker 200.0 g
+Apfelessig 15.0 ml
+Pflaumenmus 250.0 g
+Knoblauch 2.0 Zehe
+Feta 120.0 g
+Tomate 2.0 
+Weißweinessig 1.0 TL
+Schinkenwürfel 100.0 g
+Koriander 0.0 
+Vanillezucker 1.0 Päckchen
+Kirschen, getrocknet 50.0 g
+Hähnchenbrustfilet 400.0 g
+Erdnüsse, geröstet 60.0 g
+Holzspieß 8.0 
+Zucker 1.0 Prise
+Karotte 1.0 mittelgroße
+Weizenmehl (Type 405) 2.0 EL
+Shiitake, getrocknet 12.0 
+Currypulver 1.0 TL
+Puderzucker 60.0 g
+Hähnchenbrustfilet 300.0 g
+Schafskäse 250.0 g
+Paprika, rot 75.0 g
+Holunderblüten-Sirup 70.0 ml
+Creme fraiche 100.0 g
+Waffelhörnchen 1.0 
+Mandeldrink 150.0 ml
+Chiasamen 3.0 EL
+Kakao 135.0 g
+Weizenmehl 125.0 g
+Zimtstange 1.0 
+Salatgurke 100.0 g
+Backpulver 2.0 TL
+Sahne 200.0 ml
+Frischkäse 120.0 g
+Minzblatt 0.0 
+Minze 16.0 Blätter
+Olivenöl, kalt gepresst 2.0 EL
+Chili 0.0 
+Olivenöl, kalt gepresst 1.0 EL
+Weizenmehl 100.0 g
+Kokosöl 70.0 g
+Zucker 30.0 g
+Sodawasser 20.0 cl
+Maisstärke 2.0 EL
+Kombu (Braunalge) 40.0 g
+Limette, davon der Saft 2.0 
+Zucker 50.0 g
+Milch 125.0 ml
+Agavendicksaft 2.0 EL
+Zwiebel 50.0 g
+Tomatenmark 400.0 ml
+fester Tofu Natur 200.0 g
+Hörnchennudel 400.0 g
+Bandnudel 300.0 g
+Paprika, grün 1.0 
+Rinderhack 600.0 g
+Römersalat 1.0 
+Pfeffer, grob, weiß 1.0 Prise
+Dinkelmehl (Typ 630) 200.0 g
+Rhabarber 800.0 g
+feiner Zucker 0.5 TL
+Zucker 75.0 g
+Erdbeeren 300.0 g
+Sesam 0.0 
+Mandeln, ganz 0.0 
+Kräuter, tiefgefrorene 1.0 EL
+Fenchel 2.0 EL
+Rapsöl 50.0 ml
+Currygewürz 0.5 TL
+Zucker 250.0 g
+Ajvar 2.0 EL
+Zitronenschale 1.0 Msp.
+Lebkuchengewürz 2.0 TL
+Chili 0.5 
+bunte Kirschtomaten 250.0 g
+Rollfondant, rot 0.0 
+Crème fraîche 125.0 g
+Salz, Pfeffer 0.0 
+Parmesan 100.0 g
+Mirin (süßer Reiswein) 3.0 EL
+unbehandelte Zitrone, Abrieb und Saft 1.0 
+Holunderbeerensaft 750.0 ml
+Zucker 1.0 TL
+Mais 0.5 Dose
+Zucker 150.0 g
+Sahne 100.0 ml
+Schalotte 1.0 
+Aprikose, getrocknet 100.0 g
+Backpulver 1.0 Packung
+Tomatenmark 1.0 EL
+Buttermilch 250.0 ml
+Gyros-Gewürz 3.0 TL
+Cheddarkäse, gerieben 200.0 g
+Minze 0.0 etwas
+Petersilie 0.5 Bund
+Butter, kalt 25.0 g
+Zartbitterschokolade 50.0 g
+Schokotropfen 280.0 g
+Butter 0.0 etwas
+Sesamsamen, hell 1.0 EL
+Schokoladenherzchen 12.0 
+Paprika 1.0 
+Orange, abgeriebene Schale 3.0 EL
+Pflanzenöl 80.0 ml
+Schmand 250.0 g
+Cola 75.0 ml
+Zwiebel 75.0 g
+Ei 1.0 Stück
+unbehandelte Zitrone, davon die abgeriebene Schale 0.0 
+Grieß 50.0 g
+Zwiebel 25.0 g
+Weißkohl 400.0 g
+Eiweiß 1.0 
+Udon Nudeln, japanisch 400.0 g
+Akazienhonig 0.5 TL
+Zucker 120.0 g
+Zitrone Bio, davon der Saft 0.5 
+Ananassaft 3.0 EL
+Süßigkeiten zum Befüllen der Schultüte 0.0 
+Zitronensaft 1.0 TL
+Kurkuma 0.5 TL
+Prinzessbohne 200.0 g
+Butter 150.0 g
+Dijon Senf 1.0 EL
+Ananasstück 250.0 g
+Limette, unbehandelt, davon Saft und Schale 2.0 
+Fleischbrühe 800.0 ml
+Apfelsaft 250.0 ml
+Pfeffer 0.5 TL
+Kalbfleisch 500.0 g
+Olivenöl 2.0 EL
+Zimtstange 2.0 
+Tomate 300.0 g
+Ciabatta-Brot 120.0 g
+Käse, gerieben 50.0 g
+Joghurt 100.0 g
+Rispentomate 2.0 große
+Paprika, gelb 75.0 g
+Mandel 75.0 g
+Knoblauchzehe 2.0 
+Speck 100.0 g
+Rapsöl 20.0 ml
+Rollfondant, weiß 0.0 
+Mandel, gemahlen 100.0 g
+Butter 20.0 g
+Knoblauch 1.0 
+Lorbeerblatt 2.0 
+Pflanzenöl zum Einfetten 0.0 
+Backpulver 1.0 Msp.
+Kardamomkapsel 8.0 
+Ei 2.0 
+Zimt 1.0 TL
+Quark, 20% Fett in Tr. 250.0 g
+Gemüsebrühe 200.0 ml
+Butter, weich 300.0 g
+Ei 6.0 
+Erythrit 150.0 g
+Sesamöl 2.0 EL
+Puderzucker 4.0 EL
+Blätterteig 1.0 Packung
+Butter 130.0 g
+Zucker 200.0 g
+Schokoladenei 0.0 
+Hopfen 2.0 EL
+Meersalz 1.0 Prise
+Eiweiß 2.0 
+Mandel 150.0 g
+Sonnenblumenöl 6.0 EL
+Ei, Größe M 4.0 
+Backpulver 1.0 EL
+Zwiebel 150.0 g
+Tomatenmark 20.0 g
+Salz 2.0 TL
+Zucker 140.0 g
+Karotte 2.0 
+Gulasch, gemischt 1.0 kg
+Creme fraiche 200.0 mittelgroße
+Paprika, rot 1.0 
+Zucker 70.0 g
+Vanilleextrakt 0.5 TL
+Sonnenblumenöl 2.0 EL
+Weizenmehl 150.0 g
+Zucker, braun 8.0 TL
+Schalotte 2.0 
+Eigelb 1.0 
+Bio-Orange 1.0 
+Haselnusskerne 20.0 
+Paprika, grün 75.0 g
+Zucker 0.5 EL
+Shrimps 20.0 g
+Limette, unbehandelt 8.0 
+Butter 2.0 EL
+Cashewkern 100.0 g
+Zwiebel 1.0 
+Cayennepfeffer 1.0 Prise
+Ochsenherztomate 1.0 
+Zitrone, davon der Abrieb 1.0 
+Gouda 120.0 g
+Orangeat 100.0 g
+Hefe, frisch 15.0 g
+Buttermilch 150.0 ml
+Zimt 1.0 Prise
+Kirschtomate 10.0 
+Honig 60.0 g
+Erythrit 1.0 geh. EL
+Bio-Zitrone 1.0 kleine
+Rinderfond 300.0 ml
+Olivenöl, nativ extra 4.0 EL
+Puderzucker zum Besieben 0.0 
+Schokolade, dunkel 650.0 g
+Sahne 120.0 ml
+Rote Beete Kugeln (vakuumiert) 250.0 g
+Wakame Alge, getrocknet 50.0 g
+Brokkoli 300.0 g
+Yufka-Teig (Kühlregal) 12.0 Blatt
+Zucker 400.0 g
+Toast 4.0 Scheiben
+Naturjoghurt 100.0 g
+Pfeffer 0.0 
+Feta 125.0 g
+Hähnchenbrust 500.0 g
+Langkornreis 300.0 g
+Salatblatt 4.0 
+Kartoffel, festkochend  500.0 g
+Pflanzenöl 1.0 EL
+Weizenmehl 175.0 g
+Olivenöl, nativ extra 8.0 EL
+Weizenmehl 500.0 g
+Pflaumenmus 200.0 g
+Mehl 125.0 g
+Weizenmehl 600.0 g
+Zucker 0.0 
+Knoblauch 2.0 Zehen
+Sahnesteif 3.0 Päckchen
+Rucola 400.0 g
+Koriandersamen 2.0 TL
+Weizenmehl (Type 405) 100.0 g
+Mandel, gehobelt 200.0 g
+Salz 0.5 EL
+Kidney-Bohnen 0.5 Dose
+Tomate, getrocknet 40.0 g
+Zucker 100.0 g
+Zwiebel 80.0 g
+Habanero Chili, rot 2.0 
+Eigelb 2.0 Stück
+Tomate, passiert 400.0 ml
+Rote Bratwurst (Süddeutsche Bratwurst) 3.0 
+Weißbrot, altbacken 150.0 g
+Crème fraîche 150.0 g
+Worcestershiresoße 1.0 TL
+Joghurt 3.0 EL
+Tomate 100.0 g
+Zitrone, unbehandelt 2.0 
+Tabasco 1.0 Spritzer
+schwarzer Pfeffer, gemahlen 2.0 EL
+Erythrit 80.0 g
+Cashewkern, gesalzen 60.0 g
+Vollmilch 400.0 ml
+Weißweinessig 2.0 EL
+Sherryessig 4.0 EL
+Kaper 1.5 TL
+Oregano 2.0 Stiele
+Nelken 2.0 
+Zitrone, abgeriebene Schale 0.5 
+Sonnenblumenöl 8.0 EL
+Dashi-Brühe (jap. Algenbrühe) 10.0 g
+Dattel, getrocknet und entsteint 200.0 g
+Rohrzucker 20.0 g
+Zucker 1.0 EL
+Pflaumenmus 100.0 g
+Nelkenpulver 1.0 Prise
+Butter zum Einfetten 0.0 etwas
+Speisestärke 20.0 g
+Zucker 40.0 g
+unbehandelte Zitrone, davon die abgeriebene Schale 1.0 
+Orangensaft 640.0 ml
+Zwetschge 1.0 kg
+Zwiebel, rot 0.5 
+Sahne 80.0 ml
+Zuckerperlen, bunt 3.0 EL
+Petersilie 3.0 Stängel
+Quark, fettarm 90.0 g
+Banane 1.0 
+Zitrone, davon der Abrieb 0.0 
+Koriandergrün 0.0 etwas
+Knoblauchzehe 1.0 
+Basilikum 0.5 Bund
+Mineralwasser 3.0 EL
+Mandelmehl, alternativ gemahlene Mandeln 200.0 g
+Backpulver 1.0 TL
+Erythrit 70.0 g
+Staudensellerie 1.0 Stange
+Zucker 2.0 EL
+Honig 1.0 TL
+Milch 200.0 ml
+Mehl 400.0 g
+Vanillezucker 1.0 Packung
+Weizenmehl 220.0 g
+Hähnchenbrust 4.0 
+unbehandelte Orange, Abrieb und Saft 0.5 
+reife Avocado 2.0 
+Piment, gemahlen 1.0 TL
+Lakritzkonfekt, mit weißer Ummantelung 6.0 kleine
+Wiener Würstchen 250.0 g
+Rotkohlsalat 0.0 
+Weißweinessig 2.5 EL
+Pak Choi 250.0 g
+Kurkuma 1.5 EL
+Sesamsamen, hell 2.0 EL
+Mehl 195.0 g
+Petersilie, gehackt 3.0 EL
+Speckwürfel 250.0 g
+Schmand 100.0 g
+Ingwer 150.0 g
+Kreuzkümmel (Cumin) 2.0 EL
+Mehl für die Arbeitsfläche 0.0 
+Butter 250.0 g
+Sekt, trocken 16.0 cl
+Zwiebel 2.0 kleine
+Ei, Größe M 1.0 
+Kurkuma 4.0 EL
+Speisestärke 2.0 EL
+Mozzarella 125.0 g
+Ei 5.0 
+Worcester-Sauce 15.0 ml
+Rollfondant, rosa 0.0 
+Orange, davon der Saft 0.5 
+Kirschen 500.0 g
+Sesamöl 3.0 EL
+Vanilleschote 1.0 
+Haselnuss, gemahlen 100.0 g
+Currypaste 2.0 EL
+Backpulver 0.5 TL
+Kokosflocken 30.0 g
+Crème fraîche 50.0 g
+Zitronensaft 2.0 TL
+Ingwer 1.0 Stk.
+Natron 0.5 TL
+Parmesan 40.0 g
+Sesamöl 4.0 EL
+Ingwer (2 x 1 cm) 0.0 
+Peperoni, mittelscharf 10.0 g
+Rollfondant, schwarz 0.0 
+Apfel 2.0 
+Lebensmittelfarbe, grün 2.0 Tropfen
+Weizenmehl (Type 405) 30.0 g
+Erdnussbutter 50.0 g
+Haselnuss, gemahlen 250.0 g
+Ingwer 1.0 großer
+Lebensmittelfarbe, grün 1.0 TL
+passierte Tomate 400.0 g
+Geflügelbrühe 100.0 ml
+Blätterteig 1.0 Rolle
+Mandel, gemahlen 50.0 g
+Backkakao 40.0 g
+Kokosblütenzucker 100.0 g

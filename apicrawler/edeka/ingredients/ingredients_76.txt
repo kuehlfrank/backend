@@ -1,0 +1,446 @@
+Mehl 3.0 EL
+Gemüsebrühe 0.5 Tasse
+Fenchelknolle 0.5 
+Knoblauch 1.0 Zehe
+Wasser 150.0 ml
+Salz 0.5 TL
+Zucker, braun 1.0 TL
+Räucherlachs 150.0 g
+Ei 4.0 
+Balsamico-Essig 20.0 ml
+Lammhüfte 400.0 g
+Limettenabrieb 0.5 TL
+Olivenöl, kalt gepresst 4.0 TL
+Apfel, süßlich-sauer 2.0 
+Rucola 50.0 g
+Ei 3.0 
+Milch, fettarm 200.0 ml
+Senf 1.5 EL
+Bohne, weiß 200.0 g
+Dinkelvollkornmehl 100.0 g
+Olivenöl 20.0 ml
+Rote Bete 250.0 g
+Zimt 0.5 TL
+Frischkäse 100.0 g
+Liebstöckel 1.0 Bund
+Butter für die Form 0.0 
+Ei 8.0 
+Dinkelvollkornmehl 120.0 g
+Balsamico-Essig 4.0 EL
+Puddingpulver Schokolade 1.0 Päckchen
+Butter, weich 100.0 g
+Spieße 4.0 
+Schnittlauch 0.0 etwas
+Kakaopulver 10.0 g
+Rohrohrzucker 75.0 g
+Karotte 1.0 
+Grenadine 3.0 EL
+Rapsöl 1.0 EL
+Thymian 1.0 EL
+Kräuter, frische 1.0 EL
+Erdbeeren 400.0 g
+Weichweizengrieß 5.0 EL
+Olivenöl 12.0 EL
+Mandel, blachiert und gerieben 2.0 EL
+unbehandelte Orange, davon die abgeriebene Schale 1.0 
+Orange, unbehandelt 0.5 
+Matcha-Pulver 0.5 TL
+Cocktailtomaten 200.0 g
+Backpulver 1.0 Päckchen
+Speisestärke 40.0 g
+Rapsöl 2.0 EL
+Fischfond 150.0 ml
+Sprossen 0.0 
+Rapsöl 1.0 TL
+Softaprikose 100.0 g
+Möhre 1.0 
+Weizenmehl 250.0 g
+Minze 1.0 Zweig
+Putenschnitzel 3.0 
+Rosmarin 1.0 TL
+KNORR Natürlich Lecker! Wikingertopf 1.0 Beutel
+Chiliflocke, getrocknet 0.5 TL
+Olivenöl 8.0 EL
+Ei 1.0 
+Zitronensaft 1.0 EL
+Kartoffel 250.0 g
+Kaper 2.0 TL
+Erdnussöl 2.0 EL
+Vier-Kornflocken 4.0 EL
+Heidelbeeren 50.0 g
+Schlagsahne 500.0 g
+Walnussöl, kaltgepresst 1.0 EL
+Salbei 6.0 Blätter
+Kiwi, grün 4.0 
+Seelachsfilet 600.0 g
+Honig 4.0 TL
+Parmaschinken 8.0 Scheiben
+Pilze, gemischt 250.0 g
+Schokomüsli 200.0 g
+Weizenmehl (Type 405) 80.0 g
+Rapsöl 80.0 g
+Puderzucker 25.0 g
+Butter 1.0 EL
+Dekor-Zucker, weiß 0.0 
+Olivenöl 6.0 EL
+Beluga-Linsen 60.0 g
+Schnittlauch 1.0 Bund
+Penne Rigate 400.0 g
+Zitrone 1.0 
+Meerrettich 2.0 EL
+KNORR Salatkrönung Nudelsalat 1.0 Beutel
+Softpflaume 4.0 
+Zuckerperle 0.0 
+Zitronenpfeffer 0.0 
+Milch 120.0 ml
+Rapsöl, kalt gepresst 3.0 EL
+Quark 130.0 g
+Nuss-Nougat 100.0 g
+Kichererbse (aus der Dose) 140.0 g
+Hackfleisch, gemischt 500.0 g
+Mandel, gehackt 150.0 g
+Thymian 0.5 Bund
+Kräuter, gemischt, gehackt 100.0 g
+Erdbeere 500.0 g
+Rippchen vom Schwein 2.5 kg
+Salatgurke 0.5 
+Schokolade, zartbitter mit Orange 1.0 Tafel
+Pfirsich 4.0 
+Möhre 250.0 g
+Rettich, rot 150.0 g
+Apfelessig 2.0 EL
+Salz 1.0 Prise
+Sojadrink, ungesüßt 450.0 ml
+Apfel, rot 2.0 
+Eiswürfel 12.0 
+Petersilie, gehackt 2.0 EL
+Milch 0.5 Liter
+Thymianblatt 1.0 EL
+Milch 350.0 ml
+unbehandelte Zitrone, davon die abgeriebene Schale 0.5 
+Honig- oder Galiamelone 1.0 
+unbehandelte Zitrone, davon die abgeriebene Schale 2.0 EL
+frischer Babyspinat 200.0 g
+Kokosöl 2.0 EL
+Himbeere 2.0 Handvoll
+Mango 150.0 g
+Rapsöl 25.0 ml
+Multikornflocke 50.0 g
+Balsamico Bianco-Essig 3.0 EL
+Hefe, frisch 25.0 g
+Baguette Brötchen 4.0 
+Nektarine 4.0 
+Soft-Cranberry 1.0 EL
+KNORR Natürlich Lecker! Waldpilz Sauce 1.0 Beutel
+Ingwer 1.0 Stück
+Muskat 1.0 Prise
+Kaki 2.0 
+Roastbeefsteak, geschnitten 4.0 
+Kuchenglasur, dunkel 100.0 g
+Zucker 80.0 g
+Haselnuss, ganz 400.0 g
+Jodsalz 0.0 
+Zucker 750.0 g
+Olivenöl 3.0 EL
+Kräuterseitling 400.0 g
+Paprika, edelsüß 1.0 TL
+Zucker, braun 180.0 g
+Muskatnuss 1.0 Prise
+Gouda 150.0 g
+Joghurt-Frischkäse 150.0 g
+Salz 0.0 
+Salz 0.5 gestr. TL
+Salz 1.0 TL
+Kakaopulver 1.0 EL
+Weißwein, trocken 100.0 ml
+Olivenöl 5.0 EL
+Rucola 1.0 Handvoll
+Rohrohrzucker 2.0 EL
+Blutorangensaft 200.0 ml
+Oregano 1.0 TL
+Zucker, braun 125.0 g
+Sago 80.0 g
+Puderzucker 100.0 g
+Kiwi 2.0 
+Weizenmehl (Type 550) 50.0 g
+Olive, schwarz, entsteint 30.0 g
+Feige 4.0 
+Mineralwasser, still 150.0 ml
+Schältomate (Konserve) 0.5 Dose
+Frühstücks-Couscous 60.0 g
+Sauerrahmbutter 40.0 g
+Speisestärke 30.0 g
+Hanfprotein-Pulver 30.0 g
+Lammhüfte 4.0 kleine
+Schokolade, zartbitter mit Orange 75.0 g
+Rotwein 70.0 ml
+Cocktailtomate 5.0 
+Vanillezucker 1.0 Päckchen
+Speck 150.0 g
+Zucker 1.0 Prise
+Zucker 1.5 EL
+Ziegenfrischkäserolle 200.0 g
+Pekanuss oder Walnuss 80.0 g
+Oregano 4.0 Zweige
+Minzblatt 1.0 TL
+Beeren, gemischt 350.0 g
+Fruchtsaft, rot 200.0 ml
+Zitrone, davon der Abrieb 2.0 
+Backpulver 2.0 TL
+Rotwein, trocken 1.0 EL
+H-Milch 3,5 % Fett 500.0 ml
+Pflanzenöl 4.0 EL
+Reis 2.0 Tassen
+Granatapfel 1.0 großer
+Rote Bete, gegart 250.0 g
+Olivenöl, kalt gepresst 1.0 EL
+Weizenmehl 100.0 g
+Brombeere 100.0 g
+Parmesan 4.0 EL
+Zucker 50.0 g
+Pesto alla Genovese 2.0 TL
+Frühlingszwiebel 2.0 
+Feta 2.0 Packung
+Kartoffel 150.0 g
+Tomate, getrocknet 200.0 g
+Erdbeere 300.0 g
+Minzblatt 1.0 Handvoll
+Zuckerperle 4.0 EL
+Wassermelone 750.0 g
+Pistazie, gehackt 2.0 EL
+Pistazie, gehackt 0.5 TL
+Paprika, gelb 100.0 g
+Olivenöl 0.0 
+Pfeffer, grob, bunt 0.5 TL
+Eiweiß 90.0 g
+Zartbitter-Couverture 0.0 
+Reisbandnudel 80.0 g
+Zucker, braun 1.5 EL
+Tomate, bunt 500.0 g
+Couvertüre, Vollmilch 200.0 g
+Haselnuss, gehobelt 40.0 g
+Zucker 250.0 g
+Blüte, getrocknet 1.0 TL
+Orange 2.0 
+Tomate 250.0 g
+Zitronensaft 3.0 EL
+Mandel, ungeschält 3.0 EL
+Salbei 1.0 TL
+Zitrone, abgeriebene Schale 1.0 
+Limette, unbehandelt, davon Saft und Schale 1.0 
+Granatapfel 1.0 
+Salz, Pfeffer 0.0 
+Weißwein 120.0 ml
+Rosmarinzweig 1.0 
+Sahnesteif 1.0 Päckchen
+Barbecue-Sauce 500.0 ml
+Ahornsirup 1.0 EL
+Gemüsebrühe 4.0 Tassen
+Heidelbeerkompott 5.0 EL
+Zucker 150.0 g
+Hirtenkäse 100.0 g
+Sahne 100.0 ml
+Schalotte 1.0 
+Granatapfelsirup 50.0 ml
+Joghurt 4.0 EL
+Milch 250.0 g
+Sahne, geschlagen 0.5 Becher
+Aprikose, getrocknet 100.0 g
+Zwiebel, rot 1.0 
+Schafskäse 50.0 g
+Zuckerdekor Eiskristalle 0.0 
+Hefe 0.5 Würfel
+Pfeffer aus der Mühle 0.0 
+Mineralwasser 300.0 ml
+Brombeeren 50.0 g
+Hokkaido-Kürbis 250.0 g
+Apfel 1.0 
+Eiweiß 6.0 
+Jodsalz 1.0 gestr. TL
+Eiweiß 1.0 
+Granatapfelsirup 100.0 ml
+KNORR Natürlich Lecker! Lasagne 1.0 Beutel
+Muskatnuss 0.0 
+Spaghetti 400.0 g
+Staudensellerie 2.0 Stangen
+Kurkuma 0.5 TL
+Speisequark 200.0 g
+Holunderblütendolde 8.0 
+Butter 150.0 g
+Salz, Pfeffer 0.0 Prise
+Olivenöl 2.0 EL
+Käse, gerieben 50.0 g
+Knoblauchzehe 2.0 
+Rapsöl, kalt gepresst 80.0 ml
+Butter 20.0 g
+Cranberry-Nektar 300.0 ml
+Saure Sahne 2.0 EL
+Peperoni 1.0 
+Ei 2.0 
+Zimt 1.0 TL
+Mineralwasser, classic 750.0 ml
+Kochsahne (15 %) 75.0 ml
+Zucker 200.0 g
+Zartbitterschokolade 200.0 g
+Salz 0.5 
+Mozzarella 100.0 g
+Mehl 50.0 g
+Mini-Mozzarella-Kugel 150.0 g
+Rapsöl, kalt gepresst 1.0 EL
+Weizenmehl 10.0 g
+Sahne 300.0 ml
+Zucchini 300.0 g
+Maisgrieß (Polenta) 70.0 g
+Mandel 150.0 g
+Apfel, feste Sorte z.B. Elstar 1.0 
+Zimt 0.0 
+Zucker, braun 100.0 g
+Hähnchen-Bratwurst 8.0 
+Rotweinessig 4.0 EL
+Zitrone, davon Saft und Abrieb 1.0 
+Butter 10.0 g
+Paprika, rot 1.0 
+Petersilie 2.0 EL
+Himbeeren 50.0 g
+Minzblatt 20.0 Stück
+Dill, gehackt 0.0 etwas
+Kalbsfilet 600.0 g
+Schalotte 2.0 
+Schweinefilet, geräuchert 50.0 g
+Eigelb 1.0 
+Bio-Orange 1.0 
+Milch 1.0 EL
+Couvertüre, weiß 100.0 g
+Nuss-Nougat 150.0 g
+Rhabarber, geschält und in Würfel geschnitten 500.0 g
+Butter 70.0 g
+Zitronensaft 1.0 Spritzer
+Milch 600.0 ml
+Weizenmehl 40.0 g
+Cashewkern 100.0 g
+Zwiebel 1.0 
+Zitrone, unbehandelt 5.0 
+Zitrone, davon der Abrieb 1.0 
+Rapsöl, kalt gepresst 1.0 TL
+Orange, abgeriebene Schale 0.0 
+Schnittlauchröllchen 2.0 EL
+Rinderfond 300.0 ml
+Knäckebrot 120.0 g
+Pflanzenöl 2.0 EL
+Cocktailtomate 12.0 Stk.
+Wassermelone 1.0 
+Frühstücksspeck 8.0 Scheiben
+Mango, reif 1.0 
+Vanilleextrakt 1.0 TL
+Wassermelone 0.5 
+Dinkelvollkornmehl 250.0 g
+Arganöl 1.0 EL
+Naturjoghurt 100.0 g
+Pfeffer 0.0 
+Walnusskern 30.0 g
+Spätzle (Kühlregal) 500.0 g
+Champignon, braun 350.0 g
+Harissa (Würzpaste) 1.0 TL
+Agavendicksaft 1.0 TL
+Pfanni Kartoffel Püree Das Pure 1.0 Beutel
+Parmesan 50.0 g
+Pflanzenöl 1.0 EL
+Rapsöl 1.0 Liter
+Walnuss, gehackt 50.0 g
+Thymian 1.0 TL
+Lauchzwiebel 1.0 Bund
+Mandel, gemahlen 1.0 EL
+Babyspinat 250.0 g
+Weizenmehl 500.0 g
+Butter für die Form 20.0 g
+Olivenöl, nativ 3.0 EL
+Minze, zum Garnieren 1.0 EL
+Cashewkern 6.0 EL
+Sultanine 30.0 g
+Lebkuchengewürz 1.0 geh. TL
+Holunderblütensirup 200.0 ml
+Agavendicksaft 0.0 etwas
+Kakaopulver None None
+Weizenmehl (Type 550) 300.0 g
+Kaki 3.0 
+Rote-Beete-Saft 3.0 EL
+Salz, Pfeffer 1.0 Prise
+Mineralwasser 125.0 ml
+Mayonnaise 50.0 g
+Orange 4.0 kleine
+Spätzle 400.0 g
+Ahornsirup 4.0 EL
+Mineralwasser 70.0 ml
+Zwiebel, rot 10.0 
+Büffelmozzarella 1.0 
+Molke 250.0 ml
+Limettensaft 1.0 Spritzer
+Olivenöl, kalt gepresst 3.0 EL
+Frühlingszwiebel 0.5 Bund
+Zucker 6.0 EL
+Honig 0.0 etwas
+Milch 240.0 ml
+frische Kräuter ( z.B. Thymian, Oregano oder Petersilie) 4.0 EL
+Hokkaido-Kürbis 200.0 g
+Weizenmehl (Type 405) 500.0 g
+Butter zum Einfetten 0.0 etwas
+Kakaopulver 2.0 EL
+Frischkäse, natur 3.0 EL
+Gelatine 2.0 Blatt
+Champagner 375.0 g
+Mandelmehl 200.0 g
+Mineralwasser 750.0 ml
+Kaffee 150.0 ml
+Karambole (Sternfrucht) 1.0 
+Banane 1.0 
+Lammfond 200.0 ml
+Eierlikör 200.0 ml
+Mehl 450.0 g
+Honig 1.0 gestr. EL
+Knoblauchzehe 1.0 
+Basilikum 0.5 Bund
+Backpulver 1.0 TL
+Zitrone, unbehandelt 1.0 
+Buttermilch 400.0 ml
+Kürbiskern 50.0 g
+Honig 1.0 TL
+Ketchup 1.0 TL
+Milch 200.0 ml
+Vanillezucker 1.0 Packung
+Piment, gemahlen 1.0 TL
+Petersilie, glatt 0.5 Bund
+Gemüsebrühe 150.0 ml
+Vanilleschote, davon das Mark 1.0 
+Süßkartoffel 200.0 g
+Schalotte 50.0 g
+Schokoladenraspel, Vollmilch 1.0 EL
+Kefirpilz 1.0 EL
+Kaffeelikör 2.0 EL
+Limettensaft 200.0 ml
+Butter 250.0 g
+Mandel, gemahlen 80.0 g
+Blumenkohl 400.0 g
+Marzipanrohmasse 150.0 g
+Galiamelone 500.0 g
+Speisestärke 2.0 EL
+Polentagrieß 300.0 g
+Margarine 10.0 g
+Traubenkernmehl 1.0 EL
+Vanilleschote 1.0 
+Honig 1.0 EL
+Baby Octopus, roh 500.0 g
+Vollkorntoast 2.0 Scheiben
+Backpulver 0.5 TL
+Minze 1.0 Bund
+Raz el Hanout (Marokkanische Gewürzmischung) 1.0 TL
+Himbeereis 8.0 Kugeln
+Zitronensaft 2.0 TL
+Softdattel 12.0 
+Mineralwasser, medium 600.0 ml
+Basilikum 1.0 Handvoll
+Wildkräuterkäse 50.0 g
+Plattpfirsich (Bergpfirsich, Paraguayo) 4.0 
+Zucchini 1.0 
+Butter, weich 250.0 g
+Schweinerückensteak 4.0 kleines
+Weißbrot 8.0 Scheiben
