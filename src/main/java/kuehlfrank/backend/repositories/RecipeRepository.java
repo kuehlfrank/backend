@@ -25,9 +25,12 @@ public interface RecipeRepository extends CrudRepository<Recipe, UUID> {
 			+ " AND NOT i.common";// ;
 
 	public static final String query = "SELECT * FROM recipe r"//
-			+ " WHERE ("+ unavailableIngredientAmount + ") = 0"; //
+			+ " WHERE (" + unavailableIngredientAmount + ") = 0"; //
 
 	@Query(value = query, nativeQuery = true)
 	public Collection<Recipe> findPossibleRecipes(String userId);
+
+	@Query(value = "SELECT * FROM recipe r ORDER BY RANDOM() LIMIT 1", nativeQuery = true)
+	public Recipe getRandomRecipe();
 
 }

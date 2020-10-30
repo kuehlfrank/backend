@@ -37,5 +37,10 @@ public class RecipeController {
 	public Collection<Recipe> recipes(Authentication authentication) {
 		return getRecipes(authentication, authentication.getName());
 	}
+	
+	@GetMapping(value = "/random")
+	public Recipe getRandomRecipe(Authentication authentication) {
+		return recipeRepository.getRandomRecipe();
+	}
 
 }
