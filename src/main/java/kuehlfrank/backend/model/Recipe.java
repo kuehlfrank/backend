@@ -1,8 +1,10 @@
 package kuehlfrank.backend.model;
 
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.UUID;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -31,5 +33,10 @@ public class Recipe {
 	@JoinColumn(name = "recipe_id")
 	private List<RecipeIngredient> recipeIngredients;
 	
-	
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(insertable = false)
+	private LocalDateTime createdAt;
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(insertable = false)
+	private LocalDateTime updatedAt;
 }

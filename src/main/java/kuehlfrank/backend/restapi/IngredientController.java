@@ -21,7 +21,7 @@ public class IngredientController {
 
 
 	@PostMapping("/ingredient") // TODO rmv
-	public Ingredient setIngredient(@RequestBody Ingredient ingredient) {
+	public Ingredient addIngredient(@RequestBody Ingredient ingredient) {
 		return ingredientRepository.save(ingredient);
 	}
 

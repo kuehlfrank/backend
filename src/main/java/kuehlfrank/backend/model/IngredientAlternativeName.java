@@ -1,14 +1,21 @@
 package kuehlfrank.backend.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import java.time.LocalDateTime;
+import java.util.UUID;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+
+import org.hibernate.annotations.Cascade;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.hibernate.annotations.Cascade;
-
-import java.util.UUID;
-
-import javax.persistence.*;
 
 @Data
 @NoArgsConstructor
@@ -34,4 +41,11 @@ public class IngredientAlternativeName {
 		this.name = name;
 		this.ingredient = ingredient;
 	}
+	
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(insertable = false)
+	private LocalDateTime createdAt;
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(insertable = false)
+	private LocalDateTime updatedAt;
 }

@@ -1,9 +1,13 @@
 package kuehlfrank.backend.model;
 
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
 
+import javax.persistence.Column;
 import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.MapsId;
@@ -34,4 +38,11 @@ public class RecipeIngredient {
 	@ManyToOne
 	@JoinColumn(name = "unit_id")
 	private Unit unit;
+	
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(insertable = false)
+	private LocalDateTime createdAt;
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(insertable = false)
+	private LocalDateTime updatedAt;
 }

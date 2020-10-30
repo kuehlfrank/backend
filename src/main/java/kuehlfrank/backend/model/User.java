@@ -1,6 +1,11 @@
 package kuehlfrank.backend.model;
 
+import java.time.LocalDateTime;
+
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
@@ -29,4 +34,17 @@ public class User {
 	@ManyToOne
 	@JoinColumn(name = "inventory_id")
 	private Inventory inventory;
+
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(insertable = false)
+	private LocalDateTime createdAt;
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(insertable = false)
+	private LocalDateTime updatedAt;
+
+	public User(@NonNull String userId, @NonNull String name, Inventory inventory) {
+		this.userId = userId;
+		this.name = name;
+		this.inventory = inventory;
+	}
 }

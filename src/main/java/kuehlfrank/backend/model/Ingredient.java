@@ -1,15 +1,21 @@
 package kuehlfrank.backend.model;
 
-import javax.persistence.*;
+import java.time.LocalDateTime;
+import java.util.List;
+import java.util.UUID;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToMany;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.util.List;
-import java.util.UUID;
 
 @Data
 @NoArgsConstructor
@@ -39,4 +45,12 @@ public class Ingredient {
 		this.common = common;
 		this.alternativeNames = alternativeNames;
 	}
+	
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(insertable = false)
+	private LocalDateTime createdAt;
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(insertable = false)
+	private LocalDateTime updatedAt;
+	
 }
