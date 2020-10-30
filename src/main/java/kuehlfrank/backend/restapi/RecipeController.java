@@ -18,22 +18,22 @@ import kuehlfrank.backend.model.Recipe;
 import kuehlfrank.backend.repositories.RecipeRepository;
 
 @RestController
-@RequestMapping(produces = MediaType.APPLICATION_JSON_VALUE)
+@RequestMapping(path = "recipes", produces = MediaType.APPLICATION_JSON_VALUE)
 @CrossOrigin(origins = "*")
 public class RecipeController {
 
 	@Autowired
 	private RecipeRepository recipeRepository;
 
-	@GetMapping(value = "/recipes/{userId}")
+	@GetMapping(value = "/suggestions/{userId}")
 	public Collection<Recipe> getRecipes(Authentication authentication, @PathVariable String userId) {
-		if (!Objects.equals(userId, authentication.getName())) { // Only allow getting users own inventory for
+		if (!Objects.equals(userId, authentication.getName())) { // Only allow getting users own data for now
 			throw new ResponseStatusException(HttpStatus.UNAUTHORIZED, "Can't access other user's data");
 		}
 		return recipeRepository.findPossibleRecipes(userId);
 	}
 
-	@GetMapping(value = "/recipes")
+	@GetMapping(value = "/suggestions")
 	public Collection<Recipe> recipes(Authentication authentication) {
 		return getRecipes(authentication, authentication.getName());
 	}
