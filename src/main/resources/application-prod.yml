@@ -9,9 +9,9 @@ spring:
       hibernate:
         show-sql: false
     datasource:
-      url: jdbc:postgresql://kuehlfrank-postgres.westeurope.azurecontainer.io:5432/kuehlfrank
+      url: jdbc:postgresql://address:5432/kuehlfrank # set via env
       username: kuehlfrank
-      password: GjfuVUdKLS93qF6OPxDi
+      password: password # set via env
       initialization-mode: always
       initialize: true
       continue-on-error: true
