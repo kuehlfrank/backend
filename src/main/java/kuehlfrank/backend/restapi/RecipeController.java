@@ -38,8 +38,10 @@ public class RecipeController {
     }
 
     @GetMapping(value = "/random")
-    public Recipe getRandomRecipe(Authentication authentication) {
-        return recipeRepository.getRandomRecipe();
+    public DetailedRecipeSuggestion getRandomRecipe(Authentication authentication) {
+        UUID recipeID = UUID.fromString(recipeRepository.getRandomRecipeId());
+        String userId = authentication.getName();
+        return recipeRepository.getDetailedRecipeSuggestion(recipeID, userId);
     }
 
     @GetMapping(value = "/suggestions/{userId}/suggestion/{recipeId}")

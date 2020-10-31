@@ -8,6 +8,6 @@ import java.util.UUID;
 
 public interface RecipeRepository extends CrudRepository<Recipe, UUID>, RecipeJpaRepository {
 
-	@Query(value = "SELECT * FROM Recipe r ORDER BY RANDOM() LIMIT 1", nativeQuery = true)
-	Recipe getRandomRecipe();
+	@Query(value = "SELECT cast(r.recipe_id as varchar) FROM Recipe r ORDER BY RANDOM() LIMIT 1", nativeQuery = true)
+	String getRandomRecipeId();
 }
