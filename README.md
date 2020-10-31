@@ -63,4 +63,4 @@ docker push ghcr.io/kuehlfrank/backend:latest
 ### Ingredients
 |Method | URL | Description | Example response |
 |-------|-----|-------------|------|
-|POST | `/ingredients/find?q={query}&limit={limit}` | suggests one or multiple ingredient names which best match the given user input string  | [200 Ok](./docs/responses/get_ingredients_response.json)
+|GET | `/ingredients/find?q={query}&limit={limit}` | suggests one or multiple ingredient names which best match the given user input string  | [200 Ok](./docs/responses/get_ingredients_response.json)
