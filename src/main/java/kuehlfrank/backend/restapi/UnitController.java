@@ -1,5 +1,7 @@
 package kuehlfrank.backend.restapi;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.security.core.Authentication;
@@ -20,7 +22,7 @@ public class UnitController {
 	private UnitRepository unitRepository;
 	
 	@GetMapping("/units")
-	public Iterable<Unit> getUnits(Authentication authentication){
-		return unitRepository.findAll();
+	public List<Unit> getUnits(Authentication authentication){
+		return unitRepository.findAllByOrderByLabelAsc();
 	}
 }
