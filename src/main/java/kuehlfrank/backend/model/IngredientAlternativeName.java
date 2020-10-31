@@ -11,8 +11,6 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
-import org.hibernate.annotations.Cascade;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -29,7 +27,6 @@ public class IngredientAlternativeName {
 	private String name;
 
 	@ManyToOne
-	@Cascade(value = org.hibernate.annotations.CascadeType.ALL)
 	@JoinColumn(name = "ingredient_id")
 	private Ingredient ingredient;
 

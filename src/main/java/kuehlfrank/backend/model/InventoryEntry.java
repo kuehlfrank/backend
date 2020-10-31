@@ -13,9 +13,6 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 
-import org.hibernate.annotations.Cascade;
-import org.hibernate.annotations.CascadeType;
-
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import lombok.AllArgsConstructor;
@@ -42,7 +39,6 @@ public class InventoryEntry {
 
 	@JsonIgnoreProperties(ignoreUnknown = true, value = { "alternativeNames" })
 	@ManyToOne
-	@Cascade(value = CascadeType.ALL)
 	@JoinColumn(name = "ingredient_id")
 	private Ingredient ingredient;
 
@@ -53,7 +49,6 @@ public class InventoryEntry {
 	private String imageSrcUrl;
 
 	@ManyToOne
-	@Cascade(value = CascadeType.ALL)
 	@JoinColumn(name = "unit_id")
 	private Unit unit;
 

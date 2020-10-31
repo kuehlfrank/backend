@@ -13,9 +13,6 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 
-import org.hibernate.annotations.Cascade;
-import org.hibernate.annotations.CascadeType;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -30,7 +27,6 @@ public class Inventory {
 	@GeneratedValue
 	private UUID inventoryId;
 
-	@Cascade(value = CascadeType.ALL)
 	@JoinColumn(name = "inventory_id")
 	@OneToMany
 	private List<InventoryEntry> inventoryEntries = new ArrayList<>();
