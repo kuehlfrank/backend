@@ -30,7 +30,7 @@ public class TestController {
 
     @GetMapping(value = "/serverInfo")
     public ServerInfo version() {
-        return new ServerInfo("v7", activeProfile);
+        return new ServerInfo("v8", activeProfile);
     }
 
     @GetMapping(value = "/public")
