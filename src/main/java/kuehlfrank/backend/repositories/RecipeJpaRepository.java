@@ -1,10 +1,14 @@
 package kuehlfrank.backend.repositories;
 
-import kuehlfrank.backend.model.RecipeResponse;
+import kuehlfrank.backend.dto.DetailedRecipeSuggestion;
+import kuehlfrank.backend.dto.RecipeSuggestion;
 
 import java.util.Collection;
+import java.util.UUID;
 
 public interface RecipeJpaRepository {
 
-	Collection<RecipeResponse> findBestMatchingRecipes(String userId);
+	Collection<RecipeSuggestion> findBestMatchingRecipes(String userId);
+
+	DetailedRecipeSuggestion getDetailedRecipeSuggestion(UUID recipeId, String userId);
 }
