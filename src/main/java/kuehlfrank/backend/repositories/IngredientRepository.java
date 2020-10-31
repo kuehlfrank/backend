@@ -9,11 +9,11 @@ import java.util.Collection;
 import java.util.Optional;
 import java.util.UUID;
 
-public interface IngredientRepository extends CrudRepository<Ingredient, UUID>{
+public interface IngredientRepository extends CrudRepository<Ingredient, UUID> {
 
-    @Query("SELECT ing FROM Ingredient ing  WHERE ing.name = :ingredientName")
-    Optional<Ingredient> findByName(String ingredientName);
+	@Query("SELECT ing FROM Ingredient ing  WHERE ing.name = :ingredientName")
+	Optional<Ingredient> findByName(String ingredientName);
 
-    @Query("SELECT ing.name FROM Ingredient ing ORDER BY ing.name")
-	public Collection<String> getNames();
+	@Query(value = "SELECT i.name FROM INGREDIENT i ORDER BY similarity(i.name, :q) DESC LIMIT :limit", nativeQuery = true)
+	public Collection<String> getSuggestion(String q, Integer limit);
 }
