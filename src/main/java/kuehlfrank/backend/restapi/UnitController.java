@@ -14,14 +14,14 @@ import kuehlfrank.backend.model.Unit;
 import kuehlfrank.backend.repositories.UnitRepository;
 
 @RestController
-@RequestMapping(produces = MediaType.APPLICATION_JSON_VALUE)
+@RequestMapping(produces = MediaType.APPLICATION_JSON_VALUE, path = "units")
 @CrossOrigin(origins = "*")
 public class UnitController {
 
 	@Autowired
 	private UnitRepository unitRepository;
 	
-	@GetMapping("/units")
+	@GetMapping("")
 	public List<Unit> getUnits(Authentication authentication){
 		return unitRepository.findAllByOrderByLabelAsc();
 	}
