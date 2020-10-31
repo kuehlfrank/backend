@@ -37,6 +37,7 @@ public class InventoryEntry {
 	@JoinColumn(name = "inventory_id")
 	@OneToOne
 	@ToString.Exclude
+	@JsonIgnoreProperties("inventoryEntries")
 	private Inventory inventory;
 
 	@JsonIgnoreProperties(ignoreUnknown = true, value = { "alternativeNames" })

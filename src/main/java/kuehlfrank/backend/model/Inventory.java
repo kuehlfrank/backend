@@ -32,7 +32,7 @@ public class Inventory {
 
 	@JoinColumn(name = "inventory_id")
 	@OneToMany
-	@JsonIgnoreProperties(ignoreUnknown=true)
+	@JsonIgnoreProperties("inventory")
 	private List<InventoryEntry> inventoryEntries = new ArrayList<>();
 
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
