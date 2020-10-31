@@ -5,8 +5,6 @@ import java.util.Objects;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
-import kuehlfrank.backend.model.*;
-import kuehlfrank.backend.repositories.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -24,7 +22,16 @@ import org.springframework.web.server.ResponseStatusException;
 
 import kuehlfrank.backend.dto.AddItemDto;
 import kuehlfrank.backend.dto.UpdateInventoryEntryDto;
-import lombok.NonNull;
+import kuehlfrank.backend.model.Ingredient;
+import kuehlfrank.backend.model.IngredientAlternativeName;
+import kuehlfrank.backend.model.Inventory;
+import kuehlfrank.backend.model.InventoryEntry;
+import kuehlfrank.backend.model.Message;
+import kuehlfrank.backend.repositories.IngredientAlternativeNameRepository;
+import kuehlfrank.backend.repositories.IngredientRepository;
+import kuehlfrank.backend.repositories.InventoryEntryRepository;
+import kuehlfrank.backend.repositories.InventoryRepository;
+import kuehlfrank.backend.repositories.UnitRepository;
 import lombok.var;
 
 @RestController
@@ -102,18 +109,19 @@ public class InventoryController {
 	public InventoryEntry updateInventoryEntry(Authentication authentication, @PathVariable String userId,
 			@PathVariable UUID inventoryEntryId, @RequestBody UpdateInventoryEntryDto dto) {
 		checkUserId(authentication, userId);
-		Inventory inventory = getInventoryForUser(userId);
-		Ingredient ingredient = inventoryEntryRepository.findByInventoryEntryId(inventoryEntryId).orElseThrow(
+		InventoryEntry inventoryEntry = inventoryEntryRepository.findById(inventoryEntryId).orElseThrow(
 				() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Unable to find inventoryEntry for inventoryEntryId"));
-		InventoryEntry inventoryEntry = new InventoryEntry(inventoryEntryId, inventory, ingredient, dto.getQuantity(), dto.getImgSrc(), getUnit(dto.getUnitId()));
+		if (dto.getUnitId() != null) {
+			inventoryEntry.setUnit(unitRepository.findById(dto.getUnitId())
+					.orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Unable to find unit")));
+		}
+		if (dto.getQuantity() != null) {
+			inventoryEntry.setAmount(dto.getQuantity());
+		}
+		
 		return inventoryEntryRepository.save(inventoryEntry);
 	}
 
-	private Unit getUnit(@NonNull UUID unitId) {
-		return unitRepository.findById(unitId)
-				.orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Unable to find unit"));
-	}
-	
 	private Inventory getInventoryForUser(String userId) {
 		return inventoryRepository.findByUserId(userId).orElseThrow(
 				() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Unable to find inventory for user"));
@@ -122,7 +130,7 @@ public class InventoryController {
 	private void checkUserId(Authentication authentication, String userId) {
 		if (userId == null) {
 			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "userId can't be empty");
-		} else if (!Objects.equals(userId, authentication.getName())) { // Only allow getting users own inventory for
+		} else if (!Objects.equals(userId, authentication.getName())) { // Only allow getting users own inventory, for now
 			throw new ResponseStatusException(HttpStatus.UNAUTHORIZED, "Can't access other users inventory");
 		}
 	}
