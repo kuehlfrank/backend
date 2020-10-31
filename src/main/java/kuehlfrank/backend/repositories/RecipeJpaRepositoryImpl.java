@@ -79,7 +79,7 @@ public class RecipeJpaRepositoryImpl implements RecipeJpaRepository {
 		}
 
 		return new DetailedRecipeSuggestion(recipe.getRecipeId(), recipe.getName(), recipe.getExternal_img_src_url(),
-				recipe.getExternal_source(), missingIngredientsCount, (long)recipeIngredients.size(), recipeIngredients);
+				recipe.getExternal_source(), missingIngredientsCount, (long)recipeIngredients.size(), recipeIngredients, recipe.getExternal_url());
 	}
 
 }
