@@ -1,0 +1,49 @@
+{
+    "recipeId": "d5903c98-561c-43de-9c41-6167baa3b120",
+    "title": "Limoncello",
+    "imgSrc": "https://www.edeka.de/media/01-rezeptbilder/rezeptbilder-i-p/rez-edeka-limoncello-rezept-i-p-1-1.jpg?imwidth=880&imdensity=1",
+    "externalSource": "Edeka Rezepte",
+    "missingIngredientsCount": 3,
+    "totalIngredientsCount": 3,
+    "recipeIngredients": [
+        {
+            "missing": true,
+            "ingredient": {
+                "ingredientId": "33db2cb7-9ee6-402a-8b75-2c50196f9695",
+                "name": "Zitrone, unbehandelt",
+                "common": false,
+                "alternativeNames": []
+            },
+            "amount": 5.000,
+            "unit": null
+        },
+        {
+            "missing": true,
+            "ingredient": {
+                "ingredientId": "2d0a6b84-ec84-4bd4-b298-e1e479b8a3de",
+                "name": "Ansatzspirituose",
+                "common": false,
+                "alternativeNames": []
+            },
+            "amount": 500.000,
+            "unit": {
+                "unitId": "c0fc3829-ca6b-4161-93f4-df4db8b127f6",
+                "label": "ml"
+            }
+        },
+        {
+            "missing": true,
+            "ingredient": {
+                "ingredientId": "bd4325ec-1d72-4e21-a8e6-67c1f2c949e3",
+                "name": "Zucker",
+                "common": false,
+                "alternativeNames": []
+            },
+            "amount": 250.000,
+            "unit": {
+                "unitId": "3ee18339-134d-4e6d-b3f4-990b4bfb87a8",
+                "label": "g"
+            }
+        }
+    ]
+}

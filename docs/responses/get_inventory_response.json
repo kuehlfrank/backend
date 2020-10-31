@@ -1,0 +1,58 @@
+{
+    "inventoryId": "78ee4515-2e41-446c-a8ed-b141a199aedd",
+    "inventoryEntries": [
+        {
+            "inventoryEntryId": "edbba899-e887-45c2-8588-049563578fd8",
+            "ingredient": {
+                "ingredientId": "6db97886-b1f6-440f-b917-e74b62642716",
+                "name": "test",
+                "common": false
+            },
+            "amount": 5.000,
+            "imageSrcUrl": null,
+            "unit": {
+                "unitId": "77f29431-9a7c-466c-9ff7-1a0eef1ff853",
+                "label": "Blatt"
+            }
+        },
+        {
+            "inventoryEntryId": "08beedd2-0396-4cbf-bd73-f35e9a5ec47d",
+            "ingredient": {
+                "ingredientId": "03527cc0-d028-4ef7-bfb4-66486ee6d617",
+                "name": "TestWasser",
+                "common": false
+            },
+            "amount": 6.000,
+            "imageSrcUrl": null,
+            "unit": {
+                "unitId": "69de7253-8d05-4b7a-af19-9b26959d2eed",
+                "label": "TestUnit"
+            }
+        },
+        {
+            "inventoryEntryId": "31afa831-ff18-4e6e-96c7-df16be796e1a",
+            "ingredient": {
+                "ingredientId": "32ad6979-cb22-4f4f-a907-5c08c116cbf4",
+                "name": "TestBrot",
+                "common": false
+            },
+            "amount": 5.000,
+            "imageSrcUrl": null,
+            "unit": {
+                "unitId": "69de7253-8d05-4b7a-af19-9b26959d2eed",
+                "label": "TestUnit"
+            }
+        },
+        {
+            "inventoryEntryId": "92f40a9e-8a27-4670-a0ed-2c1c1cb118fe",
+            "ingredient": {
+                "ingredientId": "234488d8-261e-40de-83d3-09c1ef557907",
+                "name": "TestSalat",
+                "common": false
+            },
+            "amount": 1000.000,
+            "imageSrcUrl": null,
+            "unit": null
+        }
+    ]
+}
