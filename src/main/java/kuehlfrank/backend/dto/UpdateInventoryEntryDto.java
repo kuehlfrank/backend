@@ -8,7 +8,7 @@ import lombok.Data;
 @Data
 public class UpdateInventoryEntryDto {
 
-    private BigDecimal quantity;
+    private BigDecimal amount;
     private UUID unitId;
     private String imgSrc;
 

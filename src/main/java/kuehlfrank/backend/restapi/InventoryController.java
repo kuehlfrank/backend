@@ -115,8 +115,8 @@ public class InventoryController {
 			inventoryEntry.setUnit(unitRepository.findById(dto.getUnitId())
 					.orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Unable to find unit")));
 		}
-		if (dto.getQuantity() != null) {
-			inventoryEntry.setAmount(dto.getQuantity());
+		if (dto.getAmount() != null) {
+			inventoryEntry.setAmount(dto.getAmount());
 		}
 		
 		return inventoryEntryRepository.save(inventoryEntry);

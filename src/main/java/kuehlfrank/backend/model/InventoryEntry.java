@@ -74,8 +74,8 @@ public class InventoryEntry {
 	}
 
 	public InventoryEntry(UUID inventoryEntryId, Inventory inventory, Ingredient ingredient,
-			@NonNull BigDecimal quantity, String imgSrc, Unit unit) {
-		this(inventory, ingredient, quantity, imgSrc, unit);
+			@NonNull BigDecimal amount, String imgSrc, Unit unit) {
+		this(inventory, ingredient, amount, imgSrc, unit);
 		this.inventoryEntryId = inventoryEntryId;
 	}
 
