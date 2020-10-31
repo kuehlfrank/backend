@@ -21,7 +21,7 @@ public class IngredientController {
 	@Autowired
 	private IngredientRepository ingredientRepository;
 	
-	@GetMapping("/suggest")
+	@GetMapping("/find")
 	public Collection<String> suggestIngredientName(Authentication authentication, @RequestParam String q, @RequestParam(defaultValue = "1") Integer limit) {
 		return ingredientRepository.getSuggestion(q, limit);
 	}
