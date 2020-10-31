@@ -31,7 +31,7 @@ public class RecipeJpaRepositoryImpl implements RecipeJpaRepository {
 			+ "left join InventoryEntry ie on ie.inventory.inventoryId = u.inventory.inventoryId and ri.ingredient.ingredientId = ie.ingredient.ingredientId "
 			+ "inner join Ingredient i on i.ingredientId = ri.ingredient.ingredientId "
 			+ "group by r.recipeId, r.name, r.external_img_src_url, r.external_source "
-			+ "order by missingIngredientCount, r.recipeId";
+			+ "order by missingIngredientCount / totalIngredientCount asc, r.recipeId";
 
 	@Override
 	public Collection<RecipeSuggestion> findBestMatchingRecipes(String userId, Pageable pageable) {
