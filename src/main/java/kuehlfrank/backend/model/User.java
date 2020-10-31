@@ -11,6 +11,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -36,10 +38,12 @@ public class User {
 	private Inventory inventory;
 
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(insertable = false)
+	@Column(insertable = false, updatable = false)
+	@JsonIgnore
 	private LocalDateTime createdAt;
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(insertable = false)
+	@Column(insertable = false, updatable = false)
+	@JsonIgnore
 	private LocalDateTime updatedAt;
 
 	public User(@NonNull String userId, @NonNull String name, Inventory inventory) {

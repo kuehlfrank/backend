@@ -13,6 +13,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import lombok.AllArgsConstructor;
@@ -20,6 +21,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.NonNull;
+import lombok.ToString;
 
 @Data
 @NoArgsConstructor
@@ -32,9 +34,9 @@ public class InventoryEntry {
 	@GeneratedValue
 	private UUID inventoryEntryId;
 
-	@JsonIgnoreProperties(ignoreUnknown = true, value = { "inventoryEntries" })
 	@JoinColumn(name = "inventory_id")
 	@OneToOne
+	@ToString.Exclude
 	private Inventory inventory;
 
 	@JsonIgnoreProperties(ignoreUnknown = true, value = { "alternativeNames" })
@@ -53,10 +55,12 @@ public class InventoryEntry {
 	private Unit unit;
 
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(insertable = false)
+	@Column(updatable = false, insertable = false)
+	@JsonIgnore
 	private LocalDateTime createdAt;
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(insertable = false)
+	@Column(updatable = false, insertable = false)
+	@JsonIgnore
 	private LocalDateTime updatedAt;
 
 	public InventoryEntry(Inventory inventory, Ingredient ingredient, BigDecimal amount, String imageSrcUrl,

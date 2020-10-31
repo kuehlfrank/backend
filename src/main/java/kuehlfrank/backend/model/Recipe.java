@@ -6,6 +6,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.UUID;
@@ -31,9 +34,11 @@ public class Recipe {
 	private List<RecipeIngredient> recipeIngredients;
 	
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(insertable = false)
+	@Column(insertable = false, updatable = false)
+	@JsonIgnore
 	private LocalDateTime createdAt;
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(insertable = false)
+	@Column(insertable = false, updatable = false)
+	@JsonIgnore
 	private LocalDateTime updatedAt;
 }

@@ -11,6 +11,8 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -40,9 +42,11 @@ public class IngredientAlternativeName {
 	}
 	
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(insertable = false)
+	@Column(insertable = false, updatable = false)
+	@JsonIgnore
 	private LocalDateTime createdAt;
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(insertable = false)
+	@Column(insertable = false, updatable = false)
+	@JsonIgnore
 	private LocalDateTime updatedAt;
 }

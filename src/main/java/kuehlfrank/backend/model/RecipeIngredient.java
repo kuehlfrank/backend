@@ -40,9 +40,11 @@ public class RecipeIngredient {
 	private Unit unit;
 	
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(insertable = false)
+	@Column(insertable = false, updatable = false)
+	@JsonIgnore
 	private LocalDateTime createdAt;
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(insertable = false)
+	@Column(insertable = false, updatable = false)
+	@JsonIgnore
 	private LocalDateTime updatedAt;
 }

@@ -5,7 +5,6 @@ import java.util.UUID;
 
 import lombok.Data;
 import lombok.NonNull;
-import org.springframework.lang.Nullable;
 
 @Data
 public class UpdateInventoryEntryDto {
