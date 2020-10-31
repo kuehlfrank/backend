@@ -14,11 +14,6 @@ public class RecipeSuggestion {
 	private String title;
 	private String imgSrc;
 	private String externalSource;
-	private Integer missingIngredientsCount;
-	private Integer totalIngredientsCount;
-
-	public RecipeSuggestion(UUID recipeId, String title, String imgSrc, String externalSource,
-			Long missingIngredientsCount, Long totalIngredientsCount) {
-		this(recipeId, title, imgSrc, externalSource, missingIngredientsCount.intValue(), totalIngredientsCount.intValue());
-	}
+	private Long missingIngredientsCount;
+	private Long totalIngredientsCount;
 }

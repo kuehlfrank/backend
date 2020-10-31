@@ -64,7 +64,7 @@ public class RecipeJpaRepositoryImpl implements RecipeJpaRepository {
 
 		List<SuggestionRecipeIngredient> recipeIngredients = new ArrayList<>();
 
-		int missingIngredientsCount = 0;
+		long missingIngredientsCount = 0;
 		for (RecipeIngredient ri : recipe.getRecipeIngredients()) {
 			RecipeIngredientStatus recipeIngredientStatus = ingredientStatuses.stream()
 					.filter(s -> s.getIngredientId().equals(ri.getRecipeIngredientId().getIngredientId())).findFirst()
@@ -79,7 +79,7 @@ public class RecipeJpaRepositoryImpl implements RecipeJpaRepository {
 		}
 
 		return new DetailedRecipeSuggestion(recipe.getRecipeId(), recipe.getName(), recipe.getExternal_img_src_url(),
-				recipe.getExternal_source(), missingIngredientsCount, recipeIngredients.size(), recipeIngredients);
+				recipe.getExternal_source(), missingIngredientsCount, (long)recipeIngredients.size(), recipeIngredients);
 	}
 
 }

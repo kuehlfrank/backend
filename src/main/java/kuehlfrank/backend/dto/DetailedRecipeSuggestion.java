@@ -14,7 +14,7 @@ public class DetailedRecipeSuggestion extends RecipeSuggestion {
 
     private List<SuggestionRecipeIngredient> recipeIngredients;
 
-    public DetailedRecipeSuggestion(UUID recipeId, String title, String imgSrc, String externalSource, Integer missingIngredientsCount, Integer totalIngredientsCount, List<SuggestionRecipeIngredient> recipeIngredients) {
+    public DetailedRecipeSuggestion(UUID recipeId, String title, String imgSrc, String externalSource, Long missingIngredientsCount, Long totalIngredientsCount, List<SuggestionRecipeIngredient> recipeIngredients) {
         super(recipeId, title, imgSrc, externalSource, missingIngredientsCount, totalIngredientsCount);
         this.recipeIngredients = recipeIngredients;
     }
