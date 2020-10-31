@@ -10,17 +10,15 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 public class RecipeSuggestion {
-    private UUID recipeId;
-    private String title;
-    private String imgSrc;
-    private String externalSource;
-    private Integer missingIngredientsCount;
+	private UUID recipeId;
+	private String title;
+	private String imgSrc;
+	private String externalSource;
+	private Integer missingIngredientsCount;
+	private Integer totalIngredientsCount;
 
-    public RecipeSuggestion(UUID recipeId, String title, String imgSrc, String externalSource, double missingIngredientsCount) {
-        this.recipeId = recipeId;
-        this.title = title;
-        this.imgSrc = imgSrc;
-        this.externalSource = externalSource;
-        this.missingIngredientsCount = (int)missingIngredientsCount;
-    }
+	public RecipeSuggestion(UUID recipeId, String title, String imgSrc, String externalSource,
+			Long missingIngredientsCount, Long totalIngredientsCount) {
+		this(recipeId, title, imgSrc, externalSource, missingIngredientsCount.intValue(), totalIngredientsCount.intValue());
+	}
 }

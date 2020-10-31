@@ -1,20 +1,21 @@
 package kuehlfrank.backend.dto;
 
-import kuehlfrank.backend.model.RecipeIngredient;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-
 import java.util.List;
 import java.util.UUID;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
 @Data
+@EqualsAndHashCode(callSuper = true)
 @AllArgsConstructor
 public class DetailedRecipeSuggestion extends RecipeSuggestion {
 
     private List<SuggestionRecipeIngredient> recipeIngredients;
 
-    public DetailedRecipeSuggestion(UUID recipeId, String title, String imgSrc, String externalSource, Integer missingIngredientsCount, List<SuggestionRecipeIngredient> recipeIngredients) {
-        super(recipeId, title, imgSrc, externalSource, missingIngredientsCount);
+    public DetailedRecipeSuggestion(UUID recipeId, String title, String imgSrc, String externalSource, Integer missingIngredientsCount, Integer totalIngredientsCount, List<SuggestionRecipeIngredient> recipeIngredients) {
+        super(recipeId, title, imgSrc, externalSource, missingIngredientsCount, totalIngredientsCount);
         this.recipeIngredients = recipeIngredients;
     }
 }
