@@ -31,6 +31,7 @@ import kuehlfrank.backend.repositories.IngredientRepository;
 import kuehlfrank.backend.repositories.InventoryEntryRepository;
 import kuehlfrank.backend.repositories.InventoryRepository;
 import kuehlfrank.backend.repositories.UnitRepository;
+import kuehlfrank.backend.repositories.UserRepository;
 import lombok.var;
 
 @RestController
@@ -48,6 +49,8 @@ public class InventoryController {
 	private IngredientAlternativeNameRepository ingredientAlternativeNameRepository;
 	@Autowired
 	private UnitRepository unitRepository;
+	@Autowired
+	private UserRepository userRepository;
 
 	@GetMapping("")
 	public Inventory getInventory(Authentication authentication) {
@@ -91,6 +94,9 @@ public class InventoryController {
 
 	@DeleteMapping("/inventoryEntry/{inventoryEntryId}")
 	public Message deleteInventoryEntry(Authentication authentication, @PathVariable UUID inventoryEntryId) {
+		if (!authentication.getName().equals(userRepository.getUserIdByInventoryEntryId(inventoryEntryId))) {
+			throw new ResponseStatusException(HttpStatus.UNAUTHORIZED, "Unable to access other user's inventoryEntry");
+		}
 		inventoryEntryRepository.deleteById(inventoryEntryId);
 		return new Message("success");
 	}
@@ -98,9 +104,14 @@ public class InventoryController {
 	@PutMapping("/inventoryEntry/{inventoryEntryId}")
 	public InventoryEntry updateInventoryEntry(Authentication authentication, @PathVariable UUID inventoryEntryId,
 			@RequestBody UpdateInventoryEntryDto dto) {
+
 		InventoryEntry inventoryEntry = inventoryEntryRepository.findById(inventoryEntryId)
 				.orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND,
 						"Unable to find inventoryEntry for inventoryEntryId"));
+
+		if (!authentication.getName().equals(userRepository.getUserIdByInventoryEntryId(inventoryEntryId))) {
+			throw new ResponseStatusException(HttpStatus.UNAUTHORIZED, "Unable to access other user's inventoryEntry");
+		}
 		
 		if (dto.getUnitId() != null) {
 			inventoryEntry.setUnit(unitRepository.findById(dto.getUnitId())
