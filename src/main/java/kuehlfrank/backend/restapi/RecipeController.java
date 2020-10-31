@@ -5,6 +5,7 @@ import kuehlfrank.backend.model.Recipe;
 import kuehlfrank.backend.dto.RecipeSuggestion;
 import kuehlfrank.backend.repositories.RecipeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.security.core.Authentication;
@@ -28,7 +29,7 @@ public class RecipeController {
         if (!Objects.equals(userId, authentication.getName())) { // Only allow getting users own data for now
             throw new ResponseStatusException(HttpStatus.UNAUTHORIZED, "Can't access other user's data");
         }
-        return recipeRepository.findBestMatchingRecipes(userId);
+        return recipeRepository.findBestMatchingRecipes(userId, PageRequest.of(0, 10));
     }
 
     @GetMapping(value = "/suggestions")

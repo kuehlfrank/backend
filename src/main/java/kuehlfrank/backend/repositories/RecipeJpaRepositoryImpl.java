@@ -6,6 +6,7 @@ import kuehlfrank.backend.dto.RecipeSuggestion;
 import kuehlfrank.backend.dto.SuggestionRecipeIngredient;
 import kuehlfrank.backend.model.Recipe;
 import kuehlfrank.backend.model.RecipeIngredient;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
@@ -34,8 +35,10 @@ public class RecipeJpaRepositoryImpl implements RecipeJpaRepository {
 			"order by missingIngredientCount, r.recipeId";
 
 	@Override
-	public Collection<RecipeSuggestion> findBestMatchingRecipes(String userId) {
-		TypedQuery<RecipeSuggestion> query = entityManager.createQuery(bestMatchesQueryJPQL, RecipeSuggestion.class).setParameter("userId", userId);
+	public Collection<RecipeSuggestion> findBestMatchingRecipes(String userId, Pageable pageable) {
+		TypedQuery<RecipeSuggestion> query = entityManager.createQuery(bestMatchesQueryJPQL, RecipeSuggestion.class).setParameter("userId", userId)
+				.setFirstResult((int)pageable.getOffset()).setMaxResults(pageable.getPageSize());
+
 		return query.getResultList();
 	}
 
