@@ -94,12 +94,11 @@ public class InventoryController {
 
 	@DeleteMapping("/inventoryEntry/{inventoryEntryId}")
 	public Message deleteInventoryEntry(Authentication authentication, @PathVariable UUID inventoryEntryId) {
-		if (!authentication.getName().equals(userRepository.getUserIdByInventoryEntryId(inventoryEntryId))) {
-			throw new ResponseStatusException(HttpStatus.UNAUTHORIZED, "Unable to access other user's inventoryEntry");
-		}
+		ensureAuthorization(authentication, inventoryEntryId);
 		inventoryEntryRepository.deleteById(inventoryEntryId);
 		return new Message("success");
 	}
+
 
 	@PutMapping("/inventoryEntry/{inventoryEntryId}")
 	public InventoryEntry updateInventoryEntry(Authentication authentication, @PathVariable UUID inventoryEntryId,
@@ -108,10 +107,7 @@ public class InventoryController {
 		InventoryEntry inventoryEntry = inventoryEntryRepository.findById(inventoryEntryId)
 				.orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND,
 						"Unable to find inventoryEntry for inventoryEntryId"));
-
-		if (!authentication.getName().equals(userRepository.getUserIdByInventoryEntryId(inventoryEntryId))) {
-			throw new ResponseStatusException(HttpStatus.UNAUTHORIZED, "Unable to access other user's inventoryEntry");
-		}
+		ensureAuthorization(authentication, inventoryEntryId);
 		
 		if (dto.getUnitId() != null) {
 			inventoryEntry.setUnit(unitRepository.findById(dto.getUnitId())
@@ -123,4 +119,11 @@ public class InventoryController {
 
 		return inventoryEntryRepository.save(inventoryEntry);
 	}
+	
+	private void ensureAuthorization(Authentication authentication, UUID inventoryEntryId) {
+		if (!userRepository.getUserIdsByInventoryEntryId(inventoryEntryId).contains(authentication.getName())) {
+			throw new ResponseStatusException(HttpStatus.UNAUTHORIZED, "Unable to access other user's inventoryEntry");
+		}
+	}
+
 }
